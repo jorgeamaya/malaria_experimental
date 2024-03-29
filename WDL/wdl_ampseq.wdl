@@ -182,9 +182,12 @@ task ampseq_pipeline {
 	#set -x
 	mkdir fq_dir
 
+	echo "Processing files: ~{sep = ' ' path_to_r1}"
+	echo "Processing files: ~{sep = ' ' path_to_r2}"
+
 	#Download fastq files
-	cp ~{sep = ' ' path_to_r1} fq_dir/
-	cp ~{sep = ' ' path_to_r2} fq_dir/
+	cp ~{sep = ' ' path_to_r1} fq_dir/.
+	cp ~{sep = ' ' path_to_r2} fq_dir/.
 	#gsutil -m cp -r ~{sep = ' ' path_to_r1} fq_dir/
 	#gsutil -m cp -r ~{sep = ' ' path_to_r2} fq_dir/
 
