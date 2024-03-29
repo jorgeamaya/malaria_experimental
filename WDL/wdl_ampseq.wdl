@@ -142,7 +142,7 @@ task ampseq_pipeline {
 	Map[String, String] in_map = {
 		"path_to_fq": "fq_dir",
 		"path_to_flist": sub(path_to_flist, "gs://", "/cromwell_root/"),
-		"pr1": sub(pr1, "gs://", "/cromwell_root/"),,
+		"pr1": sub(pr1, "gs://", "/cromwell_root/"),
 		"pr2": sub(pr2, "gs://", "/cromwell_root/"),
 		"reference1": sub(reference1, "gs://", "/cromwell_root/"),
 		"reference2": sub(reference2, "gs://", "/cromwell_root/"),
