@@ -3,7 +3,15 @@ version 1.0
 workflow ampseq {
 	input {	
 		#General commands
-		String path_to_fq
+		Array[File] path_to_r1
+		Array[File] path_to_r2
+		File path_to_flist
+		File pr1
+		File pr2
+		File reference1
+		File reference2
+		File path_to_snv
+
 		String pattern_fw = "*_L001_R1_001.fastq.gz"
 		String pattern_rv = "*_L001_R2_001.fastq.gz"
 
@@ -40,7 +48,14 @@ workflow ampseq {
 
 	call ampseq_pipeline {
 		input:
-			path_to_fq = path_to_fq,
+			path_to_r1 = path_to_r1,
+			path_to_r2 = path_to_r2,
+			path_to_flist = path_to_flist,
+			pr1 = pr1,
+			pr2 = pr2,
+			reference1 = reference1,
+			reference2 = reference2,
+			path_to_snv = path_to_snv,
 			pattern_fw = pattern_fw,
 			pattern_rv = pattern_rv,
 			Class = Class,
@@ -86,7 +101,14 @@ workflow ampseq {
 
 task ampseq_pipeline {
 	input {
-		String path_to_fq 
+		Array[File] path_to_r1
+		Array[File] path_to_r2
+		File path_to_flist
+		File pr1
+		File pr2
+		File reference1
+		File reference2
+		File path_to_snv
 		String pattern_fw = "*_L001_R1_001.fastq.gz"
 		String pattern_rv = "*_L001_R2_001.fastq.gz"
 		String Class = "parasite"
@@ -119,6 +141,12 @@ task ampseq_pipeline {
 
 	Map[String, String] in_map = {
 		"path_to_fq": "fq_dir",
+		"path_to_flist": sub(path_to_flist, "gs://", "/cromwell_root/"),
+		"pr1": sub(pr1, "gs://", "/cromwell_root/"),,
+		"pr2": sub(pr2, "gs://", "/cromwell_root/"),
+		"reference1": sub(reference1, "gs://", "/cromwell_root/"),
+		"reference2": sub(reference2, "gs://", "/cromwell_root/"),
+		"path_to_snv": sub(path_to_snv, "gs://", "/cromwell_root/"),
 		"pattern_fw": pattern_fw,
 		"pattern_rv": pattern_rv,
 		"Class": Class,
@@ -146,10 +174,7 @@ task ampseq_pipeline {
 		"minreads_threshold": minreads_threshold,
 		"contamination_threshold": contamination_threshold,
 		"verbose": verbose,
-		"adapter": adapter,
-		"path_to_flist": 'barcodes_matches.csv',
-		"pr1": 'primers_fw.fasta',
-		"pr2": 'primers_rv.fasta'
+		"adapter": adapter
 	}
 	File config_json = write_json(in_map)
 	command <<<
@@ -157,22 +182,17 @@ task ampseq_pipeline {
 	#set -x
 	mkdir fq_dir
 
-	gsutil ls ~{path_to_fq}
-	gsutil -m cp -r ~{path_to_fq}* fq_dir/
+	#Download fastq files
+	gsutil -m cp -r ~{sep = ' ' path_to_r1} fq_dir/
+	gsutil -m cp -r ~{sep = ' ' path_to_r2} fq_dir/
 
-	#Move reference files to the main level
-	mv fq_dir/barcodes_matches.csv .
-	mv fq_dir/primers_*.fasta .
-	mv fq_dir/snv_filters.txt .	
-	mv fq_dir/*ref1.fasta reference_panel_1.fasta
-	mv fq_dir/*ref2.fasta reference_panel_2.fasta
-	
+	#Move reference files to the main level	
 	# Check if the first line in barcodes_matches.csv indicates the presence of inline barcodes
-	if grep -q "," barcodes_matches.csv ; then
+	if grep -q "," ~{path_to_flist} ; then
 		echo "Sequencing run with inline barcodes. Performing analysis of combinatorial indices followed by denoising"
 		find . -type f
 		python /Code/Amplicon_TerraPipeline.py --config ~{config_json} --terra --meta --adaptor_removal --contamination --separate_reads --primer_removal --dada2 --postproc_dada2 --asv_to_cigar
-		Rscript /Code/render_report.R -d /cromwell_root/Report/Merge/ -o /cromwell_root/Report/ -p /cromwell_root/barcodes_matches.csv -m 1000 -c 0.5 -mf /cromwell_root/Results/missing_files.tsv
+		Rscript /Code/render_report.R -d /cromwell_root/Report/Merge/ -o /cromwell_root/Report/ -p ~{path_to_flist} -m 1000 -c 0.5 -mf /cromwell_root/Results/missing_files.tsv
 		tar -czvf Report_Cards.tar.gz /cromwell_root/Report
 		find . -type f
 	else
