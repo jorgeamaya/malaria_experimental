@@ -183,8 +183,10 @@ task ampseq_pipeline {
 	mkdir fq_dir
 
 	#Download fastq files
-	gsutil -m cp -r ~{sep = ' ' path_to_r1} fq_dir/
-	gsutil -m cp -r ~{sep = ' ' path_to_r2} fq_dir/
+	cp ~{sep = ' ' path_to_r1} fq_dir/
+	cp ~{sep = ' ' path_to_r2} fq_dir/
+	#gsutil -m cp -r ~{sep = ' ' path_to_r1} fq_dir/
+	#gsutil -m cp -r ~{sep = ' ' path_to_r2} fq_dir/
 
 	#Move reference files to the main level	
 	# Check if the first line in barcodes_matches.csv indicates the presence of inline barcodes
