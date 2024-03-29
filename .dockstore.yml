@@ -1,9 +1,9 @@
 version: 1.2
 
 workflows:
-  - name: AmpSeq
+  - name: ampseq_experimental
     subclass: WDL
     primaryDescriptorPath: /WDL/wdl_ampseq.wdl
-  - name: MHap
+  - name: mhap_experimental
     subclass: WDL
     primaryDescriptorPath: /WDL/wdl_report_layouting.wdl
