@@ -184,6 +184,9 @@ task ampseq_pipeline {
 
 	echo "Processing files: ~{sep = ' ' path_to_r1}"
 	echo "Processing files: ~{sep = ' ' path_to_r2}"
+	echo "Reference files: ~{reference1} ~{reference2}"
+	echo "Json file"
+	cat ~{config_json}
 
 	#Download fastq files
 	gsutil -m cp -r ~{sep = ' ' path_to_r1} fq_dir/
