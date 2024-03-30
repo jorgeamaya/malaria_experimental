@@ -1,0 +1,16 @@
+{
+	"ampseq.path_to_r1": [
+		"/Users/jar4142/Desktop/MHap_Drive/data/Pfal_example/cigar_tables/run1_CIGARVariants_Bfilter.out.tsv",
+		"/Users/jar4142/Desktop/MHap_Drive/data/Pfal_example/cigar_tables/run2_CIGARVariants_Bfilter.out.tsv"
+	],
+	"ampseq.path_to_r2": [
+		"/Users/jar4142/Desktop/MHap_Drive/reference/Pfal_3D7/markers.csv",
+		"/Users/jar4142/Desktop/MHap_Drive/reference/Pfal_3D7/PlasmoDB-59_Pfalciparum3D7.gff"
+	],
+	"ampseq.path_to_flist": "/Users/jar4142/Desktop/MHap_Drive/reference/Pfal_3D7/markers.csv",
+	"ampseq.pr1": "/Users/jar4142/Desktop/MHap_Drive/reference/Pfal_3D7/PlasmoDB-59_Pfalciparum3D7.gff",
+	"ampseq.pr2": "/Users/jar4142/Desktop/MHap_Drive/reference/Pfal_3D7/PlasmoDB-59_Pfalciparum3D7_Genome.fasta",
+	"ampseq.reference1": "/Users/jar4142/Desktop/MHap_Drive/reference/Pfal_3D7/drugR_alleles.csv",
+	"ampseq.reference2": "/Users/jar4142/Desktop/MHap_Drive/reference/Pfal_3D7/drugR_alleles.csv",
+	"ampseq.path_to_snv": "/Users/jar4142/Desktop/MHap_Drive/data/Pfal_example/Pfal_metadata.csv"
+}
