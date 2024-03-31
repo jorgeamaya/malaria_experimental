@@ -147,6 +147,12 @@ task ampseq_pipeline {
 		"reference1": sub(reference1, "gs://", "/cromwell_root/"),
 		"reference2": sub(reference2, "gs://", "/cromwell_root/"),
 		"path_to_snv": sub(path_to_snv, "gs://", "/cromwell_root/"),
+#		"path_to_flist": sub(path_to_flist, "/Users/jar4142/Desktop/Plate_1_Reduced/", "/cromwell_root/"),
+#		"pr1": sub(pr1, "/Users/jar4142/Desktop/Plate_1_Reduced/", "/cromwell_root/"),
+#		"pr2": sub(pr2, "/Users/jar4142/Desktop/Plate_1_Reduced/", "/cromwell_root/"),
+#		"reference1": sub(reference1, "/Users/jar4142/Desktop/Plate_1_Reduced/", "/cromwell_root/"),
+#		"reference2": sub(reference2, "/Users/jar4142/Desktop/Plate_1_Reduced/", "/cromwell_root/"),
+#		"path_to_snv": sub(path_to_snv, "/Users/jar4142/Desktop/Plate_1_Reduced/", "/cromwell_root/"),
 		"pattern_fw": pattern_fw,
 		"pattern_rv": pattern_rv,
 		"Class": Class,
@@ -182,13 +188,23 @@ task ampseq_pipeline {
 	#set -x
 	mkdir fq_dir
 
-	echo "Processing files: ~{sep = ' ' path_to_r1}"
-	echo "Processing files: ~{sep = ' ' path_to_r2}"
-	echo "Reference files: ~{reference1} ~{reference2}"
-	echo "Json file"
-	cat ~{config_json}
+	#echo "Processing files: ~{sep = ' ' path_to_r1}"
+	#echo "Processing files: ~{sep = ' ' path_to_r2}"
+	#echo "Reference files: ~{reference1} ~{reference2}"
+	#echo "Json file"
+	#cat ~{config_json}
 
 	#Download fastq files
+	#cp -r ~{sep = ' ' path_to_r1} fq_dir/
+	#cp -r ~{sep = ' ' path_to_r2} fq_dir/
+	#mkdir /cromwell_root/
+	#cp ~{pr1} /cromwell_root/.
+	#cp ~{pr2} /cromwell_root/.
+	#cp ~{reference1} /cromwell_root/.
+	#cp ~{reference2} /cromwell_root/.
+	#cp ~{path_to_snv} /cromwell_root/.
+	#cp ~{path_to_flist} /cromwell_root/.
+
 	gsutil -m cp -r ~{sep = ' ' path_to_r1} fq_dir/
 	gsutil -m cp -r ~{sep = ' ' path_to_r2} fq_dir/
 
@@ -198,7 +214,14 @@ task ampseq_pipeline {
 		echo "Sequencing run with inline barcodes. Performing analysis of combinatorial indices followed by denoising"
 		find . -type f
 		python /Code/Amplicon_TerraPipeline.py --config ~{config_json} --terra --meta --adaptor_removal --contamination --separate_reads --primer_removal --dada2 --postproc_dada2 --asv_to_cigar
+
+		#pattern=~{path_to_flist}
+		#result=$(echo $pattern | sed 's|/inputs.*||')
+		#echo ${result}
+		#Rscript /Code/render_report.R -d ${result}/execution/Report/Merge -o /cromwell_root/Report/ -p ~{path_to_flist} -m 1000 -c 0.5 -mf /cromwell_root/Results/missing_files.tsv
+
 		Rscript /Code/render_report.R -d /cromwell_root/Report/Merge/ -o /cromwell_root/Report/ -p ~{path_to_flist} -m 1000 -c 0.5 -mf /cromwell_root/Results/missing_files.tsv
+
 		tar -czvf Report_Cards.tar.gz /cromwell_root/Report
 		find . -type f
 	else

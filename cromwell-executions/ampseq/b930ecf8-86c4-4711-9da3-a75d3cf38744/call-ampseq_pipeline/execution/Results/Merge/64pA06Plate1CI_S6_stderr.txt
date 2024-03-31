@@ -1,0 +1,10 @@
+java -ea -Xmx5332m -cp /opt/conda/envs/ampseq_env/opt/bbmap-39.01-1/current/ jgi.FuseSequence in1=/cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/execution/Results/AdaptorRem/64pA06Plate1CI_S6_val_1.fq.gz in2=/cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/execution/Results/AdaptorRem/64pA06Plate1CI_S6_val_2.fq.gz out=/cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/execution/Results/Merge/64pA06Plate1CI_S6_merged.fastq fusepairs=t pad=10
+Picked up _JAVA_OPTIONS: -Djava.io.tmpdir=/cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/tmp.893aa8e2
+Executing jgi.FuseSequence [in1=/cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/execution/Results/AdaptorRem/64pA06Plate1CI_S6_val_1.fq.gz, in2=/cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/execution/Results/AdaptorRem/64pA06Plate1CI_S6_val_2.fq.gz, out=/cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/execution/Results/Merge/64pA06Plate1CI_S6_merged.fastq, fusepairs=t, pad=10]
+
+Set INTERLEAVED to false
+Input is being processed as paired
+Writing interleaved.
+Time:                         	0.610 seconds.
+Reads Processed:        5062 	8.29k reads/sec
+Bases Processed:       1242k 	2.04m bases/sec

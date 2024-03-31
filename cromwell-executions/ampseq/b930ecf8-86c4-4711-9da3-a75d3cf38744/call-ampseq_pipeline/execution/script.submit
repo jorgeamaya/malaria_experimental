@@ -1,0 +1,20 @@
+#!/bin/bash
+# make sure there is no preexisting Docker CID file
+rm -f /Users/jar4142/Desktop/malaria_experimental/cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/execution/docker_cid
+# run as in the original configuration without --rm flag (will remove later)
+docker run \
+  --cidfile /Users/jar4142/Desktop/malaria_experimental/cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/execution/docker_cid \
+  -i \
+   \
+  --entrypoint /bin/bash \
+  -v /Users/jar4142/Desktop/malaria_experimental/cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline:/cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline:delegated \
+  jorgeamaya/ampseq@sha256:0d9ef6ffbb2056f9ef9a734fd25e43ae4e7c3ad46e703c7c0485bf63291cade5 /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/execution/script
+
+# get the return code (working even if the container was detached)
+rc=$(docker wait `cat /Users/jar4142/Desktop/malaria_experimental/cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/execution/docker_cid`)
+
+# remove the container after waiting
+docker rm `cat /Users/jar4142/Desktop/malaria_experimental/cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/execution/docker_cid`
+
+# return exit code
+exit $rc

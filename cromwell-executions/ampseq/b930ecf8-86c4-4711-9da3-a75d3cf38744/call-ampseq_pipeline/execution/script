@@ -1,0 +1,83 @@
+#!/bin/bash
+
+cd /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/execution
+tmpDir=$(mkdir -p "/cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/tmp.893aa8e2" && echo "/cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/tmp.893aa8e2")
+chmod 777 "$tmpDir"
+export _JAVA_OPTIONS=-Djava.io.tmpdir="$tmpDir"
+export TMPDIR="$tmpDir"
+export HOME="$HOME"
+(
+cd /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/execution
+
+)
+outb930ecf8="${tmpDir}/out.$$" errb930ecf8="${tmpDir}/err.$$"
+mkfifo "$outb930ecf8" "$errb930ecf8"
+trap 'rm "$outb930ecf8" "$errb930ecf8"' EXIT
+touch '/cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/execution/stdout' '/cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/execution/stderr'
+tee '/cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/execution/stdout' < "$outb930ecf8" &
+tee '/cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/execution/stderr' < "$errb930ecf8" >&2 &
+(
+cd /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/execution
+
+
+set -euxo pipefail
+#set -x
+mkdir fq_dir
+
+echo "Processing files: /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/inputs/755422149/64pA01Plate1CI_S1_L001_R1_001.fastq.gz /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/inputs/755422149/64pA02Plate1CI_S2_L001_R1_001.fastq.gz /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/inputs/755422149/64pA03Plate1CI_S3_L001_R1_001.fastq.gz /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/inputs/755422149/64pA04Plate1CI_S4_L001_R1_001.fastq.gz /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/inputs/755422149/64pA05Plate1CI_S5_L001_R1_001.fastq.gz /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/inputs/755422149/64pA06Plate1CI_S6_L001_R1_001.fastq.gz /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/inputs/755422149/64pA08Plate1CI_S8_L001_R1_001.fastq.gz /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/inputs/755422149/64pA09Plate1CI_S9_L001_R1_001.fastq.gz /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/inputs/755422149/64pA11Plate1CI_S11_L001_R1_001.fastq.gz"
+echo "Processing files: /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/inputs/755422149/64pA01Plate1CI_S1_L001_R2_001.fastq.gz /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/inputs/755422149/64pA02Plate1CI_S2_L001_R2_001.fastq.gz /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/inputs/755422149/64pA03Plate1CI_S3_L001_R2_001.fastq.gz /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/inputs/755422149/64pA04Plate1CI_S4_L001_R2_001.fastq.gz /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/inputs/755422149/64pA05Plate1CI_S5_L001_R2_001.fastq.gz /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/inputs/755422149/64pA06Plate1CI_S6_L001_R2_001.fastq.gz /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/inputs/755422149/64pA08Plate1CI_S8_L001_R2_001.fastq.gz /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/inputs/755422149/64pA09Plate1CI_S9_L001_R2_001.fastq.gz /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/inputs/755422149/64pA11Plate1CI_S11_L001_R2_001.fastq.gz"
+echo "Reference files: /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/inputs/755422149/pf3d7_ref_updated_v4_ref1.fasta /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/inputs/755422149/pfdd2_ref_updated_v3_ref2.fasta"
+echo "Json file"
+cat /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/inputs/955072776/write_json_c76ceddb927ed4132eade3272708f0ef.tmp
+
+#Download fastq files
+cp -r /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/inputs/755422149/64pA01Plate1CI_S1_L001_R1_001.fastq.gz /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/inputs/755422149/64pA02Plate1CI_S2_L001_R1_001.fastq.gz /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/inputs/755422149/64pA03Plate1CI_S3_L001_R1_001.fastq.gz /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/inputs/755422149/64pA04Plate1CI_S4_L001_R1_001.fastq.gz /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/inputs/755422149/64pA05Plate1CI_S5_L001_R1_001.fastq.gz /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/inputs/755422149/64pA06Plate1CI_S6_L001_R1_001.fastq.gz /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/inputs/755422149/64pA08Plate1CI_S8_L001_R1_001.fastq.gz /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/inputs/755422149/64pA09Plate1CI_S9_L001_R1_001.fastq.gz /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/inputs/755422149/64pA11Plate1CI_S11_L001_R1_001.fastq.gz fq_dir/
+cp -r /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/inputs/755422149/64pA01Plate1CI_S1_L001_R2_001.fastq.gz /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/inputs/755422149/64pA02Plate1CI_S2_L001_R2_001.fastq.gz /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/inputs/755422149/64pA03Plate1CI_S3_L001_R2_001.fastq.gz /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/inputs/755422149/64pA04Plate1CI_S4_L001_R2_001.fastq.gz /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/inputs/755422149/64pA05Plate1CI_S5_L001_R2_001.fastq.gz /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/inputs/755422149/64pA06Plate1CI_S6_L001_R2_001.fastq.gz /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/inputs/755422149/64pA08Plate1CI_S8_L001_R2_001.fastq.gz /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/inputs/755422149/64pA09Plate1CI_S9_L001_R2_001.fastq.gz /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/inputs/755422149/64pA11Plate1CI_S11_L001_R2_001.fastq.gz fq_dir/
+mkdir /cromwell_root/
+cp /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/inputs/755422149/primers_fw.fasta /cromwell_root/.
+cp /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/inputs/755422149/primers_rv.fasta /cromwell_root/.
+cp /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/inputs/755422149/pf3d7_ref_updated_v4_ref1.fasta /cromwell_root/.
+cp /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/inputs/755422149/pfdd2_ref_updated_v3_ref2.fasta /cromwell_root/.
+cp /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/inputs/755422149/snv_filters.txt /cromwell_root/.
+cp /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/inputs/755422149/barcodes_matches.csv /cromwell_root/.
+
+#gsutil -m cp -r /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/inputs/755422149/64pA01Plate1CI_S1_L001_R1_001.fastq.gz /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/inputs/755422149/64pA02Plate1CI_S2_L001_R1_001.fastq.gz /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/inputs/755422149/64pA03Plate1CI_S3_L001_R1_001.fastq.gz /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/inputs/755422149/64pA04Plate1CI_S4_L001_R1_001.fastq.gz /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/inputs/755422149/64pA05Plate1CI_S5_L001_R1_001.fastq.gz /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/inputs/755422149/64pA06Plate1CI_S6_L001_R1_001.fastq.gz /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/inputs/755422149/64pA08Plate1CI_S8_L001_R1_001.fastq.gz /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/inputs/755422149/64pA09Plate1CI_S9_L001_R1_001.fastq.gz /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/inputs/755422149/64pA11Plate1CI_S11_L001_R1_001.fastq.gz fq_dir/
+#gsutil -m cp -r /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/inputs/755422149/64pA01Plate1CI_S1_L001_R2_001.fastq.gz /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/inputs/755422149/64pA02Plate1CI_S2_L001_R2_001.fastq.gz /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/inputs/755422149/64pA03Plate1CI_S3_L001_R2_001.fastq.gz /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/inputs/755422149/64pA04Plate1CI_S4_L001_R2_001.fastq.gz /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/inputs/755422149/64pA05Plate1CI_S5_L001_R2_001.fastq.gz /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/inputs/755422149/64pA06Plate1CI_S6_L001_R2_001.fastq.gz /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/inputs/755422149/64pA08Plate1CI_S8_L001_R2_001.fastq.gz /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/inputs/755422149/64pA09Plate1CI_S9_L001_R2_001.fastq.gz /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/inputs/755422149/64pA11Plate1CI_S11_L001_R2_001.fastq.gz fq_dir/
+
+#Move reference files to the main level	
+#Check if the first line in barcodes_matches.csv indicates the presence of inline barcodes
+if grep -q "," /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/inputs/755422149/barcodes_matches.csv ; then
+	echo "Sequencing run with inline barcodes. Performing analysis of combinatorial indices followed by denoising"
+	find . -type f
+	python /Code/Amplicon_TerraPipeline.py --config /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/inputs/955072776/write_json_c76ceddb927ed4132eade3272708f0ef.tmp --terra --meta --adaptor_removal --contamination --separate_reads --primer_removal --dada2 --postproc_dada2 --asv_to_cigar
+
+	find . -type f
+	pattern=/cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/inputs/755422149/barcodes_matches.csv
+	result=$(echo $pattern | sed 's|/inputs.*||')
+	echo ${result}
+	Rscript /Code/render_report.R -d ${result}/execution/Report/Merge -o /cromwell_root/Report/ -p /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/inputs/755422149/barcodes_matches.csv -m 1000 -c 0.5 -mf /cromwell_root/Results/missing_files.tsv
+
+	#Rscript /Code/render_report.R -d /cromwell_root/Report/Merge/ -o /cromwell_root/Report/ -p /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/inputs/755422149/barcodes_matches.csv -m 1000 -c 0.5 -mf /cromwell_root/Results/missing_files.tsv
+
+	tar -czvf Report_Cards.tar.gz /cromwell_root/Report
+	find . -type f
+else
+	echo "Sequencing run without inline barcodes. Skipping analysis of combinatorial indices and performing only denoising"
+	find . -type f
+	python /Code/Amplicon_TerraPipeline.py --config /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/inputs/955072776/write_json_c76ceddb927ed4132eade3272708f0ef.tmp --terra --meta --adaptor_removal --separate_reads --primer_removal --dada2 --postproc_dada2 --asv_to_cigar
+	find . -type f
+fi
+)  > "$outb930ecf8" 2> "$errb930ecf8"
+echo $? > /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/execution/rc.tmp
+(
+# add a .file in every empty directory to facilitate directory delocalization on the cloud
+cd /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/execution
+find . -type d -exec sh -c '[ -z "$(ls -A '"'"'{}'"'"')" ] && touch '"'"'{}'"'"'/.file' \;
+)
+(
+cd /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/execution
+sync
+
+
+)
+mv /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/execution/rc.tmp /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/execution/rc

@@ -1,16 +1,30 @@
 {
 	"ampseq.path_to_r1": [
-		"/Users/jar4142/Desktop/MHap_Drive/data/Pfal_example/cigar_tables/run1_CIGARVariants_Bfilter.out.tsv",
-		"/Users/jar4142/Desktop/MHap_Drive/data/Pfal_example/cigar_tables/run2_CIGARVariants_Bfilter.out.tsv"
+		"/Users/jar4142/Desktop/Plate_1_Reduced/64pA01Plate1CI_S1_L001_R1_001.fastq.gz",
+		"/Users/jar4142/Desktop/Plate_1_Reduced/64pA02Plate1CI_S2_L001_R1_001.fastq.gz",
+		"/Users/jar4142/Desktop/Plate_1_Reduced/64pA03Plate1CI_S3_L001_R1_001.fastq.gz",
+		"/Users/jar4142/Desktop/Plate_1_Reduced/64pA04Plate1CI_S4_L001_R1_001.fastq.gz",
+		"/Users/jar4142/Desktop/Plate_1_Reduced/64pA05Plate1CI_S5_L001_R1_001.fastq.gz",
+		"/Users/jar4142/Desktop/Plate_1_Reduced/64pA06Plate1CI_S6_L001_R1_001.fastq.gz",
+		"/Users/jar4142/Desktop/Plate_1_Reduced/64pA08Plate1CI_S8_L001_R1_001.fastq.gz",
+		"/Users/jar4142/Desktop/Plate_1_Reduced/64pA09Plate1CI_S9_L001_R1_001.fastq.gz",
+		"/Users/jar4142/Desktop/Plate_1_Reduced/64pA11Plate1CI_S11_L001_R1_001.fastq.gz"
 	],
 	"ampseq.path_to_r2": [
-		"/Users/jar4142/Desktop/MHap_Drive/reference/Pfal_3D7/markers.csv",
-		"/Users/jar4142/Desktop/MHap_Drive/reference/Pfal_3D7/PlasmoDB-59_Pfalciparum3D7.gff"
+		"/Users/jar4142/Desktop/Plate_1_Reduced/64pA01Plate1CI_S1_L001_R2_001.fastq.gz",
+		"/Users/jar4142/Desktop/Plate_1_Reduced/64pA02Plate1CI_S2_L001_R2_001.fastq.gz",
+		"/Users/jar4142/Desktop/Plate_1_Reduced/64pA03Plate1CI_S3_L001_R2_001.fastq.gz",
+		"/Users/jar4142/Desktop/Plate_1_Reduced/64pA04Plate1CI_S4_L001_R2_001.fastq.gz",
+		"/Users/jar4142/Desktop/Plate_1_Reduced/64pA05Plate1CI_S5_L001_R2_001.fastq.gz",
+		"/Users/jar4142/Desktop/Plate_1_Reduced/64pA06Plate1CI_S6_L001_R2_001.fastq.gz",
+		"/Users/jar4142/Desktop/Plate_1_Reduced/64pA08Plate1CI_S8_L001_R2_001.fastq.gz",
+		"/Users/jar4142/Desktop/Plate_1_Reduced/64pA09Plate1CI_S9_L001_R2_001.fastq.gz",
+		"/Users/jar4142/Desktop/Plate_1_Reduced/64pA11Plate1CI_S11_L001_R2_001.fastq.gz"
 	],
-	"ampseq.path_to_flist": "/Users/jar4142/Desktop/MHap_Drive/reference/Pfal_3D7/markers.csv",
-	"ampseq.pr1": "/Users/jar4142/Desktop/MHap_Drive/reference/Pfal_3D7/PlasmoDB-59_Pfalciparum3D7.gff",
-	"ampseq.pr2": "/Users/jar4142/Desktop/MHap_Drive/reference/Pfal_3D7/PlasmoDB-59_Pfalciparum3D7_Genome.fasta",
-	"ampseq.reference1": "/Users/jar4142/Desktop/MHap_Drive/reference/Pfal_3D7/drugR_alleles.csv",
-	"ampseq.reference2": "/Users/jar4142/Desktop/MHap_Drive/reference/Pfal_3D7/drugR_alleles.csv",
-	"ampseq.path_to_snv": "/Users/jar4142/Desktop/MHap_Drive/data/Pfal_example/Pfal_metadata.csv"
+	"ampseq.path_to_flist": "/Users/jar4142/Desktop/Plate_1_Reduced/barcodes_matches.csv",
+	"ampseq.pr1": "/Users/jar4142/Desktop/Plate_1_Reduced/primers_fw.fasta",
+	"ampseq.pr2": "/Users/jar4142/Desktop/Plate_1_Reduced/primers_rv.fasta",
+	"ampseq.reference1": "/Users/jar4142/Desktop/Plate_1_Reduced/pf3d7_ref_updated_v4_ref1.fasta",
+	"ampseq.reference2": "/Users/jar4142/Desktop/Plate_1_Reduced/pfdd2_ref_updated_v3_ref2.fasta",
+	"ampseq.path_to_snv": "/Users/jar4142/Desktop/Plate_1_Reduced/snv_filters.txt"
 }

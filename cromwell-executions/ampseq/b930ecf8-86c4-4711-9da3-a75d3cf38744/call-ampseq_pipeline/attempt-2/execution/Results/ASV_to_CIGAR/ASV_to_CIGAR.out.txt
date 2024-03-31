@@ -1,0 +1,2 @@
+ASV	Amplicon	CIGAR
+ASV1	WD	79A82A

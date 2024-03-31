@@ -1,0 +1,50 @@
+                   input filtered denoisedF denoisedR merged nonchim
+64pA11Plate1CI_S11   435      421       419       393    393     393
+64pA03Plate1CI_S3    743      743       742       742    742     742
+64pA02Plate1CI_S2     22       22        22        22     22      22
+64pA01Plate1CI_S1    229      229       226       226    226     226
+64pA05Plate1CI_S5     50       50        48        48     48      48
+64pA04Plate1CI_S4   1861     1861      1859      1859   1859    1859
+64pA06Plate1CI_S6   2229     2229      2224      2218   2216    2216
+64pA08Plate1CI_S8   1525     1525      1525      1512   1512    1512
+64pA09Plate1CI_S9     94       93        90        85     85      85
+                   sample.name orig_f_reads orig_r_reads adap_f_reads
+64pA11Plate1CI_S11           9          619          619          609
+64pA03Plate1CI_S3            3         1057         1057         1044
+64pA02Plate1CI_S2            2          275          275          275
+64pA01Plate1CI_S1            1          423          423          418
+64pA05Plate1CI_S5            5          176          176          173
+64pA04Plate1CI_S4            4         2446         2446         2400
+64pA06Plate1CI_S6            6         2531         2531         2506
+64pA08Plate1CI_S8            7         1868         1868         1843
+64pA09Plate1CI_S9            8          298          298          297
+                   adap_r_reads prim_f_reads prim_r_reads original_discarded
+64pA11Plate1CI_S11          609          435          435                 10
+64pA03Plate1CI_S3          1044          743          743                 13
+64pA02Plate1CI_S2           275           22           22                  0
+64pA01Plate1CI_S1           418          229          229                  5
+64pA05Plate1CI_S5           173           50           50                  3
+64pA04Plate1CI_S4          2400         1861         1861                 46
+64pA06Plate1CI_S6          2506         2229         2229                 25
+64pA08Plate1CI_S8          1843         1525         1525                 25
+64pA09Plate1CI_S9           297           94           94                  1
+                   adaptor_discarded primer_discarded filtered_discarded
+64pA11Plate1CI_S11               174               14                  2
+64pA03Plate1CI_S3                301                0                  1
+64pA02Plate1CI_S2                253                0                  0
+64pA01Plate1CI_S1                189                0                  3
+64pA05Plate1CI_S5                123                0                  2
+64pA04Plate1CI_S4                539                0                  2
+64pA06Plate1CI_S6                277                0                  5
+64pA08Plate1CI_S8                318                0                  0
+64pA09Plate1CI_S9                203                1                  3
+                   merged_discarded
+64pA11Plate1CI_S11               26
+64pA03Plate1CI_S3                 0
+64pA02Plate1CI_S2                 0
+64pA01Plate1CI_S1                 0
+64pA05Plate1CI_S5                 0
+64pA04Plate1CI_S4                 0
+64pA06Plate1CI_S6                 8
+64pA08Plate1CI_S8                13
+64pA09Plate1CI_S9                 5

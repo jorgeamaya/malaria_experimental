@@ -1,0 +1,3494 @@
++ mkdir fq_dir
++ echo 'Processing files: /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/inputs/755422149/64pA01Plate1CI_S1_L001_R1_001.fastq.gz /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/inputs/755422149/64pA02Plate1CI_S2_L001_R1_001.fastq.gz /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/inputs/755422149/64pA03Plate1CI_S3_L001_R1_001.fastq.gz /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/inputs/755422149/64pA04Plate1CI_S4_L001_R1_001.fastq.gz /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/inputs/755422149/64pA05Plate1CI_S5_L001_R1_001.fastq.gz /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/inputs/755422149/64pA06Plate1CI_S6_L001_R1_001.fastq.gz /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/inputs/755422149/64pA08Plate1CI_S8_L001_R1_001.fastq.gz /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/inputs/755422149/64pA09Plate1CI_S9_L001_R1_001.fastq.gz /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/inputs/755422149/64pA11Plate1CI_S11_L001_R1_001.fastq.gz'
++ echo 'Processing files: /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/inputs/755422149/64pA01Plate1CI_S1_L001_R2_001.fastq.gz /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/inputs/755422149/64pA02Plate1CI_S2_L001_R2_001.fastq.gz /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/inputs/755422149/64pA03Plate1CI_S3_L001_R2_001.fastq.gz /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/inputs/755422149/64pA04Plate1CI_S4_L001_R2_001.fastq.gz /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/inputs/755422149/64pA05Plate1CI_S5_L001_R2_001.fastq.gz /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/inputs/755422149/64pA06Plate1CI_S6_L001_R2_001.fastq.gz /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/inputs/755422149/64pA08Plate1CI_S8_L001_R2_001.fastq.gz /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/inputs/755422149/64pA09Plate1CI_S9_L001_R2_001.fastq.gz /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/inputs/755422149/64pA11Plate1CI_S11_L001_R2_001.fastq.gz'
++ echo 'Reference files: /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/inputs/755422149/pf3d7_ref_updated_v4_ref1.fasta /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/inputs/755422149/pfdd2_ref_updated_v3_ref2.fasta'
++ echo 'Json file'
++ cat /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/inputs/1102666859/write_json_c76ceddb927ed4132eade3272708f0ef.tmp
++ cp -r /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/inputs/755422149/64pA01Plate1CI_S1_L001_R1_001.fastq.gz /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/inputs/755422149/64pA02Plate1CI_S2_L001_R1_001.fastq.gz /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/inputs/755422149/64pA03Plate1CI_S3_L001_R1_001.fastq.gz /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/inputs/755422149/64pA04Plate1CI_S4_L001_R1_001.fastq.gz /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/inputs/755422149/64pA05Plate1CI_S5_L001_R1_001.fastq.gz /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/inputs/755422149/64pA06Plate1CI_S6_L001_R1_001.fastq.gz /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/inputs/755422149/64pA08Plate1CI_S8_L001_R1_001.fastq.gz /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/inputs/755422149/64pA09Plate1CI_S9_L001_R1_001.fastq.gz /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/inputs/755422149/64pA11Plate1CI_S11_L001_R1_001.fastq.gz fq_dir/
++ cp -r /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/inputs/755422149/64pA01Plate1CI_S1_L001_R2_001.fastq.gz /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/inputs/755422149/64pA02Plate1CI_S2_L001_R2_001.fastq.gz /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/inputs/755422149/64pA03Plate1CI_S3_L001_R2_001.fastq.gz /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/inputs/755422149/64pA04Plate1CI_S4_L001_R2_001.fastq.gz /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/inputs/755422149/64pA05Plate1CI_S5_L001_R2_001.fastq.gz /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/inputs/755422149/64pA06Plate1CI_S6_L001_R2_001.fastq.gz /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/inputs/755422149/64pA08Plate1CI_S8_L001_R2_001.fastq.gz /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/inputs/755422149/64pA09Plate1CI_S9_L001_R2_001.fastq.gz /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/inputs/755422149/64pA11Plate1CI_S11_L001_R2_001.fastq.gz fq_dir/
++ mkdir /cromwell_root/
++ cp /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/inputs/755422149/primers_fw.fasta /cromwell_root/.
++ cp /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/inputs/755422149/primers_rv.fasta /cromwell_root/.
++ cp /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/inputs/755422149/pf3d7_ref_updated_v4_ref1.fasta /cromwell_root/.
++ cp /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/inputs/755422149/pfdd2_ref_updated_v3_ref2.fasta /cromwell_root/.
++ cp /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/inputs/755422149/snv_filters.txt /cromwell_root/.
++ cp /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/inputs/755422149/barcodes_matches.csv /cromwell_root/.
++ grep -q , /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/inputs/755422149/barcodes_matches.csv
++ echo 'Sequencing run with inline barcodes. Performing analysis of combinatorial indices followed by denoising'
++ find . -type f
++ python /Code/Amplicon_TerraPipeline.py --config /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/inputs/1102666859/write_json_c76ceddb927ed4132eade3272708f0ef.tmp --terra --meta --adaptor_removal --contamination --separate_reads --primer_removal --dada2 --postproc_dada2 --asv_to_cigar
+Multicore support not enabled. Proceeding with single-core trimming.
+Path to Cutadapt set as: 'cutadapt' (default)
+Cutadapt seems to be working fine (tested command 'cutadapt --version')
+Cutadapt version: 3.4
+single-core operation.
+No quality encoding type selected. Assuming that the data provided uses Sanger encoded Phred scores (default)
+
+Output will be written into the directory: /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/AdaptorRem/
+Using user-specified basename (>>64pA02Plate1CI_S2<<) instead of deriving the filename from the input file(s)
+
+
+AUTO-DETECTING ADAPTER TYPE
+===========================
+Attempting to auto-detect adapter type from the first 1 million sequences of the first file (>> fq_dir/64pA02Plate1CI_S2_L001_R1_001.fastq.gz <<)
+
+Found perfect matches for the following adapter sequences:
+Adapter type	Count	Sequence	Sequences analysed	Percentage
+Nextera	4	CTGTCTCTTATA	275	1.45
+Illumina	0	AGATCGGAAGAGC	275	0.00
+smallRNA	0	TGGAATTCTCGG	275	0.00
+Using Nextera adapter for trimming (count: 4). Second best hit was Illumina (count: 0)
+
+Writing report to '/cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/AdaptorRem/64pA02Plate1CI_S2_L001_R1_001.fastq.gz_trimming_report.txt'
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: fq_dir/64pA02Plate1CI_S2_L001_R1_001.fastq.gz
+Trimming mode: paired-end
+Trim Galore version: 0.6.6
+Cutadapt version: 3.4
+Number of cores used for trimming: 1
+Quality Phred score cutoff: 5
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'CTGTCTCTTATA' (Nextera Transposase sequence; auto-detected)
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length for both reads before a sequence pair gets removed: 20 bp
+Output file(s) will be GZIP compressed
+
+Cutadapt seems to be fairly up-to-date (version 3.4). Setting -j 1
+Writing final adapter and quality trimmed output to 64pA02Plate1CI_S2_L001_R1_001_trimmed.fq.gz
+
+
+  >>> Now performing quality (cutoff '-q 5') and adapter trimming in a single pass for the adapter sequence: 'CTGTCTCTTATA' from file fq_dir/64pA02Plate1CI_S2_L001_R1_001.fastq.gz <<< 
+This is cutadapt 3.4 with Python 3.7.10
+Command line parameters: -j 1 -e 0.1 -q 5 -O 1 -a CTGTCTCTTATA fq_dir/64pA02Plate1CI_S2_L001_R1_001.fastq.gz
+Processing reads on 1 core in single-end mode ...
+Finished in 0.01 s (43 µs/read; 1.38 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                     275
+Reads with adapters:                         8 (2.9%)
+Reads written (passing filters):           275 (100.0%)
+
+Total basepairs processed:        41,038 bp
+Quality-trimmed:                       0 bp (0.0%)
+Total written (filtered):         39,968 bp (97.4%)
+
+=== Adapter 1 ===
+
+Sequence: CTGTCTCTTATA; Type: regular 3'; Length: 12; Trimmed: 8 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-12 bp: 1
+
+Bases preceding removed adapters:
+  A: 0.0%
+  C: 0.0%
+  G: 87.5%
+  T: 12.5%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+2	1	17.2	0	1
+37	1	0.0	1	1
+80	1	0.0	1	0 1
+183	1	0.0	1	1
+189	1	0.0	1	1
+193	3	0.0	1	1 2
+
+RUN STATISTICS FOR INPUT FILE: fq_dir/64pA02Plate1CI_S2_L001_R1_001.fastq.gz
+=============================================
+275 sequences processed in total
+The length threshold of paired-end sequences gets evaluated later on (in the validation step)
+
+Writing report to '/cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/AdaptorRem/64pA02Plate1CI_S2_L001_R2_001.fastq.gz_trimming_report.txt'
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: fq_dir/64pA02Plate1CI_S2_L001_R2_001.fastq.gz
+Trimming mode: paired-end
+Trim Galore version: 0.6.6
+Cutadapt version: 3.4
+Number of cores used for trimming: 1
+Quality Phred score cutoff: 5
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'CTGTCTCTTATA' (Nextera Transposase sequence; auto-detected)
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length for both reads before a sequence pair gets removed: 20 bp
+Output file(s) will be GZIP compressed
+
+Cutadapt seems to be fairly up-to-date (version 3.4). Setting -j -j 1
+Writing final adapter and quality trimmed output to 64pA02Plate1CI_S2_L001_R2_001_trimmed.fq.gz
+
+
+  >>> Now performing quality (cutoff '-q 5') and adapter trimming in a single pass for the adapter sequence: 'CTGTCTCTTATA' from file fq_dir/64pA02Plate1CI_S2_L001_R2_001.fastq.gz <<< 
+This is cutadapt 3.4 with Python 3.7.10
+Command line parameters: -j 1 -e 0.1 -q 5 -O 1 -a CTGTCTCTTATA fq_dir/64pA02Plate1CI_S2_L001_R2_001.fastq.gz
+Processing reads on 1 core in single-end mode ...
+Finished in 0.01 s (51 µs/read; 1.17 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                     275
+Reads with adapters:                       198 (72.0%)
+Reads written (passing filters):           275 (100.0%)
+
+Total basepairs processed:        40,580 bp
+Quality-trimmed:                       0 bp (0.0%)
+Total written (filtered):         39,822 bp (98.1%)
+
+=== Adapter 1 ===
+
+Sequence: CTGTCTCTTATA; Type: regular 3'; Length: 12; Trimmed: 198 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-12 bp: 1
+
+Bases preceding removed adapters:
+  A: 94.9%
+  C: 1.5%
+  G: 2.0%
+  T: 1.5%
+  none/other: 0.0%
+WARNING:
+    The adapter is preceded by "A" extremely often.
+    The provided adapter sequence could be incomplete at its 5' end.
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	189	68.8	0	189
+3	6	4.3	0	6
+170	1	0.0	1	1
+189	1	0.0	1	1
+192	1	0.0	1	1
+
+
+WARNING:
+    One or more of your adapter sequences may be incomplete.
+    Please see the detailed output above.
+
+RUN STATISTICS FOR INPUT FILE: fq_dir/64pA02Plate1CI_S2_L001_R2_001.fastq.gz
+=============================================
+275 sequences processed in total
+The length threshold of paired-end sequences gets evaluated later on (in the validation step)
+
+Validate paired-end files 64pA02Plate1CI_S2_L001_R1_001_trimmed.fq.gz and 64pA02Plate1CI_S2_L001_R2_001_trimmed.fq.gz
+Now renaming the output files
+
+ORIGINAL FILE 1: >>64pA02Plate1CI_S2_L001_R1_001_trimmed.fq.gz<<	RENAMING TO:>>64pA02Plate1CI_S2_R1_trimmed.fq.gz<<
+ORIGINAL FILE 2: >>64pA02Plate1CI_S2_L001_R2_001_trimmed.fq.gz<<	RENAMING TO:>>64pA02Plate1CI_S2_R2_trimmed.fq.gz<<
+file_1: 64pA02Plate1CI_S2_R1_trimmed.fq.gz, file_2: 64pA02Plate1CI_S2_R2_trimmed.fq.gz
+
+
+>>>>> Now validing the length of the 2 paired-end infiles: 64pA02Plate1CI_S2_R1_trimmed.fq.gz and 64pA02Plate1CI_S2_R2_trimmed.fq.gz <<<<<
+Renaming the output files (AGAIN).
+Writing validated paired-end Read 1 reads to 64pA02Plate1CI_S2_val_1.fq.gz
+Writing validated paired-end Read 2 reads to 64pA02Plate1CI_S2_val_2.fq.gz
+
+Total number of sequences analysed: 275
+
+Number of sequence pairs removed because at least one read was shorter than the length cutoff (20 bp): 0 (0.00%)
+
+Deleting both intermediate output files 64pA02Plate1CI_S2_R1_trimmed.fq.gz and 64pA02Plate1CI_S2_R2_trimmed.fq.gz
+
+====================================================================================================
+
+Multicore support not enabled. Proceeding with single-core trimming.
+Path to Cutadapt set as: 'cutadapt' (default)
+Cutadapt seems to be working fine (tested command 'cutadapt --version')
+Cutadapt version: 3.4
+single-core operation.
+No quality encoding type selected. Assuming that the data provided uses Sanger encoded Phred scores (default)
+
+Output will be written into the directory: /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/AdaptorRem/
+Using user-specified basename (>>64pA09Plate1CI_S9<<) instead of deriving the filename from the input file(s)
+
+
+AUTO-DETECTING ADAPTER TYPE
+===========================
+Attempting to auto-detect adapter type from the first 1 million sequences of the first file (>> fq_dir/64pA09Plate1CI_S9_L001_R1_001.fastq.gz <<)
+
+Found perfect matches for the following adapter sequences:
+Adapter type	Count	Sequence	Sequences analysed	Percentage
+Nextera	6	CTGTCTCTTATA	298	2.01
+smallRNA	0	TGGAATTCTCGG	298	0.00
+Illumina	0	AGATCGGAAGAGC	298	0.00
+Using Nextera adapter for trimming (count: 6). Second best hit was smallRNA (count: 0)
+
+Writing report to '/cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/AdaptorRem/64pA09Plate1CI_S9_L001_R1_001.fastq.gz_trimming_report.txt'
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: fq_dir/64pA09Plate1CI_S9_L001_R1_001.fastq.gz
+Trimming mode: paired-end
+Trim Galore version: 0.6.6
+Cutadapt version: 3.4
+Number of cores used for trimming: 1
+Quality Phred score cutoff: 5
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'CTGTCTCTTATA' (Nextera Transposase sequence; auto-detected)
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length for both reads before a sequence pair gets removed: 20 bp
+Output file(s) will be GZIP compressed
+
+Cutadapt seems to be fairly up-to-date (version 3.4). Setting -j 1
+Writing final adapter and quality trimmed output to 64pA09Plate1CI_S9_L001_R1_001_trimmed.fq.gz
+
+
+  >>> Now performing quality (cutoff '-q 5') and adapter trimming in a single pass for the adapter sequence: 'CTGTCTCTTATA' from file fq_dir/64pA09Plate1CI_S9_L001_R1_001.fastq.gz <<< 
+This is cutadapt 3.4 with Python 3.7.10
+Command line parameters: -j 1 -e 0.1 -q 5 -O 1 -a CTGTCTCTTATA fq_dir/64pA09Plate1CI_S9_L001_R1_001.fastq.gz
+Processing reads on 1 core in single-end mode ...
+Finished in 0.01 s (41 µs/read; 1.45 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                     298
+Reads with adapters:                        24 (8.1%)
+Reads written (passing filters):           298 (100.0%)
+
+Total basepairs processed:        46,687 bp
+Quality-trimmed:                       0 bp (0.0%)
+Total written (filtered):         45,391 bp (97.2%)
+
+=== Adapter 1 ===
+
+Sequence: CTGTCTCTTATA; Type: regular 3'; Length: 12; Trimmed: 24 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-12 bp: 1
+
+Bases preceding removed adapters:
+  A: 33.3%
+  C: 0.0%
+  G: 37.5%
+  T: 29.2%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	8	74.5	0	8
+2	9	18.6	0	9
+177	1	0.0	1	1
+178	2	0.0	1	2
+180	2	0.0	1	2
+186	1	0.0	1	1
+191	1	0.0	1	0 1
+
+RUN STATISTICS FOR INPUT FILE: fq_dir/64pA09Plate1CI_S9_L001_R1_001.fastq.gz
+=============================================
+298 sequences processed in total
+The length threshold of paired-end sequences gets evaluated later on (in the validation step)
+
+Writing report to '/cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/AdaptorRem/64pA09Plate1CI_S9_L001_R2_001.fastq.gz_trimming_report.txt'
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: fq_dir/64pA09Plate1CI_S9_L001_R2_001.fastq.gz
+Trimming mode: paired-end
+Trim Galore version: 0.6.6
+Cutadapt version: 3.4
+Number of cores used for trimming: 1
+Quality Phred score cutoff: 5
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'CTGTCTCTTATA' (Nextera Transposase sequence; auto-detected)
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length for both reads before a sequence pair gets removed: 20 bp
+Output file(s) will be GZIP compressed
+
+Cutadapt seems to be fairly up-to-date (version 3.4). Setting -j -j 1
+Writing final adapter and quality trimmed output to 64pA09Plate1CI_S9_L001_R2_001_trimmed.fq.gz
+
+
+  >>> Now performing quality (cutoff '-q 5') and adapter trimming in a single pass for the adapter sequence: 'CTGTCTCTTATA' from file fq_dir/64pA09Plate1CI_S9_L001_R2_001.fastq.gz <<< 
+This is cutadapt 3.4 with Python 3.7.10
+Command line parameters: -j 1 -e 0.1 -q 5 -O 1 -a CTGTCTCTTATA fq_dir/64pA09Plate1CI_S9_L001_R2_001.fastq.gz
+Processing reads on 1 core in single-end mode ...
+Finished in 0.01 s (44 µs/read; 1.38 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                     298
+Reads with adapters:                        13 (4.4%)
+Reads written (passing filters):           298 (100.0%)
+
+Total basepairs processed:        45,597 bp
+Quality-trimmed:                       0 bp (0.0%)
+Total written (filtered):         45,154 bp (99.0%)
+
+=== Adapter 1 ===
+
+Sequence: CTGTCTCTTATA; Type: regular 3'; Length: 12; Trimmed: 13 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-12 bp: 1
+
+Bases preceding removed adapters:
+  A: 7.7%
+  C: 7.7%
+  G: 76.9%
+  T: 7.7%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	6	74.5	0	6
+34	1	0.0	1	0 1
+43	3	0.0	1	3
+52	2	0.0	1	2
+170	1	0.0	1	1
+
+RUN STATISTICS FOR INPUT FILE: fq_dir/64pA09Plate1CI_S9_L001_R2_001.fastq.gz
+=============================================
+298 sequences processed in total
+The length threshold of paired-end sequences gets evaluated later on (in the validation step)
+
+Validate paired-end files 64pA09Plate1CI_S9_L001_R1_001_trimmed.fq.gz and 64pA09Plate1CI_S9_L001_R2_001_trimmed.fq.gz
+Now renaming the output files
+
+ORIGINAL FILE 1: >>64pA09Plate1CI_S9_L001_R1_001_trimmed.fq.gz<<	RENAMING TO:>>64pA09Plate1CI_S9_R1_trimmed.fq.gz<<
+ORIGINAL FILE 2: >>64pA09Plate1CI_S9_L001_R2_001_trimmed.fq.gz<<	RENAMING TO:>>64pA09Plate1CI_S9_R2_trimmed.fq.gz<<
+file_1: 64pA09Plate1CI_S9_R1_trimmed.fq.gz, file_2: 64pA09Plate1CI_S9_R2_trimmed.fq.gz
+
+
+>>>>> Now validing the length of the 2 paired-end infiles: 64pA09Plate1CI_S9_R1_trimmed.fq.gz and 64pA09Plate1CI_S9_R2_trimmed.fq.gz <<<<<
+Renaming the output files (AGAIN).
+Writing validated paired-end Read 1 reads to 64pA09Plate1CI_S9_val_1.fq.gz
+Writing validated paired-end Read 2 reads to 64pA09Plate1CI_S9_val_2.fq.gz
+
+Total number of sequences analysed: 298
+
+Number of sequence pairs removed because at least one read was shorter than the length cutoff (20 bp): 0 (0.00%)
+
+Deleting both intermediate output files 64pA09Plate1CI_S9_R1_trimmed.fq.gz and 64pA09Plate1CI_S9_R2_trimmed.fq.gz
+
+====================================================================================================
+
+Multicore support not enabled. Proceeding with single-core trimming.
+Path to Cutadapt set as: 'cutadapt' (default)
+Cutadapt seems to be working fine (tested command 'cutadapt --version')
+Cutadapt version: 3.4
+single-core operation.
+No quality encoding type selected. Assuming that the data provided uses Sanger encoded Phred scores (default)
+
+Output will be written into the directory: /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/AdaptorRem/
+Using user-specified basename (>>64pA05Plate1CI_S5<<) instead of deriving the filename from the input file(s)
+
+
+AUTO-DETECTING ADAPTER TYPE
+===========================
+Attempting to auto-detect adapter type from the first 1 million sequences of the first file (>> fq_dir/64pA05Plate1CI_S5_L001_R1_001.fastq.gz <<)
+
+Found perfect matches for the following adapter sequences:
+Adapter type	Count	Sequence	Sequences analysed	Percentage
+Nextera	1	CTGTCTCTTATA	176	0.57
+smallRNA	0	TGGAATTCTCGG	176	0.00
+Illumina	0	AGATCGGAAGAGC	176	0.00
+Using Nextera adapter for trimming (count: 1). Second best hit was smallRNA (count: 0)
+
+Writing report to '/cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/AdaptorRem/64pA05Plate1CI_S5_L001_R1_001.fastq.gz_trimming_report.txt'
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: fq_dir/64pA05Plate1CI_S5_L001_R1_001.fastq.gz
+Trimming mode: paired-end
+Trim Galore version: 0.6.6
+Cutadapt version: 3.4
+Number of cores used for trimming: 1
+Quality Phred score cutoff: 5
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'CTGTCTCTTATA' (Nextera Transposase sequence; auto-detected)
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length for both reads before a sequence pair gets removed: 20 bp
+Output file(s) will be GZIP compressed
+
+Cutadapt seems to be fairly up-to-date (version 3.4). Setting -j 1
+Writing final adapter and quality trimmed output to 64pA05Plate1CI_S5_L001_R1_001_trimmed.fq.gz
+
+
+  >>> Now performing quality (cutoff '-q 5') and adapter trimming in a single pass for the adapter sequence: 'CTGTCTCTTATA' from file fq_dir/64pA05Plate1CI_S5_L001_R1_001.fastq.gz <<< 
+This is cutadapt 3.4 with Python 3.7.10
+Command line parameters: -j 1 -e 0.1 -q 5 -O 1 -a CTGTCTCTTATA fq_dir/64pA05Plate1CI_S5_L001_R1_001.fastq.gz
+Processing reads on 1 core in single-end mode ...
+Finished in 0.01 s (69 µs/read; 0.87 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                     176
+Reads with adapters:                         1 (0.6%)
+Reads written (passing filters):           176 (100.0%)
+
+Total basepairs processed:        25,760 bp
+Quality-trimmed:                      35 bp (0.1%)
+Total written (filtered):         25,547 bp (99.2%)
+
+=== Adapter 1 ===
+
+Sequence: CTGTCTCTTATA; Type: regular 3'; Length: 12; Trimmed: 1 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-12 bp: 1
+
+Bases preceding removed adapters:
+  A: 0.0%
+  C: 0.0%
+  G: 100.0%
+  T: 0.0%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+178	1	0.0	1	1
+
+RUN STATISTICS FOR INPUT FILE: fq_dir/64pA05Plate1CI_S5_L001_R1_001.fastq.gz
+=============================================
+176 sequences processed in total
+The length threshold of paired-end sequences gets evaluated later on (in the validation step)
+
+Writing report to '/cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/AdaptorRem/64pA05Plate1CI_S5_L001_R2_001.fastq.gz_trimming_report.txt'
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: fq_dir/64pA05Plate1CI_S5_L001_R2_001.fastq.gz
+Trimming mode: paired-end
+Trim Galore version: 0.6.6
+Cutadapt version: 3.4
+Number of cores used for trimming: 1
+Quality Phred score cutoff: 5
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'CTGTCTCTTATA' (Nextera Transposase sequence; auto-detected)
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length for both reads before a sequence pair gets removed: 20 bp
+Output file(s) will be GZIP compressed
+
+Cutadapt seems to be fairly up-to-date (version 3.4). Setting -j -j 1
+Writing final adapter and quality trimmed output to 64pA05Plate1CI_S5_L001_R2_001_trimmed.fq.gz
+
+
+  >>> Now performing quality (cutoff '-q 5') and adapter trimming in a single pass for the adapter sequence: 'CTGTCTCTTATA' from file fq_dir/64pA05Plate1CI_S5_L001_R2_001.fastq.gz <<< 
+This is cutadapt 3.4 with Python 3.7.10
+Command line parameters: -j 1 -e 0.1 -q 5 -O 1 -a CTGTCTCTTATA fq_dir/64pA05Plate1CI_S5_L001_R2_001.fastq.gz
+Processing reads on 1 core in single-end mode ...
+Finished in 0.01 s (66 µs/read; 0.91 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                     176
+Reads with adapters:                         9 (5.1%)
+Reads written (passing filters):           176 (100.0%)
+
+Total basepairs processed:        26,897 bp
+Quality-trimmed:                      35 bp (0.1%)
+Total written (filtered):         26,146 bp (97.2%)
+
+=== Adapter 1 ===
+
+Sequence: CTGTCTCTTATA; Type: regular 3'; Length: 12; Trimmed: 9 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-12 bp: 1
+
+Bases preceding removed adapters:
+  A: 22.2%
+  C: 11.1%
+  G: 44.4%
+  T: 22.2%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	3	44.0	0	3
+2	1	11.0	0	1
+103	1	0.0	1	1
+104	2	0.0	1	1 1
+193	1	0.0	1	1
+207	1	0.0	1	1
+
+RUN STATISTICS FOR INPUT FILE: fq_dir/64pA05Plate1CI_S5_L001_R2_001.fastq.gz
+=============================================
+176 sequences processed in total
+The length threshold of paired-end sequences gets evaluated later on (in the validation step)
+
+Validate paired-end files 64pA05Plate1CI_S5_L001_R1_001_trimmed.fq.gz and 64pA05Plate1CI_S5_L001_R2_001_trimmed.fq.gz
+Now renaming the output files
+
+ORIGINAL FILE 1: >>64pA05Plate1CI_S5_L001_R1_001_trimmed.fq.gz<<	RENAMING TO:>>64pA05Plate1CI_S5_R1_trimmed.fq.gz<<
+ORIGINAL FILE 2: >>64pA05Plate1CI_S5_L001_R2_001_trimmed.fq.gz<<	RENAMING TO:>>64pA05Plate1CI_S5_R2_trimmed.fq.gz<<
+file_1: 64pA05Plate1CI_S5_R1_trimmed.fq.gz, file_2: 64pA05Plate1CI_S5_R2_trimmed.fq.gz
+
+
+>>>>> Now validing the length of the 2 paired-end infiles: 64pA05Plate1CI_S5_R1_trimmed.fq.gz and 64pA05Plate1CI_S5_R2_trimmed.fq.gz <<<<<
+Renaming the output files (AGAIN).
+Writing validated paired-end Read 1 reads to 64pA05Plate1CI_S5_val_1.fq.gz
+Writing validated paired-end Read 2 reads to 64pA05Plate1CI_S5_val_2.fq.gz
+
+Total number of sequences analysed: 176
+
+Number of sequence pairs removed because at least one read was shorter than the length cutoff (20 bp): 1 (0.57%)
+
+Deleting both intermediate output files 64pA05Plate1CI_S5_R1_trimmed.fq.gz and 64pA05Plate1CI_S5_R2_trimmed.fq.gz
+
+====================================================================================================
+
+Multicore support not enabled. Proceeding with single-core trimming.
+Path to Cutadapt set as: 'cutadapt' (default)
+Cutadapt seems to be working fine (tested command 'cutadapt --version')
+Cutadapt version: 3.4
+single-core operation.
+No quality encoding type selected. Assuming that the data provided uses Sanger encoded Phred scores (default)
+
+Output will be written into the directory: /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/AdaptorRem/
+Using user-specified basename (>>64pA11Plate1CI_S11<<) instead of deriving the filename from the input file(s)
+
+
+AUTO-DETECTING ADAPTER TYPE
+===========================
+Attempting to auto-detect adapter type from the first 1 million sequences of the first file (>> fq_dir/64pA11Plate1CI_S11_L001_R1_001.fastq.gz <<)
+
+Found perfect matches for the following adapter sequences:
+Adapter type	Count	Sequence	Sequences analysed	Percentage
+Nextera	3	CTGTCTCTTATA	619	0.48
+Illumina	0	AGATCGGAAGAGC	619	0.00
+smallRNA	0	TGGAATTCTCGG	619	0.00
+Using Nextera adapter for trimming (count: 3). Second best hit was Illumina (count: 0)
+
+Writing report to '/cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/AdaptorRem/64pA11Plate1CI_S11_L001_R1_001.fastq.gz_trimming_report.txt'
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: fq_dir/64pA11Plate1CI_S11_L001_R1_001.fastq.gz
+Trimming mode: paired-end
+Trim Galore version: 0.6.6
+Cutadapt version: 3.4
+Number of cores used for trimming: 1
+Quality Phred score cutoff: 5
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'CTGTCTCTTATA' (Nextera Transposase sequence; auto-detected)
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length for both reads before a sequence pair gets removed: 20 bp
+Output file(s) will be GZIP compressed
+
+Cutadapt seems to be fairly up-to-date (version 3.4). Setting -j 1
+Writing final adapter and quality trimmed output to 64pA11Plate1CI_S11_L001_R1_001_trimmed.fq.gz
+
+
+  >>> Now performing quality (cutoff '-q 5') and adapter trimming in a single pass for the adapter sequence: 'CTGTCTCTTATA' from file fq_dir/64pA11Plate1CI_S11_L001_R1_001.fastq.gz <<< 
+This is cutadapt 3.4 with Python 3.7.10
+Command line parameters: -j 1 -e 0.1 -q 5 -O 1 -a CTGTCTCTTATA fq_dir/64pA11Plate1CI_S11_L001_R1_001.fastq.gz
+Processing reads on 1 core in single-end mode ...
+Finished in 0.01 s (24 µs/read; 2.52 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                     619
+Reads with adapters:                         6 (1.0%)
+Reads written (passing filters):           619 (100.0%)
+
+Total basepairs processed:       133,670 bp
+Quality-trimmed:                       0 bp (0.0%)
+Total written (filtered):        133,390 bp (99.8%)
+
+=== Adapter 1 ===
+
+Sequence: CTGTCTCTTATA; Type: regular 3'; Length: 12; Trimmed: 6 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-12 bp: 1
+
+Bases preceding removed adapters:
+  A: 0.0%
+  C: 0.0%
+  G: 50.0%
+  T: 50.0%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	2	154.8	0	2
+2	1	38.7	0	1
+27	1	0.0	1	1
+67	1	0.0	1	1
+182	1	0.0	1	1
+
+RUN STATISTICS FOR INPUT FILE: fq_dir/64pA11Plate1CI_S11_L001_R1_001.fastq.gz
+=============================================
+619 sequences processed in total
+The length threshold of paired-end sequences gets evaluated later on (in the validation step)
+
+Writing report to '/cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/AdaptorRem/64pA11Plate1CI_S11_L001_R2_001.fastq.gz_trimming_report.txt'
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: fq_dir/64pA11Plate1CI_S11_L001_R2_001.fastq.gz
+Trimming mode: paired-end
+Trim Galore version: 0.6.6
+Cutadapt version: 3.4
+Number of cores used for trimming: 1
+Quality Phred score cutoff: 5
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'CTGTCTCTTATA' (Nextera Transposase sequence; auto-detected)
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length for both reads before a sequence pair gets removed: 20 bp
+Output file(s) will be GZIP compressed
+
+Cutadapt seems to be fairly up-to-date (version 3.4). Setting -j -j 1
+Writing final adapter and quality trimmed output to 64pA11Plate1CI_S11_L001_R2_001_trimmed.fq.gz
+
+
+  >>> Now performing quality (cutoff '-q 5') and adapter trimming in a single pass for the adapter sequence: 'CTGTCTCTTATA' from file fq_dir/64pA11Plate1CI_S11_L001_R2_001.fastq.gz <<< 
+This is cutadapt 3.4 with Python 3.7.10
+Command line parameters: -j 1 -e 0.1 -q 5 -O 1 -a CTGTCTCTTATA fq_dir/64pA11Plate1CI_S11_L001_R2_001.fastq.gz
+Processing reads on 1 core in single-end mode ...
+Finished in 0.02 s (40 µs/read; 1.51 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                     619
+Reads with adapters:                       138 (22.3%)
+Reads written (passing filters):           619 (100.0%)
+
+Total basepairs processed:       134,142 bp
+Quality-trimmed:                       0 bp (0.0%)
+Total written (filtered):        133,066 bp (99.2%)
+
+=== Adapter 1 ===
+
+Sequence: CTGTCTCTTATA; Type: regular 3'; Length: 12; Trimmed: 138 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-12 bp: 1
+
+Bases preceding removed adapters:
+  A: 2.9%
+  C: 4.3%
+  G: 92.8%
+  T: 0.0%
+  none/other: 0.0%
+WARNING:
+    The adapter is preceded by "G" extremely often.
+    The provided adapter sequence could be incomplete at its 5' end.
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	129	154.8	0	129
+15	1	0.0	1	1
+36	2	0.0	1	0 2
+46	1	0.0	1	0 1
+47	1	0.0	1	1
+191	1	0.0	1	1
+192	3	0.0	1	3
+
+
+WARNING:
+    One or more of your adapter sequences may be incomplete.
+    Please see the detailed output above.
+
+RUN STATISTICS FOR INPUT FILE: fq_dir/64pA11Plate1CI_S11_L001_R2_001.fastq.gz
+=============================================
+619 sequences processed in total
+The length threshold of paired-end sequences gets evaluated later on (in the validation step)
+
+Validate paired-end files 64pA11Plate1CI_S11_L001_R1_001_trimmed.fq.gz and 64pA11Plate1CI_S11_L001_R2_001_trimmed.fq.gz
+Now renaming the output files
+
+ORIGINAL FILE 1: >>64pA11Plate1CI_S11_L001_R1_001_trimmed.fq.gz<<	RENAMING TO:>>64pA11Plate1CI_S11_R1_trimmed.fq.gz<<
+ORIGINAL FILE 2: >>64pA11Plate1CI_S11_L001_R2_001_trimmed.fq.gz<<	RENAMING TO:>>64pA11Plate1CI_S11_R2_trimmed.fq.gz<<
+file_1: 64pA11Plate1CI_S11_R1_trimmed.fq.gz, file_2: 64pA11Plate1CI_S11_R2_trimmed.fq.gz
+
+
+>>>>> Now validing the length of the 2 paired-end infiles: 64pA11Plate1CI_S11_R1_trimmed.fq.gz and 64pA11Plate1CI_S11_R2_trimmed.fq.gz <<<<<
+Renaming the output files (AGAIN).
+Writing validated paired-end Read 1 reads to 64pA11Plate1CI_S11_val_1.fq.gz
+Writing validated paired-end Read 2 reads to 64pA11Plate1CI_S11_val_2.fq.gz
+
+Total number of sequences analysed: 619
+
+Number of sequence pairs removed because at least one read was shorter than the length cutoff (20 bp): 0 (0.00%)
+
+Deleting both intermediate output files 64pA11Plate1CI_S11_R1_trimmed.fq.gz and 64pA11Plate1CI_S11_R2_trimmed.fq.gz
+
+====================================================================================================
+
+Multicore support not enabled. Proceeding with single-core trimming.
+Path to Cutadapt set as: 'cutadapt' (default)
+Cutadapt seems to be working fine (tested command 'cutadapt --version')
+Cutadapt version: 3.4
+single-core operation.
+No quality encoding type selected. Assuming that the data provided uses Sanger encoded Phred scores (default)
+
+Output will be written into the directory: /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/AdaptorRem/
+Using user-specified basename (>>64pA06Plate1CI_S6<<) instead of deriving the filename from the input file(s)
+
+
+AUTO-DETECTING ADAPTER TYPE
+===========================
+Attempting to auto-detect adapter type from the first 1 million sequences of the first file (>> fq_dir/64pA06Plate1CI_S6_L001_R1_001.fastq.gz <<)
+
+Found perfect matches for the following adapter sequences:
+Adapter type	Count	Sequence	Sequences analysed	Percentage
+Nextera	2	CTGTCTCTTATA	2531	0.08
+Illumina	0	AGATCGGAAGAGC	2531	0.00
+smallRNA	0	TGGAATTCTCGG	2531	0.00
+Using Nextera adapter for trimming (count: 2). Second best hit was Illumina (count: 0)
+
+Writing report to '/cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/AdaptorRem/64pA06Plate1CI_S6_L001_R1_001.fastq.gz_trimming_report.txt'
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: fq_dir/64pA06Plate1CI_S6_L001_R1_001.fastq.gz
+Trimming mode: paired-end
+Trim Galore version: 0.6.6
+Cutadapt version: 3.4
+Number of cores used for trimming: 1
+Quality Phred score cutoff: 5
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'CTGTCTCTTATA' (Nextera Transposase sequence; auto-detected)
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length for both reads before a sequence pair gets removed: 20 bp
+Output file(s) will be GZIP compressed
+
+Cutadapt seems to be fairly up-to-date (version 3.4). Setting -j 1
+Writing final adapter and quality trimmed output to 64pA06Plate1CI_S6_L001_R1_001_trimmed.fq.gz
+
+
+  >>> Now performing quality (cutoff '-q 5') and adapter trimming in a single pass for the adapter sequence: 'CTGTCTCTTATA' from file fq_dir/64pA06Plate1CI_S6_L001_R1_001.fastq.gz <<< 
+This is cutadapt 3.4 with Python 3.7.10
+Command line parameters: -j 1 -e 0.1 -q 5 -O 1 -a CTGTCTCTTATA fq_dir/64pA06Plate1CI_S6_L001_R1_001.fastq.gz
+Processing reads on 1 core in single-end mode ...
+Finished in 0.07 s (26 µs/read; 2.31 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                   2,531
+Reads with adapters:                         9 (0.4%)
+Reads written (passing filters):         2,531 (100.0%)
+
+Total basepairs processed:       622,692 bp
+Quality-trimmed:                       0 bp (0.0%)
+Total written (filtered):        621,958 bp (99.9%)
+
+=== Adapter 1 ===
+
+Sequence: CTGTCTCTTATA; Type: regular 3'; Length: 12; Trimmed: 9 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-12 bp: 1
+
+Bases preceding removed adapters:
+  A: 11.1%
+  C: 11.1%
+  G: 44.4%
+  T: 33.3%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	4	632.8	0	4
+2	1	158.2	0	1
+160	1	0.0	1	1
+183	1	0.0	1	0 1
+192	1	0.0	1	0 1
+193	1	0.0	1	1
+
+RUN STATISTICS FOR INPUT FILE: fq_dir/64pA06Plate1CI_S6_L001_R1_001.fastq.gz
+=============================================
+2531 sequences processed in total
+The length threshold of paired-end sequences gets evaluated later on (in the validation step)
+
+Writing report to '/cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/AdaptorRem/64pA06Plate1CI_S6_L001_R2_001.fastq.gz_trimming_report.txt'
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: fq_dir/64pA06Plate1CI_S6_L001_R2_001.fastq.gz
+Trimming mode: paired-end
+Trim Galore version: 0.6.6
+Cutadapt version: 3.4
+Number of cores used for trimming: 1
+Quality Phred score cutoff: 5
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'CTGTCTCTTATA' (Nextera Transposase sequence; auto-detected)
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length for both reads before a sequence pair gets removed: 20 bp
+Output file(s) will be GZIP compressed
+
+Cutadapt seems to be fairly up-to-date (version 3.4). Setting -j -j 1
+Writing final adapter and quality trimmed output to 64pA06Plate1CI_S6_L001_R2_001_trimmed.fq.gz
+
+
+  >>> Now performing quality (cutoff '-q 5') and adapter trimming in a single pass for the adapter sequence: 'CTGTCTCTTATA' from file fq_dir/64pA06Plate1CI_S6_L001_R2_001.fastq.gz <<< 
+This is cutadapt 3.4 with Python 3.7.10
+Command line parameters: -j 1 -e 0.1 -q 5 -O 1 -a CTGTCTCTTATA fq_dir/64pA06Plate1CI_S6_L001_R2_001.fastq.gz
+Processing reads on 1 core in single-end mode ...
+Finished in 0.08 s (31 µs/read; 1.91 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                   2,531
+Reads with adapters:                        12 (0.5%)
+Reads written (passing filters):         2,531 (100.0%)
+
+Total basepairs processed:       621,153 bp
+Quality-trimmed:                       0 bp (0.0%)
+Total written (filtered):        620,624 bp (99.9%)
+
+=== Adapter 1 ===
+
+Sequence: CTGTCTCTTATA; Type: regular 3'; Length: 12; Trimmed: 12 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-12 bp: 1
+
+Bases preceding removed adapters:
+  A: 50.0%
+  C: 0.0%
+  G: 8.3%
+  T: 41.7%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	8	632.8	0	8
+89	2	0.0	1	1 1
+155	1	0.0	1	1
+188	1	0.0	1	0 1
+
+RUN STATISTICS FOR INPUT FILE: fq_dir/64pA06Plate1CI_S6_L001_R2_001.fastq.gz
+=============================================
+2531 sequences processed in total
+The length threshold of paired-end sequences gets evaluated later on (in the validation step)
+
+Validate paired-end files 64pA06Plate1CI_S6_L001_R1_001_trimmed.fq.gz and 64pA06Plate1CI_S6_L001_R2_001_trimmed.fq.gz
+Now renaming the output files
+
+ORIGINAL FILE 1: >>64pA06Plate1CI_S6_L001_R1_001_trimmed.fq.gz<<	RENAMING TO:>>64pA06Plate1CI_S6_R1_trimmed.fq.gz<<
+ORIGINAL FILE 2: >>64pA06Plate1CI_S6_L001_R2_001_trimmed.fq.gz<<	RENAMING TO:>>64pA06Plate1CI_S6_R2_trimmed.fq.gz<<
+file_1: 64pA06Plate1CI_S6_R1_trimmed.fq.gz, file_2: 64pA06Plate1CI_S6_R2_trimmed.fq.gz
+
+
+>>>>> Now validing the length of the 2 paired-end infiles: 64pA06Plate1CI_S6_R1_trimmed.fq.gz and 64pA06Plate1CI_S6_R2_trimmed.fq.gz <<<<<
+Renaming the output files (AGAIN).
+Writing validated paired-end Read 1 reads to 64pA06Plate1CI_S6_val_1.fq.gz
+Writing validated paired-end Read 2 reads to 64pA06Plate1CI_S6_val_2.fq.gz
+
+Total number of sequences analysed: 2531
+
+Number of sequence pairs removed because at least one read was shorter than the length cutoff (20 bp): 0 (0.00%)
+
+Deleting both intermediate output files 64pA06Plate1CI_S6_R1_trimmed.fq.gz and 64pA06Plate1CI_S6_R2_trimmed.fq.gz
+
+====================================================================================================
+
+Multicore support not enabled. Proceeding with single-core trimming.
+Path to Cutadapt set as: 'cutadapt' (default)
+Cutadapt seems to be working fine (tested command 'cutadapt --version')
+Cutadapt version: 3.4
+single-core operation.
+No quality encoding type selected. Assuming that the data provided uses Sanger encoded Phred scores (default)
+
+Output will be written into the directory: /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/AdaptorRem/
+Using user-specified basename (>>64pA01Plate1CI_S1<<) instead of deriving the filename from the input file(s)
+
+
+AUTO-DETECTING ADAPTER TYPE
+===========================
+Attempting to auto-detect adapter type from the first 1 million sequences of the first file (>> fq_dir/64pA01Plate1CI_S1_L001_R1_001.fastq.gz <<)
+
+Found perfect matches for the following adapter sequences:
+Adapter type	Count	Sequence	Sequences analysed	Percentage
+Nextera	1	CTGTCTCTTATA	423	0.24
+Illumina	0	AGATCGGAAGAGC	423	0.00
+smallRNA	0	TGGAATTCTCGG	423	0.00
+Using Nextera adapter for trimming (count: 1). Second best hit was Illumina (count: 0)
+
+Writing report to '/cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/AdaptorRem/64pA01Plate1CI_S1_L001_R1_001.fastq.gz_trimming_report.txt'
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: fq_dir/64pA01Plate1CI_S1_L001_R1_001.fastq.gz
+Trimming mode: paired-end
+Trim Galore version: 0.6.6
+Cutadapt version: 3.4
+Number of cores used for trimming: 1
+Quality Phred score cutoff: 5
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'CTGTCTCTTATA' (Nextera Transposase sequence; auto-detected)
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length for both reads before a sequence pair gets removed: 20 bp
+Output file(s) will be GZIP compressed
+
+Cutadapt seems to be fairly up-to-date (version 3.4). Setting -j 1
+Writing final adapter and quality trimmed output to 64pA01Plate1CI_S1_L001_R1_001_trimmed.fq.gz
+
+
+  >>> Now performing quality (cutoff '-q 5') and adapter trimming in a single pass for the adapter sequence: 'CTGTCTCTTATA' from file fq_dir/64pA01Plate1CI_S1_L001_R1_001.fastq.gz <<< 
+This is cutadapt 3.4 with Python 3.7.10
+Command line parameters: -j 1 -e 0.1 -q 5 -O 1 -a CTGTCTCTTATA fq_dir/64pA01Plate1CI_S1_L001_R1_001.fastq.gz
+Processing reads on 1 core in single-end mode ...
+Finished in 0.02 s (47 µs/read; 1.28 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                     423
+Reads with adapters:                        11 (2.6%)
+Reads written (passing filters):           423 (100.0%)
+
+Total basepairs processed:        92,321 bp
+Quality-trimmed:                       0 bp (0.0%)
+Total written (filtered):         92,072 bp (99.7%)
+
+=== Adapter 1 ===
+
+Sequence: CTGTCTCTTATA; Type: regular 3'; Length: 12; Trimmed: 11 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-12 bp: 1
+
+Bases preceding removed adapters:
+  A: 18.2%
+  C: 9.1%
+  G: 72.7%
+  T: 0.0%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	9	105.8	0	9
+49	1	0.0	1	1
+191	1	0.0	1	0 1
+
+RUN STATISTICS FOR INPUT FILE: fq_dir/64pA01Plate1CI_S1_L001_R1_001.fastq.gz
+=============================================
+423 sequences processed in total
+The length threshold of paired-end sequences gets evaluated later on (in the validation step)
+
+Writing report to '/cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/AdaptorRem/64pA01Plate1CI_S1_L001_R2_001.fastq.gz_trimming_report.txt'
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: fq_dir/64pA01Plate1CI_S1_L001_R2_001.fastq.gz
+Trimming mode: paired-end
+Trim Galore version: 0.6.6
+Cutadapt version: 3.4
+Number of cores used for trimming: 1
+Quality Phred score cutoff: 5
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'CTGTCTCTTATA' (Nextera Transposase sequence; auto-detected)
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length for both reads before a sequence pair gets removed: 20 bp
+Output file(s) will be GZIP compressed
+
+Cutadapt seems to be fairly up-to-date (version 3.4). Setting -j -j 1
+Writing final adapter and quality trimmed output to 64pA01Plate1CI_S1_L001_R2_001_trimmed.fq.gz
+
+
+  >>> Now performing quality (cutoff '-q 5') and adapter trimming in a single pass for the adapter sequence: 'CTGTCTCTTATA' from file fq_dir/64pA01Plate1CI_S1_L001_R2_001.fastq.gz <<< 
+This is cutadapt 3.4 with Python 3.7.10
+Command line parameters: -j 1 -e 0.1 -q 5 -O 1 -a CTGTCTCTTATA fq_dir/64pA01Plate1CI_S1_L001_R2_001.fastq.gz
+Processing reads on 1 core in single-end mode ...
+Finished in 0.03 s (73 µs/read; 0.82 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                     423
+Reads with adapters:                        19 (4.5%)
+Reads written (passing filters):           423 (100.0%)
+
+Total basepairs processed:        92,545 bp
+Quality-trimmed:                       0 bp (0.0%)
+Total written (filtered):         91,708 bp (99.1%)
+
+=== Adapter 1 ===
+
+Sequence: CTGTCTCTTATA; Type: regular 3'; Length: 12; Trimmed: 19 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-12 bp: 1
+
+Bases preceding removed adapters:
+  A: 0.0%
+  C: 15.8%
+  G: 52.6%
+  T: 31.6%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	6	105.8	0	6
+2	4	26.4	0	4
+34	3	0.0	1	0 3
+43	1	0.0	1	0 1
+48	1	0.0	1	1
+90	1	0.0	1	1
+176	1	0.0	1	0 1
+180	1	0.0	1	0 1
+184	1	0.0	1	1
+
+RUN STATISTICS FOR INPUT FILE: fq_dir/64pA01Plate1CI_S1_L001_R2_001.fastq.gz
+=============================================
+423 sequences processed in total
+The length threshold of paired-end sequences gets evaluated later on (in the validation step)
+
+Validate paired-end files 64pA01Plate1CI_S1_L001_R1_001_trimmed.fq.gz and 64pA01Plate1CI_S1_L001_R2_001_trimmed.fq.gz
+Now renaming the output files
+
+ORIGINAL FILE 1: >>64pA01Plate1CI_S1_L001_R1_001_trimmed.fq.gz<<	RENAMING TO:>>64pA01Plate1CI_S1_R1_trimmed.fq.gz<<
+ORIGINAL FILE 2: >>64pA01Plate1CI_S1_L001_R2_001_trimmed.fq.gz<<	RENAMING TO:>>64pA01Plate1CI_S1_R2_trimmed.fq.gz<<
+file_1: 64pA01Plate1CI_S1_R1_trimmed.fq.gz, file_2: 64pA01Plate1CI_S1_R2_trimmed.fq.gz
+
+
+>>>>> Now validing the length of the 2 paired-end infiles: 64pA01Plate1CI_S1_R1_trimmed.fq.gz and 64pA01Plate1CI_S1_R2_trimmed.fq.gz <<<<<
+Renaming the output files (AGAIN).
+Writing validated paired-end Read 1 reads to 64pA01Plate1CI_S1_val_1.fq.gz
+Writing validated paired-end Read 2 reads to 64pA01Plate1CI_S1_val_2.fq.gz
+
+Total number of sequences analysed: 423
+
+Number of sequence pairs removed because at least one read was shorter than the length cutoff (20 bp): 0 (0.00%)
+
+Deleting both intermediate output files 64pA01Plate1CI_S1_R1_trimmed.fq.gz and 64pA01Plate1CI_S1_R2_trimmed.fq.gz
+
+====================================================================================================
+
+Multicore support not enabled. Proceeding with single-core trimming.
+Path to Cutadapt set as: 'cutadapt' (default)
+Cutadapt seems to be working fine (tested command 'cutadapt --version')
+Cutadapt version: 3.4
+single-core operation.
+No quality encoding type selected. Assuming that the data provided uses Sanger encoded Phred scores (default)
+
+Output will be written into the directory: /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/AdaptorRem/
+Using user-specified basename (>>64pA04Plate1CI_S4<<) instead of deriving the filename from the input file(s)
+
+
+AUTO-DETECTING ADAPTER TYPE
+===========================
+Attempting to auto-detect adapter type from the first 1 million sequences of the first file (>> fq_dir/64pA04Plate1CI_S4_L001_R1_001.fastq.gz <<)
+
+Found perfect matches for the following adapter sequences:
+Adapter type	Count	Sequence	Sequences analysed	Percentage
+Nextera	1	CTGTCTCTTATA	2446	0.04
+Illumina	0	AGATCGGAAGAGC	2446	0.00
+smallRNA	0	TGGAATTCTCGG	2446	0.00
+Using Nextera adapter for trimming (count: 1). Second best hit was Illumina (count: 0)
+
+Writing report to '/cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/AdaptorRem/64pA04Plate1CI_S4_L001_R1_001.fastq.gz_trimming_report.txt'
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: fq_dir/64pA04Plate1CI_S4_L001_R1_001.fastq.gz
+Trimming mode: paired-end
+Trim Galore version: 0.6.6
+Cutadapt version: 3.4
+Number of cores used for trimming: 1
+Quality Phred score cutoff: 5
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'CTGTCTCTTATA' (Nextera Transposase sequence; auto-detected)
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length for both reads before a sequence pair gets removed: 20 bp
+Output file(s) will be GZIP compressed
+
+Cutadapt seems to be fairly up-to-date (version 3.4). Setting -j 1
+Writing final adapter and quality trimmed output to 64pA04Plate1CI_S4_L001_R1_001_trimmed.fq.gz
+
+
+  >>> Now performing quality (cutoff '-q 5') and adapter trimming in a single pass for the adapter sequence: 'CTGTCTCTTATA' from file fq_dir/64pA04Plate1CI_S4_L001_R1_001.fastq.gz <<< 
+This is cutadapt 3.4 with Python 3.7.10
+Command line parameters: -j 1 -e 0.1 -q 5 -O 1 -a CTGTCTCTTATA fq_dir/64pA04Plate1CI_S4_L001_R1_001.fastq.gz
+Processing reads on 1 core in single-end mode ...
+Finished in 0.05 s (19 µs/read; 3.16 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                   2,446
+Reads with adapters:                       311 (12.7%)
+Reads written (passing filters):         2,446 (100.0%)
+
+Total basepairs processed:       591,094 bp
+Quality-trimmed:                       0 bp (0.0%)
+Total written (filtered):        590,104 bp (99.8%)
+
+=== Adapter 1 ===
+
+Sequence: CTGTCTCTTATA; Type: regular 3'; Length: 12; Trimmed: 311 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-12 bp: 1
+
+Bases preceding removed adapters:
+  A: 0.0%
+  C: 0.0%
+  G: 4.2%
+  T: 95.8%
+  none/other: 0.0%
+WARNING:
+    The adapter is preceded by "T" extremely often.
+    The provided adapter sequence could be incomplete at its 5' end.
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	298	611.5	0	298
+2	8	152.9	0	8
+3	1	38.2	0	1
+115	1	0.0	1	0 1
+176	1	0.0	1	0 1
+191	2	0.0	1	1 1
+
+
+WARNING:
+    One or more of your adapter sequences may be incomplete.
+    Please see the detailed output above.
+
+RUN STATISTICS FOR INPUT FILE: fq_dir/64pA04Plate1CI_S4_L001_R1_001.fastq.gz
+=============================================
+2446 sequences processed in total
+The length threshold of paired-end sequences gets evaluated later on (in the validation step)
+
+Writing report to '/cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/AdaptorRem/64pA04Plate1CI_S4_L001_R2_001.fastq.gz_trimming_report.txt'
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: fq_dir/64pA04Plate1CI_S4_L001_R2_001.fastq.gz
+Trimming mode: paired-end
+Trim Galore version: 0.6.6
+Cutadapt version: 3.4
+Number of cores used for trimming: 1
+Quality Phred score cutoff: 5
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'CTGTCTCTTATA' (Nextera Transposase sequence; auto-detected)
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length for both reads before a sequence pair gets removed: 20 bp
+Output file(s) will be GZIP compressed
+
+Cutadapt seems to be fairly up-to-date (version 3.4). Setting -j -j 1
+Writing final adapter and quality trimmed output to 64pA04Plate1CI_S4_L001_R2_001_trimmed.fq.gz
+
+
+  >>> Now performing quality (cutoff '-q 5') and adapter trimming in a single pass for the adapter sequence: 'CTGTCTCTTATA' from file fq_dir/64pA04Plate1CI_S4_L001_R2_001.fastq.gz <<< 
+This is cutadapt 3.4 with Python 3.7.10
+Command line parameters: -j 1 -e 0.1 -q 5 -O 1 -a CTGTCTCTTATA fq_dir/64pA04Plate1CI_S4_L001_R2_001.fastq.gz
+Processing reads on 1 core in single-end mode ...
+Finished in 0.07 s (27 µs/read; 2.23 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                   2,446
+Reads with adapters:                         6 (0.2%)
+Reads written (passing filters):         2,446 (100.0%)
+
+Total basepairs processed:       590,281 bp
+Quality-trimmed:                       0 bp (0.0%)
+Total written (filtered):        589,767 bp (99.9%)
+
+=== Adapter 1 ===
+
+Sequence: CTGTCTCTTATA; Type: regular 3'; Length: 12; Trimmed: 6 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-12 bp: 1
+
+Bases preceding removed adapters:
+  A: 0.0%
+  C: 0.0%
+  G: 100.0%
+  T: 0.0%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	1	611.5	0	1
+46	2	0.0	1	2
+116	2	0.0	1	2
+189	1	0.0	1	1
+
+RUN STATISTICS FOR INPUT FILE: fq_dir/64pA04Plate1CI_S4_L001_R2_001.fastq.gz
+=============================================
+2446 sequences processed in total
+The length threshold of paired-end sequences gets evaluated later on (in the validation step)
+
+Validate paired-end files 64pA04Plate1CI_S4_L001_R1_001_trimmed.fq.gz and 64pA04Plate1CI_S4_L001_R2_001_trimmed.fq.gz
+Now renaming the output files
+
+ORIGINAL FILE 1: >>64pA04Plate1CI_S4_L001_R1_001_trimmed.fq.gz<<	RENAMING TO:>>64pA04Plate1CI_S4_R1_trimmed.fq.gz<<
+ORIGINAL FILE 2: >>64pA04Plate1CI_S4_L001_R2_001_trimmed.fq.gz<<	RENAMING TO:>>64pA04Plate1CI_S4_R2_trimmed.fq.gz<<
+file_1: 64pA04Plate1CI_S4_R1_trimmed.fq.gz, file_2: 64pA04Plate1CI_S4_R2_trimmed.fq.gz
+
+
+>>>>> Now validing the length of the 2 paired-end infiles: 64pA04Plate1CI_S4_R1_trimmed.fq.gz and 64pA04Plate1CI_S4_R2_trimmed.fq.gz <<<<<
+Renaming the output files (AGAIN).
+Writing validated paired-end Read 1 reads to 64pA04Plate1CI_S4_val_1.fq.gz
+Writing validated paired-end Read 2 reads to 64pA04Plate1CI_S4_val_2.fq.gz
+
+Total number of sequences analysed: 2446
+
+Number of sequence pairs removed because at least one read was shorter than the length cutoff (20 bp): 0 (0.00%)
+
+Deleting both intermediate output files 64pA04Plate1CI_S4_R1_trimmed.fq.gz and 64pA04Plate1CI_S4_R2_trimmed.fq.gz
+
+====================================================================================================
+
+Multicore support not enabled. Proceeding with single-core trimming.
+Path to Cutadapt set as: 'cutadapt' (default)
+Cutadapt seems to be working fine (tested command 'cutadapt --version')
+Cutadapt version: 3.4
+single-core operation.
+No quality encoding type selected. Assuming that the data provided uses Sanger encoded Phred scores (default)
+
+Output will be written into the directory: /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/AdaptorRem/
+Using user-specified basename (>>64pA03Plate1CI_S3<<) instead of deriving the filename from the input file(s)
+
+
+AUTO-DETECTING ADAPTER TYPE
+===========================
+Attempting to auto-detect adapter type from the first 1 million sequences of the first file (>> fq_dir/64pA03Plate1CI_S3_L001_R1_001.fastq.gz <<)
+
+Found perfect matches for the following adapter sequences:
+Adapter type	Count	Sequence	Sequences analysed	Percentage
+Nextera	5	CTGTCTCTTATA	1057	0.47
+Illumina	0	AGATCGGAAGAGC	1057	0.00
+smallRNA	0	TGGAATTCTCGG	1057	0.00
+Using Nextera adapter for trimming (count: 5). Second best hit was Illumina (count: 0)
+
+Writing report to '/cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/AdaptorRem/64pA03Plate1CI_S3_L001_R1_001.fastq.gz_trimming_report.txt'
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: fq_dir/64pA03Plate1CI_S3_L001_R1_001.fastq.gz
+Trimming mode: paired-end
+Trim Galore version: 0.6.6
+Cutadapt version: 3.4
+Number of cores used for trimming: 1
+Quality Phred score cutoff: 5
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'CTGTCTCTTATA' (Nextera Transposase sequence; auto-detected)
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length for both reads before a sequence pair gets removed: 20 bp
+Output file(s) will be GZIP compressed
+
+Cutadapt seems to be fairly up-to-date (version 3.4). Setting -j 1
+Writing final adapter and quality trimmed output to 64pA03Plate1CI_S3_L001_R1_001_trimmed.fq.gz
+
+
+  >>> Now performing quality (cutoff '-q 5') and adapter trimming in a single pass for the adapter sequence: 'CTGTCTCTTATA' from file fq_dir/64pA03Plate1CI_S3_L001_R1_001.fastq.gz <<< 
+This is cutadapt 3.4 with Python 3.7.10
+Command line parameters: -j 1 -e 0.1 -q 5 -O 1 -a CTGTCTCTTATA fq_dir/64pA03Plate1CI_S3_L001_R1_001.fastq.gz
+Processing reads on 1 core in single-end mode ...
+Finished in 0.02 s (20 µs/read; 2.96 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                   1,057
+Reads with adapters:                        11 (1.0%)
+Reads written (passing filters):         1,057 (100.0%)
+
+Total basepairs processed:       228,804 bp
+Quality-trimmed:                       0 bp (0.0%)
+Total written (filtered):        227,101 bp (99.3%)
+
+=== Adapter 1 ===
+
+Sequence: CTGTCTCTTATA; Type: regular 3'; Length: 12; Trimmed: 11 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-12 bp: 1
+
+Bases preceding removed adapters:
+  A: 0.0%
+  C: 0.0%
+  G: 90.9%
+  T: 9.1%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	1	264.2	0	1
+37	1	0.0	1	0 1
+166	1	0.0	1	0 1
+177	1	0.0	1	1
+180	1	0.0	1	1
+182	1	0.0	1	1
+192	5	0.0	1	2 3
+
+RUN STATISTICS FOR INPUT FILE: fq_dir/64pA03Plate1CI_S3_L001_R1_001.fastq.gz
+=============================================
+1057 sequences processed in total
+The length threshold of paired-end sequences gets evaluated later on (in the validation step)
+
+Writing report to '/cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/AdaptorRem/64pA03Plate1CI_S3_L001_R2_001.fastq.gz_trimming_report.txt'
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: fq_dir/64pA03Plate1CI_S3_L001_R2_001.fastq.gz
+Trimming mode: paired-end
+Trim Galore version: 0.6.6
+Cutadapt version: 3.4
+Number of cores used for trimming: 1
+Quality Phred score cutoff: 5
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'CTGTCTCTTATA' (Nextera Transposase sequence; auto-detected)
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length for both reads before a sequence pair gets removed: 20 bp
+Output file(s) will be GZIP compressed
+
+Cutadapt seems to be fairly up-to-date (version 3.4). Setting -j -j 1
+Writing final adapter and quality trimmed output to 64pA03Plate1CI_S3_L001_R2_001_trimmed.fq.gz
+
+
+  >>> Now performing quality (cutoff '-q 5') and adapter trimming in a single pass for the adapter sequence: 'CTGTCTCTTATA' from file fq_dir/64pA03Plate1CI_S3_L001_R2_001.fastq.gz <<< 
+This is cutadapt 3.4 with Python 3.7.10
+Command line parameters: -j 1 -e 0.1 -q 5 -O 1 -a CTGTCTCTTATA fq_dir/64pA03Plate1CI_S3_L001_R2_001.fastq.gz
+Processing reads on 1 core in single-end mode ...
+Finished in 0.02 s (23 µs/read; 2.62 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                   1,057
+Reads with adapters:                       223 (21.1%)
+Reads written (passing filters):         1,057 (100.0%)
+
+Total basepairs processed:       228,633 bp
+Quality-trimmed:                       0 bp (0.0%)
+Total written (filtered):        226,662 bp (99.1%)
+
+=== Adapter 1 ===
+
+Sequence: CTGTCTCTTATA; Type: regular 3'; Length: 12; Trimmed: 223 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-12 bp: 1
+
+Bases preceding removed adapters:
+  A: 0.4%
+  C: 4.5%
+  G: 93.7%
+  T: 1.3%
+  none/other: 0.0%
+WARNING:
+    The adapter is preceded by "G" extremely often.
+    The provided adapter sequence could be incomplete at its 5' end.
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	210	264.2	0	210
+2	2	66.1	0	2
+37	1	0.0	1	0 1
+71	1	0.0	1	1
+177	1	0.0	1	1
+178	1	0.0	1	0 1
+179	2	0.0	1	1 1
+180	1	0.0	1	1
+181	1	0.0	1	1
+191	1	0.0	1	0 1
+192	2	0.0	1	2
+
+
+WARNING:
+    One or more of your adapter sequences may be incomplete.
+    Please see the detailed output above.
+
+RUN STATISTICS FOR INPUT FILE: fq_dir/64pA03Plate1CI_S3_L001_R2_001.fastq.gz
+=============================================
+1057 sequences processed in total
+The length threshold of paired-end sequences gets evaluated later on (in the validation step)
+
+Validate paired-end files 64pA03Plate1CI_S3_L001_R1_001_trimmed.fq.gz and 64pA03Plate1CI_S3_L001_R2_001_trimmed.fq.gz
+Now renaming the output files
+
+ORIGINAL FILE 1: >>64pA03Plate1CI_S3_L001_R1_001_trimmed.fq.gz<<	RENAMING TO:>>64pA03Plate1CI_S3_R1_trimmed.fq.gz<<
+ORIGINAL FILE 2: >>64pA03Plate1CI_S3_L001_R2_001_trimmed.fq.gz<<	RENAMING TO:>>64pA03Plate1CI_S3_R2_trimmed.fq.gz<<
+file_1: 64pA03Plate1CI_S3_R1_trimmed.fq.gz, file_2: 64pA03Plate1CI_S3_R2_trimmed.fq.gz
+
+
+>>>>> Now validing the length of the 2 paired-end infiles: 64pA03Plate1CI_S3_R1_trimmed.fq.gz and 64pA03Plate1CI_S3_R2_trimmed.fq.gz <<<<<
+Renaming the output files (AGAIN).
+Writing validated paired-end Read 1 reads to 64pA03Plate1CI_S3_val_1.fq.gz
+Writing validated paired-end Read 2 reads to 64pA03Plate1CI_S3_val_2.fq.gz
+
+Total number of sequences analysed: 1057
+
+Number of sequence pairs removed because at least one read was shorter than the length cutoff (20 bp): 0 (0.00%)
+
+Deleting both intermediate output files 64pA03Plate1CI_S3_R1_trimmed.fq.gz and 64pA03Plate1CI_S3_R2_trimmed.fq.gz
+
+====================================================================================================
+
+Multicore support not enabled. Proceeding with single-core trimming.
+Path to Cutadapt set as: 'cutadapt' (default)
+Cutadapt seems to be working fine (tested command 'cutadapt --version')
+Cutadapt version: 3.4
+single-core operation.
+No quality encoding type selected. Assuming that the data provided uses Sanger encoded Phred scores (default)
+
+Output will be written into the directory: /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/AdaptorRem/
+Using user-specified basename (>>64pA08Plate1CI_S8<<) instead of deriving the filename from the input file(s)
+
+
+AUTO-DETECTING ADAPTER TYPE
+===========================
+Attempting to auto-detect adapter type from the first 1 million sequences of the first file (>> fq_dir/64pA08Plate1CI_S8_L001_R1_001.fastq.gz <<)
+
+Found perfect matches for the following adapter sequences:
+Adapter type	Count	Sequence	Sequences analysed	Percentage
+Nextera	3	CTGTCTCTTATA	1868	0.16
+Illumina	0	AGATCGGAAGAGC	1868	0.00
+smallRNA	0	TGGAATTCTCGG	1868	0.00
+Using Nextera adapter for trimming (count: 3). Second best hit was Illumina (count: 0)
+
+Writing report to '/cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/AdaptorRem/64pA08Plate1CI_S8_L001_R1_001.fastq.gz_trimming_report.txt'
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: fq_dir/64pA08Plate1CI_S8_L001_R1_001.fastq.gz
+Trimming mode: paired-end
+Trim Galore version: 0.6.6
+Cutadapt version: 3.4
+Number of cores used for trimming: 1
+Quality Phred score cutoff: 5
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'CTGTCTCTTATA' (Nextera Transposase sequence; auto-detected)
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length for both reads before a sequence pair gets removed: 20 bp
+Output file(s) will be GZIP compressed
+
+Cutadapt seems to be fairly up-to-date (version 3.4). Setting -j 1
+Writing final adapter and quality trimmed output to 64pA08Plate1CI_S8_L001_R1_001_trimmed.fq.gz
+
+
+  >>> Now performing quality (cutoff '-q 5') and adapter trimming in a single pass for the adapter sequence: 'CTGTCTCTTATA' from file fq_dir/64pA08Plate1CI_S8_L001_R1_001.fastq.gz <<< 
+This is cutadapt 3.4 with Python 3.7.10
+Command line parameters: -j 1 -e 0.1 -q 5 -O 1 -a CTGTCTCTTATA fq_dir/64pA08Plate1CI_S8_L001_R1_001.fastq.gz
+Processing reads on 1 core in single-end mode ...
+Finished in 0.05 s (28 µs/read; 2.12 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                   1,868
+Reads with adapters:                        20 (1.1%)
+Reads written (passing filters):         1,868 (100.0%)
+
+Total basepairs processed:       456,029 bp
+Quality-trimmed:                       0 bp (0.0%)
+Total written (filtered):        455,292 bp (99.8%)
+
+=== Adapter 1 ===
+
+Sequence: CTGTCTCTTATA; Type: regular 3'; Length: 12; Trimmed: 20 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-12 bp: 1
+
+Bases preceding removed adapters:
+  A: 0.0%
+  C: 0.0%
+  G: 80.0%
+  T: 20.0%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	4	467.0	0	4
+2	10	116.8	0	10
+52	3	0.0	1	1 2
+176	1	0.0	1	1
+190	1	0.0	1	1
+191	1	0.0	1	0 1
+
+RUN STATISTICS FOR INPUT FILE: fq_dir/64pA08Plate1CI_S8_L001_R1_001.fastq.gz
+=============================================
+1868 sequences processed in total
+The length threshold of paired-end sequences gets evaluated later on (in the validation step)
+
+Writing report to '/cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/AdaptorRem/64pA08Plate1CI_S8_L001_R2_001.fastq.gz_trimming_report.txt'
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: fq_dir/64pA08Plate1CI_S8_L001_R2_001.fastq.gz
+Trimming mode: paired-end
+Trim Galore version: 0.6.6
+Cutadapt version: 3.4
+Number of cores used for trimming: 1
+Quality Phred score cutoff: 5
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'CTGTCTCTTATA' (Nextera Transposase sequence; auto-detected)
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length for both reads before a sequence pair gets removed: 20 bp
+Output file(s) will be GZIP compressed
+
+Cutadapt seems to be fairly up-to-date (version 3.4). Setting -j -j 1
+Writing final adapter and quality trimmed output to 64pA08Plate1CI_S8_L001_R2_001_trimmed.fq.gz
+
+
+  >>> Now performing quality (cutoff '-q 5') and adapter trimming in a single pass for the adapter sequence: 'CTGTCTCTTATA' from file fq_dir/64pA08Plate1CI_S8_L001_R2_001.fastq.gz <<< 
+This is cutadapt 3.4 with Python 3.7.10
+Command line parameters: -j 1 -e 0.1 -q 5 -O 1 -a CTGTCTCTTATA fq_dir/64pA08Plate1CI_S8_L001_R2_001.fastq.gz
+Processing reads on 1 core in single-end mode ...
+Finished in 0.05 s (29 µs/read; 2.04 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                   1,868
+Reads with adapters:                        34 (1.8%)
+Reads written (passing filters):         1,868 (100.0%)
+
+Total basepairs processed:       453,958 bp
+Quality-trimmed:                       0 bp (0.0%)
+Total written (filtered):        453,660 bp (99.9%)
+
+=== Adapter 1 ===
+
+Sequence: CTGTCTCTTATA; Type: regular 3'; Length: 12; Trimmed: 34 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-12 bp: 1
+
+Bases preceding removed adapters:
+  A: 17.6%
+  C: 17.6%
+  G: 26.5%
+  T: 38.2%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	24	467.0	0	24
+2	7	116.8	0	7
+37	1	0.0	1	0 1
+46	1	0.0	1	0 1
+177	1	0.0	1	1
+
+RUN STATISTICS FOR INPUT FILE: fq_dir/64pA08Plate1CI_S8_L001_R2_001.fastq.gz
+=============================================
+1868 sequences processed in total
+The length threshold of paired-end sequences gets evaluated later on (in the validation step)
+
+Validate paired-end files 64pA08Plate1CI_S8_L001_R1_001_trimmed.fq.gz and 64pA08Plate1CI_S8_L001_R2_001_trimmed.fq.gz
+Now renaming the output files
+
+ORIGINAL FILE 1: >>64pA08Plate1CI_S8_L001_R1_001_trimmed.fq.gz<<	RENAMING TO:>>64pA08Plate1CI_S8_R1_trimmed.fq.gz<<
+ORIGINAL FILE 2: >>64pA08Plate1CI_S8_L001_R2_001_trimmed.fq.gz<<	RENAMING TO:>>64pA08Plate1CI_S8_R2_trimmed.fq.gz<<
+file_1: 64pA08Plate1CI_S8_R1_trimmed.fq.gz, file_2: 64pA08Plate1CI_S8_R2_trimmed.fq.gz
+
+
+>>>>> Now validing the length of the 2 paired-end infiles: 64pA08Plate1CI_S8_R1_trimmed.fq.gz and 64pA08Plate1CI_S8_R2_trimmed.fq.gz <<<<<
+Renaming the output files (AGAIN).
+Writing validated paired-end Read 1 reads to 64pA08Plate1CI_S8_val_1.fq.gz
+Writing validated paired-end Read 2 reads to 64pA08Plate1CI_S8_val_2.fq.gz
+
+Total number of sequences analysed: 1868
+
+Number of sequence pairs removed because at least one read was shorter than the length cutoff (20 bp): 0 (0.00%)
+
+Deleting both intermediate output files 64pA08Plate1CI_S8_R1_trimmed.fq.gz and 64pA08Plate1CI_S8_R2_trimmed.fq.gz
+
+====================================================================================================
+
+Loading required package: argparse
+Loading required package: stringdist
+Processing file: /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/Merge/64pA08Plate1CI_S8_merged.fastq
+Loading required package: argparse
+Loading required package: stringdist
+Processing file: /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/Merge/64pA01Plate1CI_S1_merged.fastq
+Loading required package: argparse
+Loading required package: stringdist
+Processing file: /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/Merge/64pA04Plate1CI_S4_merged.fastq
+Loading required package: argparse
+Loading required package: stringdist
+Processing file: /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/Merge/64pA02Plate1CI_S2_merged.fastq
+Loading required package: argparse
+Loading required package: stringdist
+Processing file: /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/Merge/64pA05Plate1CI_S5_merged.fastq
+Loading required package: argparse
+Loading required package: stringdist
+Processing file: /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/Merge/64pA03Plate1CI_S3_merged.fastq
+Loading required package: argparse
+Loading required package: stringdist
+Processing file: /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/Merge/64pA09Plate1CI_S9_merged.fastq
+Loading required package: argparse
+Loading required package: stringdist
+Processing file: /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/Merge/64pA06Plate1CI_S6_merged.fastq
+Loading required package: argparse
+Loading required package: stringdist
+Processing file: /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/Merge/64pA11Plate1CI_S11_merged.fastq
+Multicore support not enabled. Proceeding with single-core trimming.
+Path to Cutadapt set as: 'cutadapt' (default)
+Cutadapt seems to be working fine (tested command 'cutadapt --version')
+Cutadapt version: 3.4
+single-core operation.
+No quality encoding type selected. Assuming that the data provided uses Sanger encoded Phred scores (default)
+
+Output will be written into the directory: /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/AdaptorRem/
+Using user-specified basename (>>64pA02Plate1CI_S2<<) instead of deriving the filename from the input file(s)
+
+
+AUTO-DETECTING ADAPTER TYPE
+===========================
+Attempting to auto-detect adapter type from the first 1 million sequences of the first file (>> /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/Clean_Data_Repo/64pA02Plate1CI_S2_L001_R1_001.fastq.gz <<)
+
+Found perfect matches for the following adapter sequences:
+Adapter type	Count	Sequence	Sequences analysed	Percentage
+Nextera	4	CTGTCTCTTATA	275	1.45
+smallRNA	0	TGGAATTCTCGG	275	0.00
+Illumina	0	AGATCGGAAGAGC	275	0.00
+Using Nextera adapter for trimming (count: 4). Second best hit was smallRNA (count: 0)
+
+Writing report to '/cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/AdaptorRem/64pA02Plate1CI_S2_L001_R1_001.fastq.gz_trimming_report.txt'
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/Clean_Data_Repo/64pA02Plate1CI_S2_L001_R1_001.fastq.gz
+Trimming mode: paired-end
+Trim Galore version: 0.6.6
+Cutadapt version: 3.4
+Number of cores used for trimming: 1
+Quality Phred score cutoff: 5
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'CTGTCTCTTATA' (Nextera Transposase sequence; auto-detected)
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length for both reads before a sequence pair gets removed: 20 bp
+Output file(s) will be GZIP compressed
+
+Cutadapt seems to be fairly up-to-date (version 3.4). Setting -j 1
+Writing final adapter and quality trimmed output to 64pA02Plate1CI_S2_L001_R1_001_trimmed.fq.gz
+
+
+  >>> Now performing quality (cutoff '-q 5') and adapter trimming in a single pass for the adapter sequence: 'CTGTCTCTTATA' from file /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/Clean_Data_Repo/64pA02Plate1CI_S2_L001_R1_001.fastq.gz <<< 
+This is cutadapt 3.4 with Python 3.7.10
+Command line parameters: -j 1 -e 0.1 -q 5 -O 1 -a CTGTCTCTTATA /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/Clean_Data_Repo/64pA02Plate1CI_S2_L001_R1_001.fastq.gz
+Processing reads on 1 core in single-end mode ...
+Finished in 0.01 s (45 µs/read; 1.34 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                     275
+Reads with adapters:                         8 (2.9%)
+Reads written (passing filters):           275 (100.0%)
+
+Total basepairs processed:        41,038 bp
+Quality-trimmed:                       0 bp (0.0%)
+Total written (filtered):         39,968 bp (97.4%)
+
+=== Adapter 1 ===
+
+Sequence: CTGTCTCTTATA; Type: regular 3'; Length: 12; Trimmed: 8 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-12 bp: 1
+
+Bases preceding removed adapters:
+  A: 0.0%
+  C: 0.0%
+  G: 87.5%
+  T: 12.5%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+2	1	17.2	0	1
+37	1	0.0	1	1
+80	1	0.0	1	0 1
+183	1	0.0	1	1
+189	1	0.0	1	1
+193	3	0.0	1	1 2
+
+RUN STATISTICS FOR INPUT FILE: /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/Clean_Data_Repo/64pA02Plate1CI_S2_L001_R1_001.fastq.gz
+=============================================
+275 sequences processed in total
+The length threshold of paired-end sequences gets evaluated later on (in the validation step)
+
+Writing report to '/cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/AdaptorRem/64pA02Plate1CI_S2_L001_R2_001.fastq.gz_trimming_report.txt'
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/Clean_Data_Repo/64pA02Plate1CI_S2_L001_R2_001.fastq.gz
+Trimming mode: paired-end
+Trim Galore version: 0.6.6
+Cutadapt version: 3.4
+Number of cores used for trimming: 1
+Quality Phred score cutoff: 5
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'CTGTCTCTTATA' (Nextera Transposase sequence; auto-detected)
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length for both reads before a sequence pair gets removed: 20 bp
+Output file(s) will be GZIP compressed
+
+Cutadapt seems to be fairly up-to-date (version 3.4). Setting -j -j 1
+Writing final adapter and quality trimmed output to 64pA02Plate1CI_S2_L001_R2_001_trimmed.fq.gz
+
+
+  >>> Now performing quality (cutoff '-q 5') and adapter trimming in a single pass for the adapter sequence: 'CTGTCTCTTATA' from file /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/Clean_Data_Repo/64pA02Plate1CI_S2_L001_R2_001.fastq.gz <<< 
+This is cutadapt 3.4 with Python 3.7.10
+Command line parameters: -j 1 -e 0.1 -q 5 -O 1 -a CTGTCTCTTATA /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/Clean_Data_Repo/64pA02Plate1CI_S2_L001_R2_001.fastq.gz
+Processing reads on 1 core in single-end mode ...
+Finished in 0.02 s (81 µs/read; 0.74 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                     275
+Reads with adapters:                       198 (72.0%)
+Reads written (passing filters):           275 (100.0%)
+
+Total basepairs processed:        40,580 bp
+Quality-trimmed:                       0 bp (0.0%)
+Total written (filtered):         39,822 bp (98.1%)
+
+=== Adapter 1 ===
+
+Sequence: CTGTCTCTTATA; Type: regular 3'; Length: 12; Trimmed: 198 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-12 bp: 1
+
+Bases preceding removed adapters:
+  A: 94.9%
+  C: 1.5%
+  G: 2.0%
+  T: 1.5%
+  none/other: 0.0%
+WARNING:
+    The adapter is preceded by "A" extremely often.
+    The provided adapter sequence could be incomplete at its 5' end.
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	189	68.8	0	189
+3	6	4.3	0	6
+170	1	0.0	1	1
+189	1	0.0	1	1
+192	1	0.0	1	1
+
+
+WARNING:
+    One or more of your adapter sequences may be incomplete.
+    Please see the detailed output above.
+
+RUN STATISTICS FOR INPUT FILE: /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/Clean_Data_Repo/64pA02Plate1CI_S2_L001_R2_001.fastq.gz
+=============================================
+275 sequences processed in total
+The length threshold of paired-end sequences gets evaluated later on (in the validation step)
+
+Validate paired-end files 64pA02Plate1CI_S2_L001_R1_001_trimmed.fq.gz and 64pA02Plate1CI_S2_L001_R2_001_trimmed.fq.gz
+Now renaming the output files
+
+ORIGINAL FILE 1: >>64pA02Plate1CI_S2_L001_R1_001_trimmed.fq.gz<<	RENAMING TO:>>64pA02Plate1CI_S2_R1_trimmed.fq.gz<<
+ORIGINAL FILE 2: >>64pA02Plate1CI_S2_L001_R2_001_trimmed.fq.gz<<	RENAMING TO:>>64pA02Plate1CI_S2_R2_trimmed.fq.gz<<
+file_1: 64pA02Plate1CI_S2_R1_trimmed.fq.gz, file_2: 64pA02Plate1CI_S2_R2_trimmed.fq.gz
+
+
+>>>>> Now validing the length of the 2 paired-end infiles: 64pA02Plate1CI_S2_R1_trimmed.fq.gz and 64pA02Plate1CI_S2_R2_trimmed.fq.gz <<<<<
+Renaming the output files (AGAIN).
+Writing validated paired-end Read 1 reads to 64pA02Plate1CI_S2_val_1.fq.gz
+Writing validated paired-end Read 2 reads to 64pA02Plate1CI_S2_val_2.fq.gz
+
+Total number of sequences analysed: 275
+
+Number of sequence pairs removed because at least one read was shorter than the length cutoff (20 bp): 0 (0.00%)
+
+Deleting both intermediate output files 64pA02Plate1CI_S2_R1_trimmed.fq.gz and 64pA02Plate1CI_S2_R2_trimmed.fq.gz
+
+====================================================================================================
+
+Multicore support not enabled. Proceeding with single-core trimming.
+Path to Cutadapt set as: 'cutadapt' (default)
+Cutadapt seems to be working fine (tested command 'cutadapt --version')
+Cutadapt version: 3.4
+single-core operation.
+No quality encoding type selected. Assuming that the data provided uses Sanger encoded Phred scores (default)
+
+Output will be written into the directory: /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/AdaptorRem/
+Using user-specified basename (>>64pA09Plate1CI_S9<<) instead of deriving the filename from the input file(s)
+
+
+AUTO-DETECTING ADAPTER TYPE
+===========================
+Attempting to auto-detect adapter type from the first 1 million sequences of the first file (>> /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/Clean_Data_Repo/64pA09Plate1CI_S9_L001_R1_001.fastq.gz <<)
+
+Found perfect matches for the following adapter sequences:
+Adapter type	Count	Sequence	Sequences analysed	Percentage
+Nextera	6	CTGTCTCTTATA	297	2.02
+smallRNA	0	TGGAATTCTCGG	297	0.00
+Illumina	0	AGATCGGAAGAGC	297	0.00
+Using Nextera adapter for trimming (count: 6). Second best hit was smallRNA (count: 0)
+
+Writing report to '/cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/AdaptorRem/64pA09Plate1CI_S9_L001_R1_001.fastq.gz_trimming_report.txt'
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/Clean_Data_Repo/64pA09Plate1CI_S9_L001_R1_001.fastq.gz
+Trimming mode: paired-end
+Trim Galore version: 0.6.6
+Cutadapt version: 3.4
+Number of cores used for trimming: 1
+Quality Phred score cutoff: 5
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'CTGTCTCTTATA' (Nextera Transposase sequence; auto-detected)
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length for both reads before a sequence pair gets removed: 20 bp
+Output file(s) will be GZIP compressed
+
+Cutadapt seems to be fairly up-to-date (version 3.4). Setting -j 1
+Writing final adapter and quality trimmed output to 64pA09Plate1CI_S9_L001_R1_001_trimmed.fq.gz
+
+
+  >>> Now performing quality (cutoff '-q 5') and adapter trimming in a single pass for the adapter sequence: 'CTGTCTCTTATA' from file /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/Clean_Data_Repo/64pA09Plate1CI_S9_L001_R1_001.fastq.gz <<< 
+This is cutadapt 3.4 with Python 3.7.10
+Command line parameters: -j 1 -e 0.1 -q 5 -O 1 -a CTGTCTCTTATA /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/Clean_Data_Repo/64pA09Plate1CI_S9_L001_R1_001.fastq.gz
+Processing reads on 1 core in single-end mode ...
+Finished in 0.01 s (43 µs/read; 1.38 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                     297
+Reads with adapters:                        24 (8.1%)
+Reads written (passing filters):           297 (100.0%)
+
+Total basepairs processed:        46,437 bp
+Quality-trimmed:                       0 bp (0.0%)
+Total written (filtered):         45,141 bp (97.2%)
+
+=== Adapter 1 ===
+
+Sequence: CTGTCTCTTATA; Type: regular 3'; Length: 12; Trimmed: 24 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-12 bp: 1
+
+Bases preceding removed adapters:
+  A: 33.3%
+  C: 0.0%
+  G: 37.5%
+  T: 29.2%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	8	74.2	0	8
+2	9	18.6	0	9
+177	1	0.0	1	1
+178	2	0.0	1	2
+180	2	0.0	1	2
+186	1	0.0	1	1
+191	1	0.0	1	0 1
+
+RUN STATISTICS FOR INPUT FILE: /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/Clean_Data_Repo/64pA09Plate1CI_S9_L001_R1_001.fastq.gz
+=============================================
+297 sequences processed in total
+The length threshold of paired-end sequences gets evaluated later on (in the validation step)
+
+Writing report to '/cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/AdaptorRem/64pA09Plate1CI_S9_L001_R2_001.fastq.gz_trimming_report.txt'
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/Clean_Data_Repo/64pA09Plate1CI_S9_L001_R2_001.fastq.gz
+Trimming mode: paired-end
+Trim Galore version: 0.6.6
+Cutadapt version: 3.4
+Number of cores used for trimming: 1
+Quality Phred score cutoff: 5
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'CTGTCTCTTATA' (Nextera Transposase sequence; auto-detected)
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length for both reads before a sequence pair gets removed: 20 bp
+Output file(s) will be GZIP compressed
+
+Cutadapt seems to be fairly up-to-date (version 3.4). Setting -j -j 1
+Writing final adapter and quality trimmed output to 64pA09Plate1CI_S9_L001_R2_001_trimmed.fq.gz
+
+
+  >>> Now performing quality (cutoff '-q 5') and adapter trimming in a single pass for the adapter sequence: 'CTGTCTCTTATA' from file /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/Clean_Data_Repo/64pA09Plate1CI_S9_L001_R2_001.fastq.gz <<< 
+This is cutadapt 3.4 with Python 3.7.10
+Command line parameters: -j 1 -e 0.1 -q 5 -O 1 -a CTGTCTCTTATA /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/Clean_Data_Repo/64pA09Plate1CI_S9_L001_R2_001.fastq.gz
+Processing reads on 1 core in single-end mode ...
+Finished in 0.02 s (53 µs/read; 1.14 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                     297
+Reads with adapters:                        13 (4.4%)
+Reads written (passing filters):           297 (100.0%)
+
+Total basepairs processed:        45,347 bp
+Quality-trimmed:                       0 bp (0.0%)
+Total written (filtered):         44,904 bp (99.0%)
+
+=== Adapter 1 ===
+
+Sequence: CTGTCTCTTATA; Type: regular 3'; Length: 12; Trimmed: 13 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-12 bp: 1
+
+Bases preceding removed adapters:
+  A: 7.7%
+  C: 7.7%
+  G: 76.9%
+  T: 7.7%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	6	74.2	0	6
+34	1	0.0	1	0 1
+43	3	0.0	1	3
+52	2	0.0	1	2
+170	1	0.0	1	1
+
+RUN STATISTICS FOR INPUT FILE: /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/Clean_Data_Repo/64pA09Plate1CI_S9_L001_R2_001.fastq.gz
+=============================================
+297 sequences processed in total
+The length threshold of paired-end sequences gets evaluated later on (in the validation step)
+
+Validate paired-end files 64pA09Plate1CI_S9_L001_R1_001_trimmed.fq.gz and 64pA09Plate1CI_S9_L001_R2_001_trimmed.fq.gz
+Now renaming the output files
+
+ORIGINAL FILE 1: >>64pA09Plate1CI_S9_L001_R1_001_trimmed.fq.gz<<	RENAMING TO:>>64pA09Plate1CI_S9_R1_trimmed.fq.gz<<
+ORIGINAL FILE 2: >>64pA09Plate1CI_S9_L001_R2_001_trimmed.fq.gz<<	RENAMING TO:>>64pA09Plate1CI_S9_R2_trimmed.fq.gz<<
+file_1: 64pA09Plate1CI_S9_R1_trimmed.fq.gz, file_2: 64pA09Plate1CI_S9_R2_trimmed.fq.gz
+
+
+>>>>> Now validing the length of the 2 paired-end infiles: 64pA09Plate1CI_S9_R1_trimmed.fq.gz and 64pA09Plate1CI_S9_R2_trimmed.fq.gz <<<<<
+Renaming the output files (AGAIN).
+Writing validated paired-end Read 1 reads to 64pA09Plate1CI_S9_val_1.fq.gz
+Writing validated paired-end Read 2 reads to 64pA09Plate1CI_S9_val_2.fq.gz
+
+Total number of sequences analysed: 297
+
+Number of sequence pairs removed because at least one read was shorter than the length cutoff (20 bp): 0 (0.00%)
+
+Deleting both intermediate output files 64pA09Plate1CI_S9_R1_trimmed.fq.gz and 64pA09Plate1CI_S9_R2_trimmed.fq.gz
+
+====================================================================================================
+
+Multicore support not enabled. Proceeding with single-core trimming.
+Path to Cutadapt set as: 'cutadapt' (default)
+Cutadapt seems to be working fine (tested command 'cutadapt --version')
+Cutadapt version: 3.4
+single-core operation.
+No quality encoding type selected. Assuming that the data provided uses Sanger encoded Phred scores (default)
+
+Output will be written into the directory: /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/AdaptorRem/
+Using user-specified basename (>>64pA05Plate1CI_S5<<) instead of deriving the filename from the input file(s)
+
+
+AUTO-DETECTING ADAPTER TYPE
+===========================
+Attempting to auto-detect adapter type from the first 1 million sequences of the first file (>> /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/Clean_Data_Repo/64pA05Plate1CI_S5_L001_R1_001.fastq.gz <<)
+
+Found perfect matches for the following adapter sequences:
+Adapter type	Count	Sequence	Sequences analysed	Percentage
+Nextera	1	CTGTCTCTTATA	173	0.58
+Illumina	0	AGATCGGAAGAGC	173	0.00
+smallRNA	0	TGGAATTCTCGG	173	0.00
+Using Nextera adapter for trimming (count: 1). Second best hit was Illumina (count: 0)
+
+Writing report to '/cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/AdaptorRem/64pA05Plate1CI_S5_L001_R1_001.fastq.gz_trimming_report.txt'
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/Clean_Data_Repo/64pA05Plate1CI_S5_L001_R1_001.fastq.gz
+Trimming mode: paired-end
+Trim Galore version: 0.6.6
+Cutadapt version: 3.4
+Number of cores used for trimming: 1
+Quality Phred score cutoff: 5
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'CTGTCTCTTATA' (Nextera Transposase sequence; auto-detected)
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length for both reads before a sequence pair gets removed: 20 bp
+Output file(s) will be GZIP compressed
+
+Cutadapt seems to be fairly up-to-date (version 3.4). Setting -j 1
+Writing final adapter and quality trimmed output to 64pA05Plate1CI_S5_L001_R1_001_trimmed.fq.gz
+
+
+  >>> Now performing quality (cutoff '-q 5') and adapter trimming in a single pass for the adapter sequence: 'CTGTCTCTTATA' from file /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/Clean_Data_Repo/64pA05Plate1CI_S5_L001_R1_001.fastq.gz <<< 
+This is cutadapt 3.4 with Python 3.7.10
+Command line parameters: -j 1 -e 0.1 -q 5 -O 1 -a CTGTCTCTTATA /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/Clean_Data_Repo/64pA05Plate1CI_S5_L001_R1_001.fastq.gz
+Processing reads on 1 core in single-end mode ...
+Finished in 0.01 s (72 µs/read; 0.83 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                     173
+Reads with adapters:                         1 (0.6%)
+Reads written (passing filters):           173 (100.0%)
+
+Total basepairs processed:        25,398 bp
+Quality-trimmed:                       0 bp (0.0%)
+Total written (filtered):         25,220 bp (99.3%)
+
+=== Adapter 1 ===
+
+Sequence: CTGTCTCTTATA; Type: regular 3'; Length: 12; Trimmed: 1 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-12 bp: 1
+
+Bases preceding removed adapters:
+  A: 0.0%
+  C: 0.0%
+  G: 100.0%
+  T: 0.0%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+178	1	0.0	1	1
+
+RUN STATISTICS FOR INPUT FILE: /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/Clean_Data_Repo/64pA05Plate1CI_S5_L001_R1_001.fastq.gz
+=============================================
+173 sequences processed in total
+The length threshold of paired-end sequences gets evaluated later on (in the validation step)
+
+Writing report to '/cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/AdaptorRem/64pA05Plate1CI_S5_L001_R2_001.fastq.gz_trimming_report.txt'
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/Clean_Data_Repo/64pA05Plate1CI_S5_L001_R2_001.fastq.gz
+Trimming mode: paired-end
+Trim Galore version: 0.6.6
+Cutadapt version: 3.4
+Number of cores used for trimming: 1
+Quality Phred score cutoff: 5
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'CTGTCTCTTATA' (Nextera Transposase sequence; auto-detected)
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length for both reads before a sequence pair gets removed: 20 bp
+Output file(s) will be GZIP compressed
+
+Cutadapt seems to be fairly up-to-date (version 3.4). Setting -j -j 1
+Writing final adapter and quality trimmed output to 64pA05Plate1CI_S5_L001_R2_001_trimmed.fq.gz
+
+
+  >>> Now performing quality (cutoff '-q 5') and adapter trimming in a single pass for the adapter sequence: 'CTGTCTCTTATA' from file /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/Clean_Data_Repo/64pA05Plate1CI_S5_L001_R2_001.fastq.gz <<< 
+This is cutadapt 3.4 with Python 3.7.10
+Command line parameters: -j 1 -e 0.1 -q 5 -O 1 -a CTGTCTCTTATA /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/Clean_Data_Repo/64pA05Plate1CI_S5_L001_R2_001.fastq.gz
+Processing reads on 1 core in single-end mode ...
+Finished in 0.03 s (157 µs/read; 0.38 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                     173
+Reads with adapters:                         8 (4.6%)
+Reads written (passing filters):           173 (100.0%)
+
+Total basepairs processed:        26,364 bp
+Quality-trimmed:                       0 bp (0.0%)
+Total written (filtered):         25,649 bp (97.3%)
+
+=== Adapter 1 ===
+
+Sequence: CTGTCTCTTATA; Type: regular 3'; Length: 12; Trimmed: 8 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-12 bp: 1
+
+Bases preceding removed adapters:
+  A: 25.0%
+  C: 12.5%
+  G: 50.0%
+  T: 12.5%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	2	43.2	0	2
+2	1	10.8	0	1
+103	1	0.0	1	1
+104	2	0.0	1	1 1
+193	1	0.0	1	1
+207	1	0.0	1	1
+
+RUN STATISTICS FOR INPUT FILE: /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/Clean_Data_Repo/64pA05Plate1CI_S5_L001_R2_001.fastq.gz
+=============================================
+173 sequences processed in total
+The length threshold of paired-end sequences gets evaluated later on (in the validation step)
+
+Validate paired-end files 64pA05Plate1CI_S5_L001_R1_001_trimmed.fq.gz and 64pA05Plate1CI_S5_L001_R2_001_trimmed.fq.gz
+Now renaming the output files
+
+ORIGINAL FILE 1: >>64pA05Plate1CI_S5_L001_R1_001_trimmed.fq.gz<<	RENAMING TO:>>64pA05Plate1CI_S5_R1_trimmed.fq.gz<<
+ORIGINAL FILE 2: >>64pA05Plate1CI_S5_L001_R2_001_trimmed.fq.gz<<	RENAMING TO:>>64pA05Plate1CI_S5_R2_trimmed.fq.gz<<
+file_1: 64pA05Plate1CI_S5_R1_trimmed.fq.gz, file_2: 64pA05Plate1CI_S5_R2_trimmed.fq.gz
+
+
+>>>>> Now validing the length of the 2 paired-end infiles: 64pA05Plate1CI_S5_R1_trimmed.fq.gz and 64pA05Plate1CI_S5_R2_trimmed.fq.gz <<<<<
+Renaming the output files (AGAIN).
+Writing validated paired-end Read 1 reads to 64pA05Plate1CI_S5_val_1.fq.gz
+Writing validated paired-end Read 2 reads to 64pA05Plate1CI_S5_val_2.fq.gz
+
+Total number of sequences analysed: 173
+
+Number of sequence pairs removed because at least one read was shorter than the length cutoff (20 bp): 0 (0.00%)
+
+Deleting both intermediate output files 64pA05Plate1CI_S5_R1_trimmed.fq.gz and 64pA05Plate1CI_S5_R2_trimmed.fq.gz
+
+====================================================================================================
+
+Multicore support not enabled. Proceeding with single-core trimming.
+Path to Cutadapt set as: 'cutadapt' (default)
+Cutadapt seems to be working fine (tested command 'cutadapt --version')
+Cutadapt version: 3.4
+single-core operation.
+No quality encoding type selected. Assuming that the data provided uses Sanger encoded Phred scores (default)
+
+Output will be written into the directory: /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/AdaptorRem/
+Using user-specified basename (>>64pA11Plate1CI_S11<<) instead of deriving the filename from the input file(s)
+
+
+AUTO-DETECTING ADAPTER TYPE
+===========================
+Attempting to auto-detect adapter type from the first 1 million sequences of the first file (>> /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/Clean_Data_Repo/64pA11Plate1CI_S11_L001_R1_001.fastq.gz <<)
+
+Found perfect matches for the following adapter sequences:
+Adapter type	Count	Sequence	Sequences analysed	Percentage
+Nextera	3	CTGTCTCTTATA	609	0.49
+Illumina	0	AGATCGGAAGAGC	609	0.00
+smallRNA	0	TGGAATTCTCGG	609	0.00
+Using Nextera adapter for trimming (count: 3). Second best hit was Illumina (count: 0)
+
+Writing report to '/cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/AdaptorRem/64pA11Plate1CI_S11_L001_R1_001.fastq.gz_trimming_report.txt'
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/Clean_Data_Repo/64pA11Plate1CI_S11_L001_R1_001.fastq.gz
+Trimming mode: paired-end
+Trim Galore version: 0.6.6
+Cutadapt version: 3.4
+Number of cores used for trimming: 1
+Quality Phred score cutoff: 5
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'CTGTCTCTTATA' (Nextera Transposase sequence; auto-detected)
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length for both reads before a sequence pair gets removed: 20 bp
+Output file(s) will be GZIP compressed
+
+Cutadapt seems to be fairly up-to-date (version 3.4). Setting -j 1
+Writing final adapter and quality trimmed output to 64pA11Plate1CI_S11_L001_R1_001_trimmed.fq.gz
+
+
+  >>> Now performing quality (cutoff '-q 5') and adapter trimming in a single pass for the adapter sequence: 'CTGTCTCTTATA' from file /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/Clean_Data_Repo/64pA11Plate1CI_S11_L001_R1_001.fastq.gz <<< 
+This is cutadapt 3.4 with Python 3.7.10
+Command line parameters: -j 1 -e 0.1 -q 5 -O 1 -a CTGTCTCTTATA /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/Clean_Data_Repo/64pA11Plate1CI_S11_L001_R1_001.fastq.gz
+Processing reads on 1 core in single-end mode ...
+Finished in 0.01 s (24 µs/read; 2.54 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                     609
+Reads with adapters:                         6 (1.0%)
+Reads written (passing filters):           609 (100.0%)
+
+Total basepairs processed:       131,352 bp
+Quality-trimmed:                       0 bp (0.0%)
+Total written (filtered):        131,072 bp (99.8%)
+
+=== Adapter 1 ===
+
+Sequence: CTGTCTCTTATA; Type: regular 3'; Length: 12; Trimmed: 6 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-12 bp: 1
+
+Bases preceding removed adapters:
+  A: 0.0%
+  C: 0.0%
+  G: 50.0%
+  T: 50.0%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	2	152.2	0	2
+2	1	38.1	0	1
+27	1	0.0	1	1
+67	1	0.0	1	1
+182	1	0.0	1	1
+
+RUN STATISTICS FOR INPUT FILE: /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/Clean_Data_Repo/64pA11Plate1CI_S11_L001_R1_001.fastq.gz
+=============================================
+609 sequences processed in total
+The length threshold of paired-end sequences gets evaluated later on (in the validation step)
+
+Writing report to '/cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/AdaptorRem/64pA11Plate1CI_S11_L001_R2_001.fastq.gz_trimming_report.txt'
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/Clean_Data_Repo/64pA11Plate1CI_S11_L001_R2_001.fastq.gz
+Trimming mode: paired-end
+Trim Galore version: 0.6.6
+Cutadapt version: 3.4
+Number of cores used for trimming: 1
+Quality Phred score cutoff: 5
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'CTGTCTCTTATA' (Nextera Transposase sequence; auto-detected)
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length for both reads before a sequence pair gets removed: 20 bp
+Output file(s) will be GZIP compressed
+
+Cutadapt seems to be fairly up-to-date (version 3.4). Setting -j -j 1
+Writing final adapter and quality trimmed output to 64pA11Plate1CI_S11_L001_R2_001_trimmed.fq.gz
+
+
+  >>> Now performing quality (cutoff '-q 5') and adapter trimming in a single pass for the adapter sequence: 'CTGTCTCTTATA' from file /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/Clean_Data_Repo/64pA11Plate1CI_S11_L001_R2_001.fastq.gz <<< 
+This is cutadapt 3.4 with Python 3.7.10
+Command line parameters: -j 1 -e 0.1 -q 5 -O 1 -a CTGTCTCTTATA /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/Clean_Data_Repo/64pA11Plate1CI_S11_L001_R2_001.fastq.gz
+Processing reads on 1 core in single-end mode ...
+Finished in 0.02 s (25 µs/read; 2.39 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                     609
+Reads with adapters:                       138 (22.7%)
+Reads written (passing filters):           609 (100.0%)
+
+Total basepairs processed:       131,637 bp
+Quality-trimmed:                       0 bp (0.0%)
+Total written (filtered):        130,561 bp (99.2%)
+
+=== Adapter 1 ===
+
+Sequence: CTGTCTCTTATA; Type: regular 3'; Length: 12; Trimmed: 138 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-12 bp: 1
+
+Bases preceding removed adapters:
+  A: 2.9%
+  C: 4.3%
+  G: 92.8%
+  T: 0.0%
+  none/other: 0.0%
+WARNING:
+    The adapter is preceded by "G" extremely often.
+    The provided adapter sequence could be incomplete at its 5' end.
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	129	152.2	0	129
+15	1	0.0	1	1
+36	2	0.0	1	0 2
+46	1	0.0	1	0 1
+47	1	0.0	1	1
+191	1	0.0	1	1
+192	3	0.0	1	3
+
+
+WARNING:
+    One or more of your adapter sequences may be incomplete.
+    Please see the detailed output above.
+
+RUN STATISTICS FOR INPUT FILE: /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/Clean_Data_Repo/64pA11Plate1CI_S11_L001_R2_001.fastq.gz
+=============================================
+609 sequences processed in total
+The length threshold of paired-end sequences gets evaluated later on (in the validation step)
+
+Validate paired-end files 64pA11Plate1CI_S11_L001_R1_001_trimmed.fq.gz and 64pA11Plate1CI_S11_L001_R2_001_trimmed.fq.gz
+Now renaming the output files
+
+ORIGINAL FILE 1: >>64pA11Plate1CI_S11_L001_R1_001_trimmed.fq.gz<<	RENAMING TO:>>64pA11Plate1CI_S11_R1_trimmed.fq.gz<<
+ORIGINAL FILE 2: >>64pA11Plate1CI_S11_L001_R2_001_trimmed.fq.gz<<	RENAMING TO:>>64pA11Plate1CI_S11_R2_trimmed.fq.gz<<
+file_1: 64pA11Plate1CI_S11_R1_trimmed.fq.gz, file_2: 64pA11Plate1CI_S11_R2_trimmed.fq.gz
+
+
+>>>>> Now validing the length of the 2 paired-end infiles: 64pA11Plate1CI_S11_R1_trimmed.fq.gz and 64pA11Plate1CI_S11_R2_trimmed.fq.gz <<<<<
+Renaming the output files (AGAIN).
+Writing validated paired-end Read 1 reads to 64pA11Plate1CI_S11_val_1.fq.gz
+Writing validated paired-end Read 2 reads to 64pA11Plate1CI_S11_val_2.fq.gz
+
+Total number of sequences analysed: 609
+
+Number of sequence pairs removed because at least one read was shorter than the length cutoff (20 bp): 0 (0.00%)
+
+Deleting both intermediate output files 64pA11Plate1CI_S11_R1_trimmed.fq.gz and 64pA11Plate1CI_S11_R2_trimmed.fq.gz
+
+====================================================================================================
+
+Multicore support not enabled. Proceeding with single-core trimming.
+Path to Cutadapt set as: 'cutadapt' (default)
+Cutadapt seems to be working fine (tested command 'cutadapt --version')
+Cutadapt version: 3.4
+single-core operation.
+No quality encoding type selected. Assuming that the data provided uses Sanger encoded Phred scores (default)
+
+Output will be written into the directory: /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/AdaptorRem/
+Using user-specified basename (>>64pA06Plate1CI_S6<<) instead of deriving the filename from the input file(s)
+
+
+AUTO-DETECTING ADAPTER TYPE
+===========================
+Attempting to auto-detect adapter type from the first 1 million sequences of the first file (>> /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/Clean_Data_Repo/64pA06Plate1CI_S6_L001_R1_001.fastq.gz <<)
+
+Found perfect matches for the following adapter sequences:
+Adapter type	Count	Sequence	Sequences analysed	Percentage
+Nextera	2	CTGTCTCTTATA	2506	0.08
+smallRNA	0	TGGAATTCTCGG	2506	0.00
+Illumina	0	AGATCGGAAGAGC	2506	0.00
+Using Nextera adapter for trimming (count: 2). Second best hit was smallRNA (count: 0)
+
+Writing report to '/cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/AdaptorRem/64pA06Plate1CI_S6_L001_R1_001.fastq.gz_trimming_report.txt'
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/Clean_Data_Repo/64pA06Plate1CI_S6_L001_R1_001.fastq.gz
+Trimming mode: paired-end
+Trim Galore version: 0.6.6
+Cutadapt version: 3.4
+Number of cores used for trimming: 1
+Quality Phred score cutoff: 5
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'CTGTCTCTTATA' (Nextera Transposase sequence; auto-detected)
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length for both reads before a sequence pair gets removed: 20 bp
+Output file(s) will be GZIP compressed
+
+Cutadapt seems to be fairly up-to-date (version 3.4). Setting -j 1
+Writing final adapter and quality trimmed output to 64pA06Plate1CI_S6_L001_R1_001_trimmed.fq.gz
+
+
+  >>> Now performing quality (cutoff '-q 5') and adapter trimming in a single pass for the adapter sequence: 'CTGTCTCTTATA' from file /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/Clean_Data_Repo/64pA06Plate1CI_S6_L001_R1_001.fastq.gz <<< 
+This is cutadapt 3.4 with Python 3.7.10
+Command line parameters: -j 1 -e 0.1 -q 5 -O 1 -a CTGTCTCTTATA /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/Clean_Data_Repo/64pA06Plate1CI_S6_L001_R1_001.fastq.gz
+Processing reads on 1 core in single-end mode ...
+Finished in 0.06 s (25 µs/read; 2.41 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                   2,506
+Reads with adapters:                         8 (0.3%)
+Reads written (passing filters):         2,506 (100.0%)
+
+Total basepairs processed:       616,422 bp
+Quality-trimmed:                       0 bp (0.0%)
+Total written (filtered):        615,871 bp (99.9%)
+
+=== Adapter 1 ===
+
+Sequence: CTGTCTCTTATA; Type: regular 3'; Length: 12; Trimmed: 8 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-12 bp: 1
+
+Bases preceding removed adapters:
+  A: 12.5%
+  C: 12.5%
+  G: 37.5%
+  T: 37.5%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	4	626.5	0	4
+2	1	156.6	0	1
+160	1	0.0	1	1
+192	1	0.0	1	0 1
+193	1	0.0	1	1
+
+RUN STATISTICS FOR INPUT FILE: /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/Clean_Data_Repo/64pA06Plate1CI_S6_L001_R1_001.fastq.gz
+=============================================
+2506 sequences processed in total
+The length threshold of paired-end sequences gets evaluated later on (in the validation step)
+
+Writing report to '/cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/AdaptorRem/64pA06Plate1CI_S6_L001_R2_001.fastq.gz_trimming_report.txt'
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/Clean_Data_Repo/64pA06Plate1CI_S6_L001_R2_001.fastq.gz
+Trimming mode: paired-end
+Trim Galore version: 0.6.6
+Cutadapt version: 3.4
+Number of cores used for trimming: 1
+Quality Phred score cutoff: 5
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'CTGTCTCTTATA' (Nextera Transposase sequence; auto-detected)
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length for both reads before a sequence pair gets removed: 20 bp
+Output file(s) will be GZIP compressed
+
+Cutadapt seems to be fairly up-to-date (version 3.4). Setting -j -j 1
+Writing final adapter and quality trimmed output to 64pA06Plate1CI_S6_L001_R2_001_trimmed.fq.gz
+
+
+  >>> Now performing quality (cutoff '-q 5') and adapter trimming in a single pass for the adapter sequence: 'CTGTCTCTTATA' from file /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/Clean_Data_Repo/64pA06Plate1CI_S6_L001_R2_001.fastq.gz <<< 
+This is cutadapt 3.4 with Python 3.7.10
+Command line parameters: -j 1 -e 0.1 -q 5 -O 1 -a CTGTCTCTTATA /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/Clean_Data_Repo/64pA06Plate1CI_S6_L001_R2_001.fastq.gz
+Processing reads on 1 core in single-end mode ...
+Finished in 0.08 s (31 µs/read; 1.91 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                   2,506
+Reads with adapters:                        12 (0.5%)
+Reads written (passing filters):         2,506 (100.0%)
+
+Total basepairs processed:       614,886 bp
+Quality-trimmed:                       0 bp (0.0%)
+Total written (filtered):        614,357 bp (99.9%)
+
+=== Adapter 1 ===
+
+Sequence: CTGTCTCTTATA; Type: regular 3'; Length: 12; Trimmed: 12 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-12 bp: 1
+
+Bases preceding removed adapters:
+  A: 50.0%
+  C: 0.0%
+  G: 8.3%
+  T: 41.7%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	8	626.5	0	8
+89	2	0.0	1	1 1
+155	1	0.0	1	1
+188	1	0.0	1	0 1
+
+RUN STATISTICS FOR INPUT FILE: /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/Clean_Data_Repo/64pA06Plate1CI_S6_L001_R2_001.fastq.gz
+=============================================
+2506 sequences processed in total
+The length threshold of paired-end sequences gets evaluated later on (in the validation step)
+
+Validate paired-end files 64pA06Plate1CI_S6_L001_R1_001_trimmed.fq.gz and 64pA06Plate1CI_S6_L001_R2_001_trimmed.fq.gz
+Now renaming the output files
+
+ORIGINAL FILE 1: >>64pA06Plate1CI_S6_L001_R1_001_trimmed.fq.gz<<	RENAMING TO:>>64pA06Plate1CI_S6_R1_trimmed.fq.gz<<
+ORIGINAL FILE 2: >>64pA06Plate1CI_S6_L001_R2_001_trimmed.fq.gz<<	RENAMING TO:>>64pA06Plate1CI_S6_R2_trimmed.fq.gz<<
+file_1: 64pA06Plate1CI_S6_R1_trimmed.fq.gz, file_2: 64pA06Plate1CI_S6_R2_trimmed.fq.gz
+
+
+>>>>> Now validing the length of the 2 paired-end infiles: 64pA06Plate1CI_S6_R1_trimmed.fq.gz and 64pA06Plate1CI_S6_R2_trimmed.fq.gz <<<<<
+Renaming the output files (AGAIN).
+Writing validated paired-end Read 1 reads to 64pA06Plate1CI_S6_val_1.fq.gz
+Writing validated paired-end Read 2 reads to 64pA06Plate1CI_S6_val_2.fq.gz
+
+Total number of sequences analysed: 2506
+
+Number of sequence pairs removed because at least one read was shorter than the length cutoff (20 bp): 0 (0.00%)
+
+Deleting both intermediate output files 64pA06Plate1CI_S6_R1_trimmed.fq.gz and 64pA06Plate1CI_S6_R2_trimmed.fq.gz
+
+====================================================================================================
+
+Multicore support not enabled. Proceeding with single-core trimming.
+Path to Cutadapt set as: 'cutadapt' (default)
+Cutadapt seems to be working fine (tested command 'cutadapt --version')
+Cutadapt version: 3.4
+single-core operation.
+No quality encoding type selected. Assuming that the data provided uses Sanger encoded Phred scores (default)
+
+Output will be written into the directory: /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/AdaptorRem/
+Using user-specified basename (>>64pA01Plate1CI_S1<<) instead of deriving the filename from the input file(s)
+
+
+AUTO-DETECTING ADAPTER TYPE
+===========================
+Attempting to auto-detect adapter type from the first 1 million sequences of the first file (>> /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/Clean_Data_Repo/64pA01Plate1CI_S1_L001_R1_001.fastq.gz <<)
+
+Found perfect matches for the following adapter sequences:
+Adapter type	Count	Sequence	Sequences analysed	Percentage
+Nextera	1	CTGTCTCTTATA	418	0.24
+Illumina	0	AGATCGGAAGAGC	418	0.00
+smallRNA	0	TGGAATTCTCGG	418	0.00
+Using Nextera adapter for trimming (count: 1). Second best hit was Illumina (count: 0)
+
+Writing report to '/cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/AdaptorRem/64pA01Plate1CI_S1_L001_R1_001.fastq.gz_trimming_report.txt'
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/Clean_Data_Repo/64pA01Plate1CI_S1_L001_R1_001.fastq.gz
+Trimming mode: paired-end
+Trim Galore version: 0.6.6
+Cutadapt version: 3.4
+Number of cores used for trimming: 1
+Quality Phred score cutoff: 5
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'CTGTCTCTTATA' (Nextera Transposase sequence; auto-detected)
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length for both reads before a sequence pair gets removed: 20 bp
+Output file(s) will be GZIP compressed
+
+Cutadapt seems to be fairly up-to-date (version 3.4). Setting -j 1
+Writing final adapter and quality trimmed output to 64pA01Plate1CI_S1_L001_R1_001_trimmed.fq.gz
+
+
+  >>> Now performing quality (cutoff '-q 5') and adapter trimming in a single pass for the adapter sequence: 'CTGTCTCTTATA' from file /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/Clean_Data_Repo/64pA01Plate1CI_S1_L001_R1_001.fastq.gz <<< 
+This is cutadapt 3.4 with Python 3.7.10
+Command line parameters: -j 1 -e 0.1 -q 5 -O 1 -a CTGTCTCTTATA /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/Clean_Data_Repo/64pA01Plate1CI_S1_L001_R1_001.fastq.gz
+Processing reads on 1 core in single-end mode ...
+Finished in 0.01 s (31 µs/read; 1.91 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                     418
+Reads with adapters:                        10 (2.4%)
+Reads written (passing filters):           418 (100.0%)
+
+Total basepairs processed:        91,069 bp
+Quality-trimmed:                       0 bp (0.0%)
+Total written (filtered):         90,821 bp (99.7%)
+
+=== Adapter 1 ===
+
+Sequence: CTGTCTCTTATA; Type: regular 3'; Length: 12; Trimmed: 10 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-12 bp: 1
+
+Bases preceding removed adapters:
+  A: 10.0%
+  C: 10.0%
+  G: 80.0%
+  T: 0.0%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	8	104.5	0	8
+49	1	0.0	1	1
+191	1	0.0	1	0 1
+
+RUN STATISTICS FOR INPUT FILE: /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/Clean_Data_Repo/64pA01Plate1CI_S1_L001_R1_001.fastq.gz
+=============================================
+418 sequences processed in total
+The length threshold of paired-end sequences gets evaluated later on (in the validation step)
+
+Writing report to '/cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/AdaptorRem/64pA01Plate1CI_S1_L001_R2_001.fastq.gz_trimming_report.txt'
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/Clean_Data_Repo/64pA01Plate1CI_S1_L001_R2_001.fastq.gz
+Trimming mode: paired-end
+Trim Galore version: 0.6.6
+Cutadapt version: 3.4
+Number of cores used for trimming: 1
+Quality Phred score cutoff: 5
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'CTGTCTCTTATA' (Nextera Transposase sequence; auto-detected)
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length for both reads before a sequence pair gets removed: 20 bp
+Output file(s) will be GZIP compressed
+
+Cutadapt seems to be fairly up-to-date (version 3.4). Setting -j -j 1
+Writing final adapter and quality trimmed output to 64pA01Plate1CI_S1_L001_R2_001_trimmed.fq.gz
+
+
+  >>> Now performing quality (cutoff '-q 5') and adapter trimming in a single pass for the adapter sequence: 'CTGTCTCTTATA' from file /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/Clean_Data_Repo/64pA01Plate1CI_S1_L001_R2_001.fastq.gz <<< 
+This is cutadapt 3.4 with Python 3.7.10
+Command line parameters: -j 1 -e 0.1 -q 5 -O 1 -a CTGTCTCTTATA /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/Clean_Data_Repo/64pA01Plate1CI_S1_L001_R2_001.fastq.gz
+Processing reads on 1 core in single-end mode ...
+Finished in 0.01 s (32 µs/read; 1.89 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                     418
+Reads with adapters:                        18 (4.3%)
+Reads written (passing filters):           418 (100.0%)
+
+Total basepairs processed:        91,295 bp
+Quality-trimmed:                       0 bp (0.0%)
+Total written (filtered):         90,460 bp (99.1%)
+
+=== Adapter 1 ===
+
+Sequence: CTGTCTCTTATA; Type: regular 3'; Length: 12; Trimmed: 18 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-12 bp: 1
+
+Bases preceding removed adapters:
+  A: 0.0%
+  C: 16.7%
+  G: 55.6%
+  T: 27.8%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	6	104.5	0	6
+2	3	26.1	0	3
+34	3	0.0	1	0 3
+43	1	0.0	1	0 1
+48	1	0.0	1	1
+90	1	0.0	1	1
+176	1	0.0	1	0 1
+180	1	0.0	1	0 1
+184	1	0.0	1	1
+
+RUN STATISTICS FOR INPUT FILE: /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/Clean_Data_Repo/64pA01Plate1CI_S1_L001_R2_001.fastq.gz
+=============================================
+418 sequences processed in total
+The length threshold of paired-end sequences gets evaluated later on (in the validation step)
+
+Validate paired-end files 64pA01Plate1CI_S1_L001_R1_001_trimmed.fq.gz and 64pA01Plate1CI_S1_L001_R2_001_trimmed.fq.gz
+Now renaming the output files
+
+ORIGINAL FILE 1: >>64pA01Plate1CI_S1_L001_R1_001_trimmed.fq.gz<<	RENAMING TO:>>64pA01Plate1CI_S1_R1_trimmed.fq.gz<<
+ORIGINAL FILE 2: >>64pA01Plate1CI_S1_L001_R2_001_trimmed.fq.gz<<	RENAMING TO:>>64pA01Plate1CI_S1_R2_trimmed.fq.gz<<
+file_1: 64pA01Plate1CI_S1_R1_trimmed.fq.gz, file_2: 64pA01Plate1CI_S1_R2_trimmed.fq.gz
+
+
+>>>>> Now validing the length of the 2 paired-end infiles: 64pA01Plate1CI_S1_R1_trimmed.fq.gz and 64pA01Plate1CI_S1_R2_trimmed.fq.gz <<<<<
+Renaming the output files (AGAIN).
+Writing validated paired-end Read 1 reads to 64pA01Plate1CI_S1_val_1.fq.gz
+Writing validated paired-end Read 2 reads to 64pA01Plate1CI_S1_val_2.fq.gz
+
+Total number of sequences analysed: 418
+
+Number of sequence pairs removed because at least one read was shorter than the length cutoff (20 bp): 0 (0.00%)
+
+Deleting both intermediate output files 64pA01Plate1CI_S1_R1_trimmed.fq.gz and 64pA01Plate1CI_S1_R2_trimmed.fq.gz
+
+====================================================================================================
+
+Multicore support not enabled. Proceeding with single-core trimming.
+Path to Cutadapt set as: 'cutadapt' (default)
+Cutadapt seems to be working fine (tested command 'cutadapt --version')
+Cutadapt version: 3.4
+single-core operation.
+No quality encoding type selected. Assuming that the data provided uses Sanger encoded Phred scores (default)
+
+Output will be written into the directory: /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/AdaptorRem/
+Using user-specified basename (>>64pA04Plate1CI_S4<<) instead of deriving the filename from the input file(s)
+
+
+AUTO-DETECTING ADAPTER TYPE
+===========================
+Attempting to auto-detect adapter type from the first 1 million sequences of the first file (>> /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/Clean_Data_Repo/64pA04Plate1CI_S4_L001_R1_001.fastq.gz <<)
+
+Found perfect matches for the following adapter sequences:
+Adapter type	Count	Sequence	Sequences analysed	Percentage
+Nextera	1	CTGTCTCTTATA	2400	0.04
+smallRNA	0	TGGAATTCTCGG	2400	0.00
+Illumina	0	AGATCGGAAGAGC	2400	0.00
+Using Nextera adapter for trimming (count: 1). Second best hit was smallRNA (count: 0)
+
+Writing report to '/cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/AdaptorRem/64pA04Plate1CI_S4_L001_R1_001.fastq.gz_trimming_report.txt'
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/Clean_Data_Repo/64pA04Plate1CI_S4_L001_R1_001.fastq.gz
+Trimming mode: paired-end
+Trim Galore version: 0.6.6
+Cutadapt version: 3.4
+Number of cores used for trimming: 1
+Quality Phred score cutoff: 5
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'CTGTCTCTTATA' (Nextera Transposase sequence; auto-detected)
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length for both reads before a sequence pair gets removed: 20 bp
+Output file(s) will be GZIP compressed
+
+Cutadapt seems to be fairly up-to-date (version 3.4). Setting -j 1
+Writing final adapter and quality trimmed output to 64pA04Plate1CI_S4_L001_R1_001_trimmed.fq.gz
+
+
+  >>> Now performing quality (cutoff '-q 5') and adapter trimming in a single pass for the adapter sequence: 'CTGTCTCTTATA' from file /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/Clean_Data_Repo/64pA04Plate1CI_S4_L001_R1_001.fastq.gz <<< 
+This is cutadapt 3.4 with Python 3.7.10
+Command line parameters: -j 1 -e 0.1 -q 5 -O 1 -a CTGTCTCTTATA /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/Clean_Data_Repo/64pA04Plate1CI_S4_L001_R1_001.fastq.gz
+Processing reads on 1 core in single-end mode ...
+Finished in 0.08 s (31 µs/read; 1.92 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                   2,400
+Reads with adapters:                       310 (12.9%)
+Reads written (passing filters):         2,400 (100.0%)
+
+Total basepairs processed:       579,667 bp
+Quality-trimmed:                       0 bp (0.0%)
+Total written (filtered):        578,792 bp (99.8%)
+
+=== Adapter 1 ===
+
+Sequence: CTGTCTCTTATA; Type: regular 3'; Length: 12; Trimmed: 310 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-12 bp: 1
+
+Bases preceding removed adapters:
+  A: 0.0%
+  C: 0.0%
+  G: 3.9%
+  T: 96.1%
+  none/other: 0.0%
+WARNING:
+    The adapter is preceded by "T" extremely often.
+    The provided adapter sequence could be incomplete at its 5' end.
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	298	600.0	0	298
+2	8	150.0	0	8
+3	1	37.5	0	1
+176	1	0.0	1	0 1
+191	2	0.0	1	1 1
+
+
+WARNING:
+    One or more of your adapter sequences may be incomplete.
+    Please see the detailed output above.
+
+RUN STATISTICS FOR INPUT FILE: /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/Clean_Data_Repo/64pA04Plate1CI_S4_L001_R1_001.fastq.gz
+=============================================
+2400 sequences processed in total
+The length threshold of paired-end sequences gets evaluated later on (in the validation step)
+
+Writing report to '/cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/AdaptorRem/64pA04Plate1CI_S4_L001_R2_001.fastq.gz_trimming_report.txt'
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/Clean_Data_Repo/64pA04Plate1CI_S4_L001_R2_001.fastq.gz
+Trimming mode: paired-end
+Trim Galore version: 0.6.6
+Cutadapt version: 3.4
+Number of cores used for trimming: 1
+Quality Phred score cutoff: 5
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'CTGTCTCTTATA' (Nextera Transposase sequence; auto-detected)
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length for both reads before a sequence pair gets removed: 20 bp
+Output file(s) will be GZIP compressed
+
+Cutadapt seems to be fairly up-to-date (version 3.4). Setting -j -j 1
+Writing final adapter and quality trimmed output to 64pA04Plate1CI_S4_L001_R2_001_trimmed.fq.gz
+
+
+  >>> Now performing quality (cutoff '-q 5') and adapter trimming in a single pass for the adapter sequence: 'CTGTCTCTTATA' from file /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/Clean_Data_Repo/64pA04Plate1CI_S4_L001_R2_001.fastq.gz <<< 
+This is cutadapt 3.4 with Python 3.7.10
+Command line parameters: -j 1 -e 0.1 -q 5 -O 1 -a CTGTCTCTTATA /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/Clean_Data_Repo/64pA04Plate1CI_S4_L001_R2_001.fastq.gz
+Processing reads on 1 core in single-end mode ...
+Finished in 0.06 s (26 µs/read; 2.27 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                   2,400
+Reads with adapters:                         6 (0.2%)
+Reads written (passing filters):         2,400 (100.0%)
+
+Total basepairs processed:       578,977 bp
+Quality-trimmed:                       0 bp (0.0%)
+Total written (filtered):        578,463 bp (99.9%)
+
+=== Adapter 1 ===
+
+Sequence: CTGTCTCTTATA; Type: regular 3'; Length: 12; Trimmed: 6 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-12 bp: 1
+
+Bases preceding removed adapters:
+  A: 0.0%
+  C: 0.0%
+  G: 100.0%
+  T: 0.0%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	1	600.0	0	1
+46	2	0.0	1	2
+116	2	0.0	1	2
+189	1	0.0	1	1
+
+RUN STATISTICS FOR INPUT FILE: /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/Clean_Data_Repo/64pA04Plate1CI_S4_L001_R2_001.fastq.gz
+=============================================
+2400 sequences processed in total
+The length threshold of paired-end sequences gets evaluated later on (in the validation step)
+
+Validate paired-end files 64pA04Plate1CI_S4_L001_R1_001_trimmed.fq.gz and 64pA04Plate1CI_S4_L001_R2_001_trimmed.fq.gz
+Now renaming the output files
+
+ORIGINAL FILE 1: >>64pA04Plate1CI_S4_L001_R1_001_trimmed.fq.gz<<	RENAMING TO:>>64pA04Plate1CI_S4_R1_trimmed.fq.gz<<
+ORIGINAL FILE 2: >>64pA04Plate1CI_S4_L001_R2_001_trimmed.fq.gz<<	RENAMING TO:>>64pA04Plate1CI_S4_R2_trimmed.fq.gz<<
+file_1: 64pA04Plate1CI_S4_R1_trimmed.fq.gz, file_2: 64pA04Plate1CI_S4_R2_trimmed.fq.gz
+
+
+>>>>> Now validing the length of the 2 paired-end infiles: 64pA04Plate1CI_S4_R1_trimmed.fq.gz and 64pA04Plate1CI_S4_R2_trimmed.fq.gz <<<<<
+Renaming the output files (AGAIN).
+Writing validated paired-end Read 1 reads to 64pA04Plate1CI_S4_val_1.fq.gz
+Writing validated paired-end Read 2 reads to 64pA04Plate1CI_S4_val_2.fq.gz
+
+Total number of sequences analysed: 2400
+
+Number of sequence pairs removed because at least one read was shorter than the length cutoff (20 bp): 0 (0.00%)
+
+Deleting both intermediate output files 64pA04Plate1CI_S4_R1_trimmed.fq.gz and 64pA04Plate1CI_S4_R2_trimmed.fq.gz
+
+====================================================================================================
+
+Multicore support not enabled. Proceeding with single-core trimming.
+Path to Cutadapt set as: 'cutadapt' (default)
+Cutadapt seems to be working fine (tested command 'cutadapt --version')
+Cutadapt version: 3.4
+single-core operation.
+No quality encoding type selected. Assuming that the data provided uses Sanger encoded Phred scores (default)
+
+Output will be written into the directory: /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/AdaptorRem/
+Using user-specified basename (>>64pA03Plate1CI_S3<<) instead of deriving the filename from the input file(s)
+
+
+AUTO-DETECTING ADAPTER TYPE
+===========================
+Attempting to auto-detect adapter type from the first 1 million sequences of the first file (>> /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/Clean_Data_Repo/64pA03Plate1CI_S3_L001_R1_001.fastq.gz <<)
+
+Found perfect matches for the following adapter sequences:
+Adapter type	Count	Sequence	Sequences analysed	Percentage
+Nextera	5	CTGTCTCTTATA	1044	0.48
+Illumina	0	AGATCGGAAGAGC	1044	0.00
+smallRNA	0	TGGAATTCTCGG	1044	0.00
+Using Nextera adapter for trimming (count: 5). Second best hit was Illumina (count: 0)
+
+Writing report to '/cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/AdaptorRem/64pA03Plate1CI_S3_L001_R1_001.fastq.gz_trimming_report.txt'
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/Clean_Data_Repo/64pA03Plate1CI_S3_L001_R1_001.fastq.gz
+Trimming mode: paired-end
+Trim Galore version: 0.6.6
+Cutadapt version: 3.4
+Number of cores used for trimming: 1
+Quality Phred score cutoff: 5
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'CTGTCTCTTATA' (Nextera Transposase sequence; auto-detected)
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length for both reads before a sequence pair gets removed: 20 bp
+Output file(s) will be GZIP compressed
+
+Cutadapt seems to be fairly up-to-date (version 3.4). Setting -j 1
+Writing final adapter and quality trimmed output to 64pA03Plate1CI_S3_L001_R1_001_trimmed.fq.gz
+
+
+  >>> Now performing quality (cutoff '-q 5') and adapter trimming in a single pass for the adapter sequence: 'CTGTCTCTTATA' from file /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/Clean_Data_Repo/64pA03Plate1CI_S3_L001_R1_001.fastq.gz <<< 
+This is cutadapt 3.4 with Python 3.7.10
+Command line parameters: -j 1 -e 0.1 -q 5 -O 1 -a CTGTCTCTTATA /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/Clean_Data_Repo/64pA03Plate1CI_S3_L001_R1_001.fastq.gz
+Processing reads on 1 core in single-end mode ...
+Finished in 0.02 s (19 µs/read; 3.16 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                   1,044
+Reads with adapters:                         8 (0.8%)
+Reads written (passing filters):         1,044 (100.0%)
+
+Total basepairs processed:       226,465 bp
+Quality-trimmed:                       0 bp (0.0%)
+Total written (filtered):        224,966 bp (99.3%)
+
+=== Adapter 1 ===
+
+Sequence: CTGTCTCTTATA; Type: regular 3'; Length: 12; Trimmed: 8 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-12 bp: 1
+
+Bases preceding removed adapters:
+  A: 0.0%
+  C: 0.0%
+  G: 100.0%
+  T: 0.0%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+177	1	0.0	1	1
+180	1	0.0	1	1
+182	1	0.0	1	1
+192	5	0.0	1	2 3
+
+RUN STATISTICS FOR INPUT FILE: /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/Clean_Data_Repo/64pA03Plate1CI_S3_L001_R1_001.fastq.gz
+=============================================
+1044 sequences processed in total
+The length threshold of paired-end sequences gets evaluated later on (in the validation step)
+
+Writing report to '/cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/AdaptorRem/64pA03Plate1CI_S3_L001_R2_001.fastq.gz_trimming_report.txt'
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/Clean_Data_Repo/64pA03Plate1CI_S3_L001_R2_001.fastq.gz
+Trimming mode: paired-end
+Trim Galore version: 0.6.6
+Cutadapt version: 3.4
+Number of cores used for trimming: 1
+Quality Phred score cutoff: 5
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'CTGTCTCTTATA' (Nextera Transposase sequence; auto-detected)
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length for both reads before a sequence pair gets removed: 20 bp
+Output file(s) will be GZIP compressed
+
+Cutadapt seems to be fairly up-to-date (version 3.4). Setting -j -j 1
+Writing final adapter and quality trimmed output to 64pA03Plate1CI_S3_L001_R2_001_trimmed.fq.gz
+
+
+  >>> Now performing quality (cutoff '-q 5') and adapter trimming in a single pass for the adapter sequence: 'CTGTCTCTTATA' from file /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/Clean_Data_Repo/64pA03Plate1CI_S3_L001_R2_001.fastq.gz <<< 
+This is cutadapt 3.4 with Python 3.7.10
+Command line parameters: -j 1 -e 0.1 -q 5 -O 1 -a CTGTCTCTTATA /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/Clean_Data_Repo/64pA03Plate1CI_S3_L001_R2_001.fastq.gz
+Processing reads on 1 core in single-end mode ...
+Finished in 0.04 s (38 µs/read; 1.60 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                   1,044
+Reads with adapters:                       217 (20.8%)
+Reads written (passing filters):         1,044 (100.0%)
+
+Total basepairs processed:       225,940 bp
+Quality-trimmed:                       0 bp (0.0%)
+Total written (filtered):        223,975 bp (99.1%)
+
+=== Adapter 1 ===
+
+Sequence: CTGTCTCTTATA; Type: regular 3'; Length: 12; Trimmed: 217 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-12 bp: 1
+
+Bases preceding removed adapters:
+  A: 0.5%
+  C: 4.1%
+  G: 94.5%
+  T: 0.9%
+  none/other: 0.0%
+WARNING:
+    The adapter is preceded by "G" extremely often.
+    The provided adapter sequence could be incomplete at its 5' end.
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	204	261.0	0	204
+2	2	65.2	0	2
+37	1	0.0	1	0 1
+71	1	0.0	1	1
+177	1	0.0	1	1
+178	1	0.0	1	0 1
+179	2	0.0	1	1 1
+180	1	0.0	1	1
+181	1	0.0	1	1
+191	1	0.0	1	0 1
+192	2	0.0	1	2
+
+
+WARNING:
+    One or more of your adapter sequences may be incomplete.
+    Please see the detailed output above.
+
+RUN STATISTICS FOR INPUT FILE: /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/Clean_Data_Repo/64pA03Plate1CI_S3_L001_R2_001.fastq.gz
+=============================================
+1044 sequences processed in total
+The length threshold of paired-end sequences gets evaluated later on (in the validation step)
+
+Validate paired-end files 64pA03Plate1CI_S3_L001_R1_001_trimmed.fq.gz and 64pA03Plate1CI_S3_L001_R2_001_trimmed.fq.gz
+Now renaming the output files
+
+ORIGINAL FILE 1: >>64pA03Plate1CI_S3_L001_R1_001_trimmed.fq.gz<<	RENAMING TO:>>64pA03Plate1CI_S3_R1_trimmed.fq.gz<<
+ORIGINAL FILE 2: >>64pA03Plate1CI_S3_L001_R2_001_trimmed.fq.gz<<	RENAMING TO:>>64pA03Plate1CI_S3_R2_trimmed.fq.gz<<
+file_1: 64pA03Plate1CI_S3_R1_trimmed.fq.gz, file_2: 64pA03Plate1CI_S3_R2_trimmed.fq.gz
+
+
+>>>>> Now validing the length of the 2 paired-end infiles: 64pA03Plate1CI_S3_R1_trimmed.fq.gz and 64pA03Plate1CI_S3_R2_trimmed.fq.gz <<<<<
+Renaming the output files (AGAIN).
+Writing validated paired-end Read 1 reads to 64pA03Plate1CI_S3_val_1.fq.gz
+Writing validated paired-end Read 2 reads to 64pA03Plate1CI_S3_val_2.fq.gz
+
+Total number of sequences analysed: 1044
+
+Number of sequence pairs removed because at least one read was shorter than the length cutoff (20 bp): 0 (0.00%)
+
+Deleting both intermediate output files 64pA03Plate1CI_S3_R1_trimmed.fq.gz and 64pA03Plate1CI_S3_R2_trimmed.fq.gz
+
+====================================================================================================
+
+Multicore support not enabled. Proceeding with single-core trimming.
+Path to Cutadapt set as: 'cutadapt' (default)
+Cutadapt seems to be working fine (tested command 'cutadapt --version')
+Cutadapt version: 3.4
+single-core operation.
+No quality encoding type selected. Assuming that the data provided uses Sanger encoded Phred scores (default)
+
+Output will be written into the directory: /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/AdaptorRem/
+Using user-specified basename (>>64pA08Plate1CI_S8<<) instead of deriving the filename from the input file(s)
+
+
+AUTO-DETECTING ADAPTER TYPE
+===========================
+Attempting to auto-detect adapter type from the first 1 million sequences of the first file (>> /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/Clean_Data_Repo/64pA08Plate1CI_S8_L001_R1_001.fastq.gz <<)
+
+Found perfect matches for the following adapter sequences:
+Adapter type	Count	Sequence	Sequences analysed	Percentage
+Nextera	3	CTGTCTCTTATA	1843	0.16
+smallRNA	0	TGGAATTCTCGG	1843	0.00
+Illumina	0	AGATCGGAAGAGC	1843	0.00
+Using Nextera adapter for trimming (count: 3). Second best hit was smallRNA (count: 0)
+
+Writing report to '/cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/AdaptorRem/64pA08Plate1CI_S8_L001_R1_001.fastq.gz_trimming_report.txt'
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/Clean_Data_Repo/64pA08Plate1CI_S8_L001_R1_001.fastq.gz
+Trimming mode: paired-end
+Trim Galore version: 0.6.6
+Cutadapt version: 3.4
+Number of cores used for trimming: 1
+Quality Phred score cutoff: 5
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'CTGTCTCTTATA' (Nextera Transposase sequence; auto-detected)
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length for both reads before a sequence pair gets removed: 20 bp
+Output file(s) will be GZIP compressed
+
+Cutadapt seems to be fairly up-to-date (version 3.4). Setting -j 1
+Writing final adapter and quality trimmed output to 64pA08Plate1CI_S8_L001_R1_001_trimmed.fq.gz
+
+
+  >>> Now performing quality (cutoff '-q 5') and adapter trimming in a single pass for the adapter sequence: 'CTGTCTCTTATA' from file /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/Clean_Data_Repo/64pA08Plate1CI_S8_L001_R1_001.fastq.gz <<< 
+This is cutadapt 3.4 with Python 3.7.10
+Command line parameters: -j 1 -e 0.1 -q 5 -O 1 -a CTGTCTCTTATA /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/Clean_Data_Repo/64pA08Plate1CI_S8_L001_R1_001.fastq.gz
+Processing reads on 1 core in single-end mode ...
+Finished in 0.04 s (21 µs/read; 2.89 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                   1,843
+Reads with adapters:                        20 (1.1%)
+Reads written (passing filters):         1,843 (100.0%)
+
+Total basepairs processed:       449,863 bp
+Quality-trimmed:                       0 bp (0.0%)
+Total written (filtered):        449,126 bp (99.8%)
+
+=== Adapter 1 ===
+
+Sequence: CTGTCTCTTATA; Type: regular 3'; Length: 12; Trimmed: 20 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-12 bp: 1
+
+Bases preceding removed adapters:
+  A: 0.0%
+  C: 0.0%
+  G: 80.0%
+  T: 20.0%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	4	460.8	0	4
+2	10	115.2	0	10
+52	3	0.0	1	1 2
+176	1	0.0	1	1
+190	1	0.0	1	1
+191	1	0.0	1	0 1
+
+RUN STATISTICS FOR INPUT FILE: /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/Clean_Data_Repo/64pA08Plate1CI_S8_L001_R1_001.fastq.gz
+=============================================
+1843 sequences processed in total
+The length threshold of paired-end sequences gets evaluated later on (in the validation step)
+
+Writing report to '/cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/AdaptorRem/64pA08Plate1CI_S8_L001_R2_001.fastq.gz_trimming_report.txt'
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/Clean_Data_Repo/64pA08Plate1CI_S8_L001_R2_001.fastq.gz
+Trimming mode: paired-end
+Trim Galore version: 0.6.6
+Cutadapt version: 3.4
+Number of cores used for trimming: 1
+Quality Phred score cutoff: 5
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'CTGTCTCTTATA' (Nextera Transposase sequence; auto-detected)
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length for both reads before a sequence pair gets removed: 20 bp
+Output file(s) will be GZIP compressed
+
+Cutadapt seems to be fairly up-to-date (version 3.4). Setting -j -j 1
+Writing final adapter and quality trimmed output to 64pA08Plate1CI_S8_L001_R2_001_trimmed.fq.gz
+
+
+  >>> Now performing quality (cutoff '-q 5') and adapter trimming in a single pass for the adapter sequence: 'CTGTCTCTTATA' from file /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/Clean_Data_Repo/64pA08Plate1CI_S8_L001_R2_001.fastq.gz <<< 
+This is cutadapt 3.4 with Python 3.7.10
+Command line parameters: -j 1 -e 0.1 -q 5 -O 1 -a CTGTCTCTTATA /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/Clean_Data_Repo/64pA08Plate1CI_S8_L001_R2_001.fastq.gz
+Processing reads on 1 core in single-end mode ...
+Finished in 0.05 s (29 µs/read; 2.06 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                   1,843
+Reads with adapters:                        33 (1.8%)
+Reads written (passing filters):         1,843 (100.0%)
+
+Total basepairs processed:       447,797 bp
+Quality-trimmed:                       0 bp (0.0%)
+Total written (filtered):        447,500 bp (99.9%)
+
+=== Adapter 1 ===
+
+Sequence: CTGTCTCTTATA; Type: regular 3'; Length: 12; Trimmed: 33 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-12 bp: 1
+
+Bases preceding removed adapters:
+  A: 18.2%
+  C: 18.2%
+  G: 27.3%
+  T: 36.4%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	23	460.8	0	23
+2	7	115.2	0	7
+37	1	0.0	1	0 1
+46	1	0.0	1	0 1
+177	1	0.0	1	1
+
+RUN STATISTICS FOR INPUT FILE: /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/Clean_Data_Repo/64pA08Plate1CI_S8_L001_R2_001.fastq.gz
+=============================================
+1843 sequences processed in total
+The length threshold of paired-end sequences gets evaluated later on (in the validation step)
+
+Validate paired-end files 64pA08Plate1CI_S8_L001_R1_001_trimmed.fq.gz and 64pA08Plate1CI_S8_L001_R2_001_trimmed.fq.gz
+Now renaming the output files
+
+ORIGINAL FILE 1: >>64pA08Plate1CI_S8_L001_R1_001_trimmed.fq.gz<<	RENAMING TO:>>64pA08Plate1CI_S8_R1_trimmed.fq.gz<<
+ORIGINAL FILE 2: >>64pA08Plate1CI_S8_L001_R2_001_trimmed.fq.gz<<	RENAMING TO:>>64pA08Plate1CI_S8_R2_trimmed.fq.gz<<
+file_1: 64pA08Plate1CI_S8_R1_trimmed.fq.gz, file_2: 64pA08Plate1CI_S8_R2_trimmed.fq.gz
+
+
+>>>>> Now validing the length of the 2 paired-end infiles: 64pA08Plate1CI_S8_R1_trimmed.fq.gz and 64pA08Plate1CI_S8_R2_trimmed.fq.gz <<<<<
+Renaming the output files (AGAIN).
+Writing validated paired-end Read 1 reads to 64pA08Plate1CI_S8_val_1.fq.gz
+Writing validated paired-end Read 2 reads to 64pA08Plate1CI_S8_val_2.fq.gz
+
+Total number of sequences analysed: 1843
+
+Number of sequence pairs removed because at least one read was shorter than the length cutoff (20 bp): 0 (0.00%)
+
+Deleting both intermediate output files 64pA08Plate1CI_S8_R1_trimmed.fq.gz and 64pA08Plate1CI_S8_R2_trimmed.fq.gz
+
+====================================================================================================
+
+Loading required package: dada2
+Loading required package: Rcpp
+Loading required package: limma
+Loading required package: data.table
+Loading required package: argparse
+Loading required package: viridisLite
+Warning message:
+The `<scale>` argument of `guides()` cannot be `FALSE`. Use "none" instead as
+of ggplot2 3.3.4.
+ℹ The deprecated feature was likely used in the dada2 package.
+  Please report the issue at <https://github.com/benjjneb/dada2/issues>. 
+Creating output directory: /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/DADA2_OP/filtered
+Read in 435 paired-sequences, output 421 (96.8%) filtered paired-sequences.
+Read in 743 paired-sequences, output 743 (100%) filtered paired-sequences.
+Read in 22 paired-sequences, output 22 (100%) filtered paired-sequences.
+Read in 229 paired-sequences, output 229 (100%) filtered paired-sequences.
+Read in 50 paired-sequences, output 50 (100%) filtered paired-sequences.
+Read in 1861 paired-sequences, output 1861 (100%) filtered paired-sequences.
+Read in 2229 paired-sequences, output 2229 (100%) filtered paired-sequences.
+Read in 1525 paired-sequences, output 1525 (100%) filtered paired-sequences.
+Read in 94 paired-sequences, output 93 (98.9%) filtered paired-sequences.
+Warning messages:
+1: Transformation introduced infinite values in continuous y-axis 
+2: Transformation introduced infinite values in continuous y-axis 
+Warning messages:
+1: Transformation introduced infinite values in continuous y-axis 
+2: Transformation introduced infinite values in continuous y-axis 
+Dereplicating sequence entries in Fastq file: /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/DADA2_OP/filtered/64pA11Plate1CI_S11_filt_R1.fastq.gz
+Encountered 43 unique sequences from 421 total sequences read.
+Dereplicating sequence entries in Fastq file: /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/DADA2_OP/filtered/64pA03Plate1CI_S3_filt_R1.fastq.gz
+Encountered 61 unique sequences from 743 total sequences read.
+Dereplicating sequence entries in Fastq file: /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/DADA2_OP/filtered/64pA02Plate1CI_S2_filt_R1.fastq.gz
+Encountered 6 unique sequences from 22 total sequences read.
+Dereplicating sequence entries in Fastq file: /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/DADA2_OP/filtered/64pA01Plate1CI_S1_filt_R1.fastq.gz
+Encountered 22 unique sequences from 229 total sequences read.
+Dereplicating sequence entries in Fastq file: /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/DADA2_OP/filtered/64pA05Plate1CI_S5_filt_R1.fastq.gz
+Encountered 7 unique sequences from 50 total sequences read.
+Dereplicating sequence entries in Fastq file: /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/DADA2_OP/filtered/64pA04Plate1CI_S4_filt_R1.fastq.gz
+Encountered 175 unique sequences from 1861 total sequences read.
+Dereplicating sequence entries in Fastq file: /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/DADA2_OP/filtered/64pA06Plate1CI_S6_filt_R1.fastq.gz
+Encountered 221 unique sequences from 2229 total sequences read.
+Dereplicating sequence entries in Fastq file: /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/DADA2_OP/filtered/64pA08Plate1CI_S8_filt_R1.fastq.gz
+Encountered 141 unique sequences from 1525 total sequences read.
+Dereplicating sequence entries in Fastq file: /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/DADA2_OP/filtered/64pA09Plate1CI_S9_filt_R1.fastq.gz
+Encountered 16 unique sequences from 93 total sequences read.
+Dereplicating sequence entries in Fastq file: /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/DADA2_OP/filtered/64pA11Plate1CI_S11_filt_R2.fastq.gz
+Encountered 177 unique sequences from 421 total sequences read.
+Dereplicating sequence entries in Fastq file: /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/DADA2_OP/filtered/64pA03Plate1CI_S3_filt_R2.fastq.gz
+Encountered 125 unique sequences from 743 total sequences read.
+Dereplicating sequence entries in Fastq file: /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/DADA2_OP/filtered/64pA02Plate1CI_S2_filt_R2.fastq.gz
+Encountered 8 unique sequences from 22 total sequences read.
+Dereplicating sequence entries in Fastq file: /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/DADA2_OP/filtered/64pA01Plate1CI_S1_filt_R2.fastq.gz
+Encountered 65 unique sequences from 229 total sequences read.
+Dereplicating sequence entries in Fastq file: /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/DADA2_OP/filtered/64pA05Plate1CI_S5_filt_R2.fastq.gz
+Encountered 16 unique sequences from 50 total sequences read.
+Dereplicating sequence entries in Fastq file: /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/DADA2_OP/filtered/64pA04Plate1CI_S4_filt_R2.fastq.gz
+Encountered 380 unique sequences from 1861 total sequences read.
+Dereplicating sequence entries in Fastq file: /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/DADA2_OP/filtered/64pA06Plate1CI_S6_filt_R2.fastq.gz
+Encountered 378 unique sequences from 2229 total sequences read.
+Dereplicating sequence entries in Fastq file: /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/DADA2_OP/filtered/64pA08Plate1CI_S8_filt_R2.fastq.gz
+Encountered 146 unique sequences from 1525 total sequences read.
+Dereplicating sequence entries in Fastq file: /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/DADA2_OP/filtered/64pA09Plate1CI_S9_filt_R2.fastq.gz
+Encountered 30 unique sequences from 93 total sequences read.
+393 paired-reads (in 2 unique pairings) successfully merged out of 393 (in 2 pairings) input.
+742 paired-reads (in 3 unique pairings) successfully merged out of 742 (in 3 pairings) input.
+22 paired-reads (in 2 unique pairings) successfully merged out of 22 (in 2 pairings) input.
+226 paired-reads (in 2 unique pairings) successfully merged out of 226 (in 2 pairings) input.
+48 paired-reads (in 1 unique pairings) successfully merged out of 48 (in 1 pairings) input.
+1859 paired-reads (in 3 unique pairings) successfully merged out of 1859 (in 3 pairings) input.
+2216 paired-reads (in 3 unique pairings) successfully merged out of 2216 (in 3 pairings) input.
+1512 paired-reads (in 3 unique pairings) successfully merged out of 1512 (in 3 pairings) input.
+85 paired-reads (in 1 unique pairings) successfully merged out of 85 (in 1 pairings) input.
+Identified 0 bimeras out of 6 input sequences.
+Loading required package: dada2
+Loading required package: Rcpp
+Loading required package: limma
+Loading required package: data.table
+Loading required package: argparse
+Loading required package: viridisLite
+Warning message:
+The `<scale>` argument of `guides()` cannot be `FALSE`. Use "none" instead as
+of ggplot2 3.3.4.
+ℹ The deprecated feature was likely used in the dada2 package.
+  Please report the issue at <https://github.com/benjjneb/dada2/issues>. 
+Creating output directory: /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/DADA2_NOP/filtered
+Read in 7 paired-sequences, output 7 (100%) filtered paired-sequences.
+Read in 5 paired-sequences, output 5 (100%) filtered paired-sequences.
+Read in 18 paired-sequences, output 18 (100%) filtered paired-sequences.
+Read in 8 paired-sequences, output 8 (100%) filtered paired-sequences.
+Read in 3 paired-sequences, output 3 (100%) filtered paired-sequences.
+Read in 1 paired-sequences, output 0 (0%) filtered paired-sequences.
+The filter removed all reads: /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/DADA2_NOP/filtered/64pA05Plate1CI_S5_filt_R1.fastq.gz and /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/DADA2_NOP/filtered/64pA05Plate1CI_S5_filt_R2.fastq.gz not written.
+Read in 54 paired-sequences, output 53 (98.1%) filtered paired-sequences.
+Read in 2 paired-sequences, output 0 (0%) filtered paired-sequences.
+The filter removed all reads: /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/DADA2_NOP/filtered/64pA09Plate1CI_S9_filt_R1.fastq.gz and /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/DADA2_NOP/filtered/64pA09Plate1CI_S9_filt_R2.fastq.gz not written.
+Some input samples had no reads pass the filter.
+Warning messages:
+1: Transformation introduced infinite values in continuous y-axis 
+2: Transformation introduced infinite values in continuous y-axis 
+Warning messages:
+1: Transformation introduced infinite values in continuous y-axis 
+2: Transformation introduced infinite values in continuous y-axis 
+Dereplicating sequence entries in Fastq file: /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/DADA2_NOP/filtered/64pA02Plate1CI_S2_filt_R1.fastq.gz
+Encountered 1 unique sequences from 7 total sequences read.
+Dereplicating sequence entries in Fastq file: /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/DADA2_NOP/filtered/64pA08Plate1CI_S8_filt_R1.fastq.gz
+Encountered 2 unique sequences from 5 total sequences read.
+Dereplicating sequence entries in Fastq file: /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/DADA2_NOP/filtered/64pA01Plate1CI_S1_filt_R1.fastq.gz
+Encountered 4 unique sequences from 18 total sequences read.
+Dereplicating sequence entries in Fastq file: /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/DADA2_NOP/filtered/64pA11Plate1CI_S11_filt_R1.fastq.gz
+Encountered 4 unique sequences from 8 total sequences read.
+Dereplicating sequence entries in Fastq file: /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/DADA2_NOP/filtered/64pA06Plate1CI_S6_filt_R1.fastq.gz
+Encountered 1 unique sequences from 3 total sequences read.
+Dereplicating sequence entries in Fastq file: /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/DADA2_NOP/filtered/64pA03Plate1CI_S3_filt_R1.fastq.gz
+Encountered 8 unique sequences from 53 total sequences read.
+Dereplicating sequence entries in Fastq file: /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/DADA2_NOP/filtered/64pA02Plate1CI_S2_filt_R2.fastq.gz
+Encountered 1 unique sequences from 7 total sequences read.
+Dereplicating sequence entries in Fastq file: /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/DADA2_NOP/filtered/64pA08Plate1CI_S8_filt_R2.fastq.gz
+Encountered 1 unique sequences from 5 total sequences read.
+Dereplicating sequence entries in Fastq file: /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/DADA2_NOP/filtered/64pA01Plate1CI_S1_filt_R2.fastq.gz
+Encountered 6 unique sequences from 18 total sequences read.
+Dereplicating sequence entries in Fastq file: /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/DADA2_NOP/filtered/64pA11Plate1CI_S11_filt_R2.fastq.gz
+Encountered 4 unique sequences from 8 total sequences read.
+Dereplicating sequence entries in Fastq file: /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/DADA2_NOP/filtered/64pA06Plate1CI_S6_filt_R2.fastq.gz
+Encountered 1 unique sequences from 3 total sequences read.
+Dereplicating sequence entries in Fastq file: /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Results/DADA2_NOP/filtered/64pA03Plate1CI_S3_filt_R2.fastq.gz
+Encountered 8 unique sequences from 53 total sequences read.
+7 paired-reads (in 1 unique pairings) successfully merged out of 7 (in 1 pairings) input.
+5 paired-reads (in 1 unique pairings) successfully merged out of 5 (in 1 pairings) input.
+13 paired-reads (in 1 unique pairings) successfully merged out of 13 (in 1 pairings) input.
+8 paired-reads (in 1 unique pairings) successfully merged out of 8 (in 1 pairings) input.
+3 paired-reads (in 1 unique pairings) successfully merged out of 3 (in 1 pairings) input.
+47 paired-reads (in 1 unique pairings) successfully merged out of 47 (in 1 pairings) input.
+Identified 0 bimeras out of 6 input sequences.
+Loading required package: seqinr
+Loading required package: data.table
+Loading required package: argparse
+Loading required package: Biostrings
+Loading required package: BiocGenerics
+Loading required package: parallel
+
+Attaching package: ‘BiocGenerics’
+
+The following objects are masked from ‘package:parallel’:
+
+    clusterApply, clusterApplyLB, clusterCall, clusterEvalQ,
+    clusterExport, clusterMap, parApply, parCapply, parLapply,
+    parLapplyLB, parRapply, parSapply, parSapplyLB
+
+The following objects are masked from ‘package:stats’:
+
+    IQR, mad, sd, var, xtabs
+
+The following objects are masked from ‘package:base’:
+
+    anyDuplicated, append, as.data.frame, basename, cbind, colnames,
+    dirname, do.call, duplicated, eval, evalq, Filter, Find, get, grep,
+    grepl, intersect, is.unsorted, lapply, Map, mapply, match, mget,
+    order, paste, pmax, pmax.int, pmin, pmin.int, Position, rank,
+    rbind, Reduce, rownames, sapply, setdiff, sort, table, tapply,
+    union, unique, unsplit, which.max, which.min
+
+Loading required package: S4Vectors
+Loading required package: stats4
+
+Attaching package: ‘S4Vectors’
+
+The following objects are masked from ‘package:data.table’:
+
+    first, second
+
+The following objects are masked from ‘package:base’:
+
+    expand.grid, I, unname
+
+Loading required package: IRanges
+
+Attaching package: ‘IRanges’
+
+The following object is masked from ‘package:data.table’:
+
+    shift
+
+Loading required package: XVector
+Loading required package: GenomeInfoDb
+
+Attaching package: ‘Biostrings’
+
+The following object is masked from ‘package:seqinr’:
+
+    translate
+
+The following object is masked from ‘package:base’:
+
+    strsplit
+
+Loading required package: argparse
+Loading required package: limma
+Loading required package: data.table
+Loading required package: stringr
+Loading required package: seqinr
+
+Attaching package: ‘seqinr’
+
+The following object is masked from ‘package:limma’:
+
+    zscore
+
+Loading required package: Biostrings
+Loading required package: BiocGenerics
+Loading required package: parallel
+
+Attaching package: ‘BiocGenerics’
+
+The following objects are masked from ‘package:parallel’:
+
+    clusterApply, clusterApplyLB, clusterCall, clusterEvalQ,
+    clusterExport, clusterMap, parApply, parCapply, parLapply,
+    parLapplyLB, parRapply, parSapply, parSapplyLB
+
+The following object is masked from ‘package:limma’:
+
+    plotMA
+
+The following objects are masked from ‘package:stats’:
+
+    IQR, mad, sd, var, xtabs
+
+The following objects are masked from ‘package:base’:
+
+    anyDuplicated, append, as.data.frame, basename, cbind, colnames,
+    dirname, do.call, duplicated, eval, evalq, Filter, Find, get, grep,
+    grepl, intersect, is.unsorted, lapply, Map, mapply, match, mget,
+    order, paste, pmax, pmax.int, pmin, pmin.int, Position, rank,
+    rbind, Reduce, rownames, sapply, setdiff, sort, table, tapply,
+    union, unique, unsplit, which.max, which.min
+
+Loading required package: S4Vectors
+Loading required package: stats4
+
+Attaching package: ‘S4Vectors’
+
+The following objects are masked from ‘package:data.table’:
+
+    first, second
+
+The following objects are masked from ‘package:base’:
+
+    expand.grid, I, unname
+
+Loading required package: IRanges
+
+Attaching package: ‘IRanges’
+
+The following object is masked from ‘package:data.table’:
+
+    shift
+
+Loading required package: XVector
+Loading required package: GenomeInfoDb
+
+Attaching package: ‘Biostrings’
+
+The following object is masked from ‘package:seqinr’:
+
+    translate
+
+The following object is masked from ‘package:base’:
+
+    strsplit
+
++ find . -type f
++ pattern=/cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/inputs/755422149/barcodes_matches.csv
+++ sed 's|/inputs.*||'
+++ echo /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/inputs/755422149/barcodes_matches.csv
++ result=/cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2
++ echo /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2
++ Rscript /Code/render_report.R -d /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/execution/Report/Merge -o /cromwell_root/Report/ -p /cromwell-executions/ampseq/b930ecf8-86c4-4711-9da3-a75d3cf38744/call-ampseq_pipeline/attempt-2/inputs/755422149/barcodes_matches.csv -m 1000 -c 0.5 -mf /cromwell_root/Results/missing_files.tsv
+
+
+processing file: ci_report_layouting.Rmd
+
+Quitting from lines 155-175 [Load files with contamination information] (ci_report_layouting.Rmd)
+Error in `if (file.info(file_path)$size == 1) ...`:
+! missing value where TRUE/FALSE needed
+Execution halted
