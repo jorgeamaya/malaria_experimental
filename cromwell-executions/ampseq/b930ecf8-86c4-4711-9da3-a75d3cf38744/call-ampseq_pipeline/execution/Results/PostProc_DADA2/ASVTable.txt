@@ -1,7 +1,0 @@
-hapid	haplength	total_reads	total_samples	strain	refid_3D7	snv_dist_from_3D7	indel_dist_from_3D7	refid_DD2	snv_dist_from_DD2	indel_dist_from_DD2	snv_filter	indel_filter	bimera
-ASV1	236	6782	9	DD2	WD	2	0	WD	0	0	PASS	PASS	FALSE
-ASV2	288	299	6	DD2	CSP	5	0	CSP	0	0	PASS	FAIL	FALSE
-ASV3	119	7	1	N	CS	60	26	CS	60	26	FAIL	FAIL	FALSE
-ASV4	188	6	2	DD2	KELT	2	0	KELT	0	0	PASS	FAIL	FALSE
-ASV5	125	5	1	N	CS	64	20	CS	63	20	FAIL	FAIL	FALSE
-ASV6	228	4	1	DD2	SURFIN	1	0	SURFIN	0	0	PASS	FAIL	FALSE
