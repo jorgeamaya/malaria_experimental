@@ -206,7 +206,7 @@ task ampseq_pipeline {
 	fi
 	
 	run_id_array=(~{sep = ' ' run_id})
-	#unique_id=$(printf "%s\n" "${run_id_array[@]}" | sort -u | tr '\n' '_')
+	unique_id=$(printf "%s\n" "${run_id_array[@]}" | sort -u | tr '\n' '_')
 	# Remove the trailing underscore, if any
 	#unique_id="${unique_id%_}"
 	
