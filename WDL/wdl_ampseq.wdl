@@ -11,6 +11,7 @@ workflow ampseq {
 		File reference1
 		File reference2
 		File path_to_snv
+		String run_id
 
 		String pattern_fw = "*_L001_R1_001.fastq.gz"
 		String pattern_rv = "*_L001_R2_001.fastq.gz"
@@ -56,6 +57,7 @@ workflow ampseq {
 			reference1 = reference1,
 			reference2 = reference2,
 			path_to_snv = path_to_snv,
+			run_id = run_id,
 			pattern_fw = pattern_fw,
 			pattern_rv = pattern_rv,
 			Class = Class,
@@ -109,6 +111,7 @@ task ampseq_pipeline {
 		File reference1
 		File reference2
 		File path_to_snv
+		String run_id
 		String pattern_fw = "*_L001_R1_001.fastq.gz"
 		String pattern_rv = "*_L001_R2_001.fastq.gz"
 		String Class = "parasite"
@@ -200,11 +203,14 @@ task ampseq_pipeline {
 		find . -type f
 		python /Code/Amplicon_TerraPipeline.py --config ~{config_json} --terra --meta --adaptor_removal --separate_reads --primer_removal --dada2 --postproc_dada2 --asv_to_cigar
 		find . -type f
-	fi	
+	fi
+	mv Results/CIGARVariants_Bfilter.out.tsv Results/~{run_id}_CIGARVariants_Bfilter.out.tsv
+
 	>>>
 	output {
 		File ASVBimeras = "Results/ASVBimeras.txt"
-		File CIGARVariants_Bfilter = "Results/CIGARVariants_Bfilter.out.tsv"
+		#File CIGARVariants_Bfilter = "Results/CIGARVariants_Bfilter.out.tsv"
+		File CIGARVariants_Bfilter = glob("*.out.tsv")[0]
 		File ASV_to_CIGAR = "Results/ASV_to_CIGAR/ASV_to_CIGAR.out.txt"
 		File seqtab = "Results/seqtab.tsv"
 		File ASVTable = "Results/PostProc_DADA2/ASVTable.txt"

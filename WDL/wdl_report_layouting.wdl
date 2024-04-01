@@ -3,6 +3,14 @@ version 1.0
 workflow report_layouting {
 	input {
 		Array[File] cigar_files
+
+		#Variables to reconstruct data table
+		Array[String] Sample_id
+		Array[String] Geo_Level
+		Array[String] Temp_Level
+		Array[Float] Longitude
+		Array[Float] Latitude
+
 		Int nTasks = 50
 
 		String cigar_paths = "NaN"
@@ -26,14 +34,9 @@ workflow report_layouting {
 		File ref_gff
 		File ref_fasta
 		File reference_alleles
-		File metadata
 		File selected_checkboxes
-
+	
 		String join_by = "Sample_id"
-		String Variable1 = "Subnational_level2"
-		String Variable2 = "Quarter_of_Collection"
-		String Longitude = "Longitude"
-		String Latitude = "Latitude"
 		Boolean na_var_rm = true
 		Boolean na_hap_rm = true
 		String drugs = "Artemisinin,Chloroquine,Pyrimethamine,Sulfadoxine,Lumefantrine,Mefloquine"
@@ -50,6 +53,11 @@ workflow report_layouting {
 	call report_layouting_process {
 		input:
 			cigar_files = cigar_files,
+			Sample_id = Sample_id,
+			Geo_Level = Geo_Level,
+			Temp_Level = Temp_Level,
+			Longitude = Longitude,
+			Latitude = Latitude,
 			nTasks = nTasks,
 			cigar_paths = cigar_paths,
 			cigar_dir = cigar_dir,
@@ -67,13 +75,8 @@ workflow report_layouting {
 			ref_gff = ref_gff,
 			ref_fasta = ref_fasta,
 			reference_alleles = reference_alleles,
-			metadata = metadata,
 			selected_checkboxes = selected_checkboxes,
 			join_by = join_by,
-			Variable1 = Variable1,
-			Variable2 = Variable2,
-			Longitude = Longitude,
-			Latitude = Latitude,
 			na_var_rm = na_var_rm,
 			na_hap_rm = na_hap_rm,
 			drugs = drugs,
@@ -84,49 +87,62 @@ workflow report_layouting {
 			pop_levels = pop_levels,
 			nchunks = nchunks
 	}
-	
+
 	output {
-		File html_report_f = report_layouting_process.html_report
+		File? html_report_f = report_layouting_process.html_report
 	}
 }
 
 task report_layouting_process {
 	input {
 		Array[File] cigar_files
+		Array[String] Sample_id
+		Array[String] Geo_Level
+		Array[String] Temp_Level
+		Array[Float] Longitude
+		Array[Float] Latitude
+
 		Int nTasks
+
 		String cigar_paths
 		String cigar_dir
 		String ampseq_jsonfile
 		String ampseq_excelfile
+
 		String sample_id_pattern
-		File markers
+		File markers 
 		Int min_abd
 		Float min_ratio
+
 		Boolean PerformanceReport
+
 		Float sample_ampl_rate
 		Float locus_ampl_rate
+
 		Boolean Drug_Surveillance_Report
 		Boolean Variants_of_Interest_Report
+
 		File ref_gff
 		File ref_fasta
 		File reference_alleles
-		File metadata
 		File selected_checkboxes
+	
 		String join_by
-		String Variable1
-		String Variable2
-		String Longitude
-		String Latitude
 		Boolean na_var_rm
 		Boolean na_hap_rm
 		String drugs
 		Boolean include_all_drug_markers
+
 		String ibd_thres
 		Boolean parallel
 		Int ibd_ncol
 		String? pop_levels
+
 		Int nchunks
 	}
+
+	Array[Array[String]] metadata_array = transpose([Sample_id, Geo_Level, Temp_Level, Longitude, Latitude])
+        File metadata = write_tsv(metadata_array)
 	
 	command <<<
 		set -euxo pipefail
@@ -139,9 +155,12 @@ task report_layouting_process {
 		cp ~{ref_fasta} Reference/.
 		cp ~{reference_alleles} Reference/.
 		cp ~{markers} Reference/.
-		cp ~{metadata} Reference/.
 		echo "CIGAR TABLES"
 		ls cigar_dir
+		
+		echo "Sample_id,Geo_Level,Temp_Level,Longitude,Latitude" > metadata.csv
+		sed 's/\t/,/g' ~{metadata} >> metadata.csv
+		cat metadata.csv
 
 		Rscript /Code/MHap_Analysis_pipeline.R -fd /Code -cigar_paths ~{cigar_paths} \
 		-cigar_files "cigar_dir" \
@@ -160,12 +179,12 @@ task report_layouting_process {
 		-gff ~{ref_gff} \
 		-fasta ~{ref_fasta} \
 		-reference_alleles ~{reference_alleles} \
-		-metadata ~{metadata} \
+		-metadata metadata.csv \
 		-join_by ~{join_by} \
-		-Var1 ~{Variable1} \
-		-Var2 ~{Variable2} \
-		-Longitude ~{Longitude} \
-		-Latitude ~{Latitude} \
+		-Var1 Geo_Level \
+		-Var2 Temp_Level \
+		-Longitude Longitude \
+		-Latitude Latitude \
 		-na_var_rm ~{na_var_rm} \
 		-na_hap_rm ~{na_hap_rm} \
 		-drugs ~{drugs} \
@@ -184,16 +203,16 @@ task report_layouting_process {
 	>>>
 
 	output {
-		File html_report = "Results/MHap_Profile_DRS_Report.html"
+		File? html_report = "Results/MHap_Profile_DRS_Report.html"
 	}
 
 	runtime { 
-                cpu: 1 
-                memory: "15 GiB" 
-                disks: "local-disk 10 HDD" 
-                bootDiskSizeGb: 10 
-                preemptible: 3 
-                maxRetries: 1 
-                docker: 'jorgeamaya/mhap' 
-        } 
+		cpu: 1 
+		memory: "15 GiB" 
+		disks: "local-disk 10 HDD" 
+		bootDiskSizeGb: 10 
+		preemptible: 3 
+		maxRetries: 1 
+		docker: 'jorgeamaya/mhap' 
+	} 
 }
