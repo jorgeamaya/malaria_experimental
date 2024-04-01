@@ -94,8 +94,8 @@ workflow ampseq {
 		File ASVTable_f = ampseq_pipeline.ASVTable
 		File ASVSeqs_f = ampseq_pipeline.ASVSeqs
 		File missing_files_f = ampseq_pipeline.missing_files
-		File decontamination_sample_cards_f = ampseq_pipeline.decontamination_sample_cards
-		File decontamination_report_f = ampseq_pipeline.decontamination_report
+		File? decontamination_sample_cards_f = ampseq_pipeline.decontamination_sample_cards
+		File? decontamination_report_f = ampseq_pipeline.decontamination_report
 	}
 }
 
@@ -239,8 +239,8 @@ task ampseq_pipeline {
 		File ASVTable = "Results/PostProc_DADA2/ASVTable.txt"
 		File ASVSeqs = "Results/PostProc_DADA2/ASVSeqs.fasta"
 		File missing_files = "Results/missing_files.tsv"
-		File decontamination_sample_cards = "Report_Cards.tar.gz"
-		File decontamination_report = "Results/ci_report_layouting.html"
+		File? decontamination_sample_cards = "Report_Cards.tar.gz"
+		File? decontamination_report = "Results/ci_report_layouting.html"
 	}
 	runtime {
 		cpu: 1
