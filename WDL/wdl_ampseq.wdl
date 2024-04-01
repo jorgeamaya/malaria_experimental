@@ -11,7 +11,7 @@ workflow ampseq {
 		File reference1
 		File reference2
 		File path_to_snv
-		String run_id
+		Array[String] run_id
 
 		String pattern_fw = "*_L001_R1_001.fastq.gz"
 		String pattern_rv = "*_L001_R2_001.fastq.gz"
@@ -111,7 +111,7 @@ task ampseq_pipeline {
 		File reference1
 		File reference2
 		File path_to_snv
-		String run_id
+		Array[String] run_id
 		String pattern_fw = "*_L001_R1_001.fastq.gz"
 		String pattern_rv = "*_L001_R2_001.fastq.gz"
 		String Class = "parasite"
@@ -204,6 +204,12 @@ task ampseq_pipeline {
 		python /Code/Amplicon_TerraPipeline.py --config ~{config_json} --terra --meta --adaptor_removal --separate_reads --primer_removal --dada2 --postproc_dada2 --asv_to_cigar
 		find . -type f
 	fi
+	
+	run_id_array=(~{sep = ' ' run_id})
+	unique_id=$(printf "%s\n" "${run_id_array[@]}" | sort -u | tr '\n' '_')
+	# Remove the trailing underscore, if any
+	unique_id="${unique_id%_}"
+	
 	mv Results/CIGARVariants_Bfilter.out.tsv Results/~{run_id}_CIGARVariants_Bfilter.out.tsv
 
 	>>>
