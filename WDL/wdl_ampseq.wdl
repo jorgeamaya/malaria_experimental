@@ -210,7 +210,7 @@ task ampseq_pipeline {
 	# Remove the trailing underscore, if any
 	unique_id="${unique_id%_}"
 	
-	mv Results/CIGARVariants_Bfilter.out.tsv Results/~{run_id}_CIGARVariants_Bfilter.out.tsv
+	mv Results/CIGARVariants_Bfilter.out.tsv Results/~{unique_id}_CIGARVariants_Bfilter.out.tsv
 
 	>>>
 	output {
