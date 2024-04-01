@@ -209,7 +209,7 @@ task ampseq_pipeline {
 	unique_id=$(printf "%s\n" "${run_id_array[@]}" | sort -u | tr '\n' '_')
 	unique_id="${unique_id%_}"
 	
-	#mv Results/CIGARVariants_Bfilter.out.tsv Results/${unique_id}_CIGARVariants_Bfilter.out.tsv
+	cp Results/CIGARVariants_Bfilter.out.tsv "${unique_id}_CIGARVariants_Bfilter.out.tsv"
 
 	>>>
 	output {
