@@ -45,6 +45,13 @@ workflow ampseq {
 		Int minreads_threshold = 1000
 		Float contamination_threshold = 0.5
 		String verbose = "False"		
+
+		#Variables to reconstruct data table
+		Array[String] Sample_id
+		Array[String] Geo_Level
+		Array[String] Temp_Level
+		Array[String] Longitude
+		Array[String] Latitude
 	}
 
 	call ampseq_pipeline {
@@ -87,6 +94,16 @@ workflow ampseq {
 			verbose = verbose,
 			adapter = adapter
 	}
+	
+	call make_metadata {
+		input:			
+			run_id = run_id,
+			Sample_id = Sample_id,
+			Geo_Level = Geo_Level,
+			Temp_Level = Temp_Level,
+			Longitude = Longitude,
+			Latitude = Latitude
+	}
 
 	output {
 		File ASVBimeras_f = ampseq_pipeline.ASVBimeras
@@ -98,6 +115,7 @@ workflow ampseq {
 		File missing_files_f = ampseq_pipeline.missing_files
 		File? decontamination_sample_cards_f = ampseq_pipeline.decontamination_sample_cards
 		File? decontamination_report_f = ampseq_pipeline.decontamination_report
+		File? metadata_f = make_metadata.metadata_out
 	}
 }
 
@@ -180,6 +198,7 @@ task ampseq_pipeline {
 		"adapter": adapter
 	}
 	File config_json = write_json(in_map)
+
 	command <<<
 	set -euxo pipefail
 	mkdir fq_dir
@@ -214,7 +233,6 @@ task ampseq_pipeline {
 	>>>
 	output {
 		File ASVBimeras = "Results/ASVBimeras.txt"
-		#File CIGARVariants_Bfilter = "Results/CIGARVariants_Bfilter.out.tsv"
 		File CIGARVariants_Bfilter = glob("*.out.tsv")[0]
 		File ASV_to_CIGAR = "Results/ASV_to_CIGAR/ASV_to_CIGAR.out.txt"
 		File seqtab = "Results/seqtab.tsv"
@@ -232,5 +250,42 @@ task ampseq_pipeline {
 		preemptible: 3
 		maxRetries: 1
 		docker: 'jorgeamaya/ampseq'
+	}
+}
+
+task make_metadata {
+	input {
+		#Variables to reconstruct data table
+		Array[String] Sample_id
+		Array[String] Geo_Level
+		Array[String] Temp_Level
+		Array[String] Longitude
+		Array[String] Latitude
+		Array[String] run_id
+	}
+
+	Array[Array[String]] metadata_array = transpose([Sample_id, Geo_Level, Temp_Level, Longitude, Latitude])
+        File metadata = write_tsv(metadata_array)
+
+	command <<<
+		echo "Sample_id,Geo_Level,Temp_Level,Longitude,Latitude" > metadata.csv
+		sed 's/\t/,/g' ~{metadata} >> metadata.csv
+
+		run_id_array=(~{sep = ' ' run_id})
+		unique_id=$(printf "%s\n" "${run_id_array[@]}" | sort -u | tr '\n' '_')
+		unique_id="${unique_id%_}"
+	
+		cp metadata.csv "${unique_id}_metadata.csv"
+	>>>
+	output {
+ 		File metadata_out = glob("*.csv")[0]
+	}
+	runtime {
+		cpu: 1
+		memory: "15 GiB"
+		disks: "local-disk 10 HDD"
+		bootDiskSizeGb: 10
+		preemptible: 3
+		maxRetries: 1
 	}
 }
