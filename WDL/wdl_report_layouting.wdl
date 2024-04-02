@@ -3,14 +3,8 @@ version 1.0
 workflow report_layouting {
 	input {
 		Array[File] cigar_files
-
-		#Variables to reconstruct data table
-		Array[String] Sample_id
-		Array[String] Geo_Level
-		Array[String] Temp_Level
-		Array[Float] Longitude
-		Array[Float] Latitude
-
+		Array[File] metadata_files
+		
 		Int nTasks = 50
 
 		String cigar_paths = "NaN"
@@ -53,11 +47,7 @@ workflow report_layouting {
 	call report_layouting_process {
 		input:
 			cigar_files = cigar_files,
-			Sample_id = Sample_id,
-			Geo_Level = Geo_Level,
-			Temp_Level = Temp_Level,
-			Longitude = Longitude,
-			Latitude = Latitude,
+			metadata_files = metadata_files,
 			nTasks = nTasks,
 			cigar_paths = cigar_paths,
 			cigar_dir = cigar_dir,
@@ -96,11 +86,7 @@ workflow report_layouting {
 task report_layouting_process {
 	input {
 		Array[File] cigar_files
-		Array[String] Sample_id
-		Array[String] Geo_Level
-		Array[String] Temp_Level
-		Array[Float] Longitude
-		Array[Float] Latitude
+		Array[File] metadata_files
 
 		Int nTasks
 
@@ -140,17 +126,14 @@ task report_layouting_process {
 
 		Int nchunks
 	}
-
-	Array[Array[String]] metadata_array = transpose([Sample_id, Geo_Level, Temp_Level, Longitude, Latitude])
-        File metadata = write_tsv(metadata_array)
 	
 	command <<<
 		set -euxo pipefail
 		mkdir cigar_dir
 		mkdir Reference
 		mkdir Results
-		cp ~{sep = ' ' cigar_files} cigar_dir
-		#gsutil -m cp -r ~{sep = ' ' cigar_files} cigar_dir/
+		#cp ~{sep = ' ' cigar_files} cigar_dir
+		gsutil -m cp -r ~{sep = ' ' cigar_files} cigar_dir/
 		cp ~{ref_gff} Reference/.
 		cp ~{ref_fasta} Reference/.
 		cp ~{reference_alleles} Reference/.
@@ -159,8 +142,7 @@ task report_layouting_process {
 		ls cigar_dir
 		
 		echo "Sample_id,Geo_Level,Temp_Level,Longitude,Latitude" > metadata.csv
-		sed 's/\t/,/g' ~{metadata} >> metadata.csv
-		cat metadata.csv
+		cat ~{sep = ' ' metadata_files} >> metadata.csv
 
 		Rscript /Code/MHap_Analysis_pipeline.R -fd /Code -cigar_paths ~{cigar_paths} \
 		-cigar_files "cigar_dir" \
