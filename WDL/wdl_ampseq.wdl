@@ -268,8 +268,7 @@ task make_metadata {
         File metadata = write_tsv(metadata_array)
 
 	command <<<
-		echo "Sample_id,Geo_Level,Temp_Level,Longitude,Latitude" > metadata.csv
-		sed 's/\t/,/g' ~{metadata} >> metadata.csv
+		sed 's/\t/,/g' ~{metadata} > metadata.csv
 
 		run_id_array=(~{sep = ' ' run_id})
 		unique_id=$(printf "%s\n" "${run_id_array[@]}" | sort -u | tr '\n' '_')
@@ -281,11 +280,6 @@ task make_metadata {
  		File metadata_out = glob("*.csv")[0]
 	}
 	runtime {
-		cpu: 1
-		memory: "15 GiB"
-		disks: "local-disk 10 HDD"
-		bootDiskSizeGb: 10
-		preemptible: 3
-		maxRetries: 1
+		docker: "broadinstitute/horsefish"
 	}
 }
