@@ -168,6 +168,12 @@ task ampseq_pipeline {
 		"reference1": sub(reference1, "gs://", "/cromwell_root/"),
 		"reference2": sub(reference2, "gs://", "/cromwell_root/"),
 		"path_to_snv": sub(path_to_snv, "gs://", "/cromwell_root/"),
+#		"path_to_flist": "barcodes_matches.csv", 
+#		"pr1": "primers_fw.fasta", 
+#		"pr2": "primers_rv.fasta", 
+#		"reference1": "reference1.fasta", 
+#		"reference2": "reference2.fasta", 
+#		"path_to_snv": "path_to_snv.fasta", 
 		"pattern_fw": pattern_fw,
 		"pattern_rv": pattern_rv,
 		"Class": Class,
@@ -205,6 +211,18 @@ task ampseq_pipeline {
 
 	gsutil -m cp -r ~{sep = ' ' path_to_r1} fq_dir/
 	gsutil -m cp -r ~{sep = ' ' path_to_r2} fq_dir/
+
+	#cp ~{sep = ' ' path_to_r1} fq_dir/
+	#cp ~{sep = ' ' path_to_r2} fq_dir/
+	#cat ~{config_json}
+	#echo $PWD
+	#cp ~{path_to_flist} barcodes_matches.csv
+	#cp ~{pr1} primers_fw.fasta
+	#cp ~{pr2} primers_rv.fasta
+	#cp ~{reference1} reference1.fasta
+	#cp ~{reference2} reference2.fasta
+	#cp ~{path_to_snv} path_to_snv.fasta
+	#ls 
 
 	#Move reference files to the main level	
 	#Check if the first line in barcodes_matches.csv indicates the presence of inline barcodes
