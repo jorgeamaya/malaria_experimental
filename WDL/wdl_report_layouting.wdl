@@ -12,7 +12,7 @@ workflow report_layouting {
 		String ampseq_jsonfile = "NaN"
 		String ampseq_excelfile = "NaN"
 
-		String sample_id_pattern = "^ID"
+		String sample_id_pattern = "^G|ID"
 		File markers 
 		Int min_abd = 10
 		Float min_ratio = 0.1
@@ -143,6 +143,8 @@ task report_layouting_process {
 		
 		echo "Sample_id,Geo_Level,Temp_Level,Longitude,Latitude" > metadata.csv
 		cat ~{sep = ' ' metadata_files} >> metadata.csv
+		
+		echo -e "gene_names_drug_resistance__\nPfDHFR\nPfMDR1\nPfDHPS\nPfKelch13\nPF3D7_1447900\ngene_ids_drug_resistance__\nPF3D7_0417200\nPF3D7_0523000\nPF3D7_0810800\nPF3D7_1343700\nPF3D7_1447900\ngene_names_diversity__\nCSP\nAMA1\nSERA2\nTRAP\ngene_ids_diversity__\nPF3D7_0304600\nPF3D7_1133400\nPF3D7_0207900\nPF3D7_1335900" >> ~{selected_checkboxes}
 
 		Rscript /Code/MHap_Analysis_pipeline.R -fd /Code -cigar_paths ~{cigar_paths} \
 		-cigar_files "cigar_dir" \

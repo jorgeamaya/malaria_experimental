@@ -1,0 +1,20 @@
+#!/bin/bash
+# make sure there is no preexisting Docker CID file
+rm -f /Users/jar4142/Desktop/malaria_experimental/cromwell-executions/ampseq/d857623e-4cad-4ddd-b271-97eb8821fdd5/call-make_metadata/execution/docker_cid
+# run as in the original configuration without --rm flag (will remove later)
+docker run \
+  --cidfile /Users/jar4142/Desktop/malaria_experimental/cromwell-executions/ampseq/d857623e-4cad-4ddd-b271-97eb8821fdd5/call-make_metadata/execution/docker_cid \
+  -i \
+   \
+  --entrypoint /bin/bash \
+  -v /Users/jar4142/Desktop/malaria_experimental/cromwell-executions/ampseq/d857623e-4cad-4ddd-b271-97eb8821fdd5/call-make_metadata:/cromwell-executions/ampseq/d857623e-4cad-4ddd-b271-97eb8821fdd5/call-make_metadata:delegated \
+  broadinstitute/horsefish@sha256:e1e1c4594bfba94d56128106a60cdacdc10bbddfe2e76b42fec64d29ef8ed16e /cromwell-executions/ampseq/d857623e-4cad-4ddd-b271-97eb8821fdd5/call-make_metadata/execution/script
+
+# get the return code (working even if the container was detached)
+rc=$(docker wait `cat /Users/jar4142/Desktop/malaria_experimental/cromwell-executions/ampseq/d857623e-4cad-4ddd-b271-97eb8821fdd5/call-make_metadata/execution/docker_cid`)
+
+# remove the container after waiting
+docker rm `cat /Users/jar4142/Desktop/malaria_experimental/cromwell-executions/ampseq/d857623e-4cad-4ddd-b271-97eb8821fdd5/call-make_metadata/execution/docker_cid`
+
+# return exit code
+exit $rc

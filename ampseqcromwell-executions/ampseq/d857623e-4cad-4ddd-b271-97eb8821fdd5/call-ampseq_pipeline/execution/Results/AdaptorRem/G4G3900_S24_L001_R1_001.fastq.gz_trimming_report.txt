@@ -1,0 +1,126 @@
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: fq_dir/G4G3900_S24_L001_R1_001.fastq.gz
+Trimming mode: paired-end
+Trim Galore version: 0.6.6
+Cutadapt version: 3.4
+Number of cores used for trimming: 1
+Quality Phred score cutoff: 5
+Quality encoding type selected: ASCII+33
+Using Nextera adapter for trimming (count: 4550). Second best hit was smallRNA (count: 1)
+Adapter sequence: 'CTGTCTCTTATA' (Nextera Transposase sequence; auto-detected)
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length for both reads before a sequence pair gets removed: 20 bp
+Output file will be GZIP compressed
+
+
+This is cutadapt 3.4 with Python 3.7.10
+Command line parameters: -j 1 -e 0.1 -q 5 -O 1 -a CTGTCTCTTATA fq_dir/G4G3900_S24_L001_R1_001.fastq.gz
+Processing reads on 1 core in single-end mode ...
+Finished in 0.68 s (10 µs/read; 6.19 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                  70,404
+Reads with adapters:                    14,540 (20.7%)
+Reads written (passing filters):        70,404 (100.0%)
+
+Total basepairs processed:    10,631,004 bp
+Quality-trimmed:                       0 bp (0.0%)
+Total written (filtered):     10,254,829 bp (96.5%)
+
+=== Adapter 1 ===
+
+Sequence: CTGTCTCTTATA; Type: regular 3'; Length: 12; Trimmed: 14540 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-12 bp: 1
+
+Bases preceding removed adapters:
+  A: 15.7%
+  C: 56.6%
+  G: 4.9%
+  T: 22.8%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	6652	17601.0	0	6652
+2	3200	4400.2	0	3200
+3	27	1100.1	0	27
+4	7	275.0	0	7
+5	3	68.8	0	3
+7	1	4.3	0	1
+10	1	0.1	1	1
+11	1	0.0	1	1
+12	1	0.0	1	1
+13	1	0.0	1	1
+16	1	0.0	1	0 1
+17	36	0.0	1	35 1
+21	1	0.0	1	1
+26	1	0.0	1	1
+27	1	0.0	1	1
+28	1	0.0	1	1
+30	1	0.0	1	1
+32	1	0.0	1	1
+33	59	0.0	1	57 2
+34	4	0.0	1	4
+38	1	0.0	1	1
+39	3	0.0	1	3
+40	2	0.0	1	2
+46	1	0.0	1	1
+48	3	0.0	1	3
+49	1	0.0	1	1
+51	1	0.0	1	0 1
+58	13	0.0	1	12 1
+59	383	0.0	1	377 6
+60	15	0.0	1	14 1
+63	6	0.0	1	5 1
+64	3	0.0	1	3
+65	4	0.0	1	3 1
+66	1	0.0	1	1
+70	2	0.0	1	2
+71	2	0.0	1	2
+72	22	0.0	1	20 2
+73	3170	0.0	1	3112 58
+74	181	0.0	1	178 3
+75	10	0.0	1	10
+76	2	0.0	1	1 1
+77	1	0.0	1	1
+82	1	0.0	1	1
+100	1	0.0	1	1
+103	1	0.0	1	1
+104	1	0.0	1	1
+106	5	0.0	1	5
+107	9	0.0	1	9
+109	4	0.0	1	4
+110	1	0.0	1	1
+111	5	0.0	1	5
+112	24	0.0	1	24
+113	18	0.0	1	17 1
+114	25	0.0	1	25
+115	16	0.0	1	16
+116	6	0.0	1	6
+117	6	0.0	1	5 1
+118	25	0.0	1	24 1
+119	27	0.0	1	27
+120	17	0.0	1	17
+121	8	0.0	1	8
+122	5	0.0	1	5
+123	329	0.0	1	319 10
+124	56	0.0	1	54 2
+125	7	0.0	1	7
+126	23	0.0	1	22 1
+127	7	0.0	1	5 2
+128	3	0.0	1	3
+129	77	0.0	1	76 1
+130	4	0.0	1	4
+131	1	0.0	1	1
+135	1	0.0	1	1
+
+RUN STATISTICS FOR INPUT FILE: fq_dir/G4G3900_S24_L001_R1_001.fastq.gz
+=============================================
+70404 sequences processed in total
+

@@ -1,0 +1,13 @@
+{
+	"report_layouting.cigar_files": [
+		"/Users/jar4142/Desktop/MHap_Testing_Colombia/run1_CIGARVariants_Bfilter.out.tsv"
+	],
+	"report_layouting.metadata_files": [ 
+		"/Users/jar4142/Desktop/MHap_Testing_Colombia/Pfal_metadata_no_header.csv"
+	],
+	"report_layouting.markers": "/Users/jar4142/Desktop/MHap_Drive/reference/Pfal_3D7/markers.csv",
+	"report_layouting.ref_gff": "/Users/jar4142/Desktop/MHap_Drive/reference/Pfal_3D7/PlasmoDB-59_Pfalciparum3D7.gff",
+	"report_layouting.ref_fasta": "/Users/jar4142/Desktop/MHap_Drive/reference/Pfal_3D7/PlasmoDB-59_Pfalciparum3D7_Genome.fasta",
+	"report_layouting.reference_alleles": "/Users/jar4142/Desktop/MHap_Drive/reference/Pfal_3D7/drugR_alleles.csv",
+	"report_layouting.selected_checkboxes": "/Users/jar4142/Desktop/Guyana_MHap_Data/selected_checkboxes.csv"
+}
