@@ -7,10 +7,10 @@ workflow report_layouting {
 		
 		String nTasks = "null"
 
-		String cigar_paths = "NaN"
+		String cigar_paths = "null"
 		String cigar_dir = "cigar_dir"
-		String ampseq_jsonfile = "NaN"
-		String ampseq_excelfile = "NaN"
+		String ampseq_jsonfile = "null"
+		String ampseq_excelfile = "null"
 
 		String sample_id_pattern = "^G|ID"
 		File markers 
@@ -47,6 +47,7 @@ workflow report_layouting {
 		String hap_color_palette = "random"
 		String poly_quantile = 0.75
 		File pairwise_relatedness_table
+		String poly_formula = "NHetLoci>=1&Fws<1"
 
 	}
 	
@@ -87,7 +88,8 @@ workflow report_layouting {
 			PCR_errors_formula = PCR_errors_formula,
 			hap_color_palette = hap_color_palette,
 			poly_quantile = poly_quantile,
-			pairwise_relatedness_table = pairwise_relatedness_table
+			pairwise_relatedness_table = pairwise_relatedness_table,
+			poly_formula = poly_formula
 	}
 
 	output {
@@ -147,6 +149,7 @@ task report_layouting_process {
 		String hap_color_palette
 		String poly_quantile
 		File pairwise_relatedness_table
+		String poly_formula
 	}
 	
 	command <<<
@@ -211,7 +214,8 @@ task report_layouting_process {
 		-PCR_errors_formula "~{PCR_errors_formula}" \
 		-hap_color_palette "~{hap_color_palette}" \
 		-poly_quantile ~{poly_quantile} \
-		-pairwise_relatedness_table ~{pairwise_relatedness_table}
+		-pairwise_relatedness_table ~{pairwise_relatedness_table} \
+		-poly_formula "~{poly_formula}"
 	
 		ls 
 		ls Results/
